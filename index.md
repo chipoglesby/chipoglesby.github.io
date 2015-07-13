@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The static world of Chip Oglesby
-tagline:
+tagline: Test
 ---
 {% include JB/setup %}
 
