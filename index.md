@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Hello World!
-tagline: Test
+title: The static world of Chip Oglesby
+tagline:
 ---
 {% include JB/setup %}
 
-# Welcome to my first github static site!
+# This is my first test at running a static site with Github pages.
