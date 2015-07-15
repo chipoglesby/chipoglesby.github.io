@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Override Author Byline Test Post"
+title: "Editing This From My Phone"
 excerpt: "An article to test overriding the default site author."
 categories: articles
 tags: [sample-post, readability, test]
