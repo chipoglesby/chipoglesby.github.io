@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The So Simple Theme
+title: About This Page
 excerpt: "The So Simple theme"
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
