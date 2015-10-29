@@ -1,0 +1,275 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>The problem with 'more data' &#8211; Chip's Github Playground</title>
+<meta name="description" content="Just because we have more data, doesn't mean we're a better informed society. All data is 'dirty' and all data needs context. Once data is good to go, what's the next step?">
+<meta name="keywords" content="data, data relationships, transparency">
+
+  
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="The problem with 'more data'">
+<meta name="twitter:description" content="Just because we have more data, doesn't mean we're a better informed society. All data is 'dirty' and all data needs context. Once data is good to go, what's the next step?">
+
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://chipoglesby.github.io/images/site-logo.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The problem with 'more data'">
+<meta property="og:description" content="Just because we have more data, doesn't mean we're a better informed society. All data is 'dirty' and all data needs context. Once data is good to go, what's the next step?">
+<meta property="og:url" content="http://chipoglesby.github.io/journalism/the-problem-with-more-data/">
+<meta property="og:site_name" content="Chip's Github Playground">
+
+
+
+
+
+<link rel="canonical" href="http://chipoglesby.github.io/journalism/the-problem-with-more-data/">
+<link href="http://chipoglesby.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Chip's Github Playground Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://chipoglesby.github.io/assets/css/main.css">
+<!-- Webfonts -->
+<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="http://chipoglesby.github.io/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="http://chipoglesby.github.io/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://chipoglesby.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+
+<!-- MathJax -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://chipoglesby.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://chipoglesby.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://chipoglesby.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://chipoglesby.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://chipoglesby.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://chipoglesby.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+      
+		    
+		        
+		    
+		    <li><a href="http://chipoglesby.github.io/about/" >About</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://chipoglesby.github.io/articles/" >Articles</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://chipoglesby.github.io/blog/" >Blog</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://chipoglesby.github.io/theme-setup/" >Theme Setup</a></li>
+		  
+		    
+		        
+		        
+		    <li><a href="http://mademistakes.com" target="_blank">Made Mistakes</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://chipoglesby.github.io/search/" >Search</a></li>
+		  
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<header class="masthead">
+	<div class="wrap">
+      <!-- 
+  		<a href="http://chipoglesby.github.io/" class="site-logo" rel="home" title="Chip's Github Playground"><img src="http://chipoglesby.github.io/images/site-logo.png" width="200" height="200" alt="Chip's Github Playground logo" class="animated fadeInDown"></a>
+        -->
+      <h1 class="site-title animated fadeIn"><a href="http://chipoglesby.github.io/">Chip's Github Playground</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">A Playground to learn new things.</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div class="js-menu-screen menu-screen"></div>
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"><a href="http://chipoglesby.github.io/tags/#data" title="Pages tagged data">data</a>&nbsp;&bull;&nbsp;<a href="http://chipoglesby.github.io/tags/#data relationships" title="Pages tagged data relationships">data relationships</a>&nbsp;&bull;&nbsp;<a href="http://chipoglesby.github.io/tags/#transparency" title="Pages tagged transparency">transparency</a></span>
+        
+          <h1 class="entry-title">The problem with 'more data'</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+          
+        
+        <span class="author vcard">By <span class="fn"></span></span>
+        <span class="entry-date date published"><time datetime="2010-08-12T09:51:55-06:00"><i class="fa fa-calendar-o"></i> August 12, 2010</time></span>
+        
+        
+        
+        
+      </footer>
+      <div class="entry-content">
+        <p>Recently, SCPC wrote about the problem with online check registers in county school districts. As more and more data is placed online, we need a way to standardize data so that has context and it’s not just sitting there. That’s what we would call <a href="http://www.tnr.com/article/books-and-arts/against-transparency">‘naked transparency.’</a></p>
+
+<blockquote>The naked transparency movement marries the power of network technology to the radical decline in the cost of collecting, storing, and distributing data. Its aim is to liberate that data, especially government data, so as to enable the public to process it and understand it better, or at least differently.</blockquote>
+
+<p>Before we rally the troops, we have to realize that getting more data, data that we own, from government officials on all levels doesn’t equal more transparency or accountability.</p>
+
+<h2 id="data-is-only-part-of-the-transparency-cycle">Data is only part of the Transparency Cycle</h2>
+
+<p><a href="http://www.chipoglesby.com/wp-content/uploads/2010/08/transparency.gif"><img src="http://www.chipoglesby.com/wp-content/uploads/2010/08/transparency.gif" alt="" /></a>In a blog post by the Sunlight Foundation, they posted a very interesting graphic that shows how the ‘Transparency Cycle’ works. It has no beginning or end because it’s part of an ongoing process. Government Agencies (State Ethics Board) for example, are responsible for organizing data and giving web developers API’s who work with Graphic Designers who Give data context by visualizing it. Designers work with Journalists who help build public awareness through context and raising public awareness by reporting anomalies. Engaged Citizens work with Advocacy Groups who Organize and take action to hold the public and lawmakers accountable for what’s going on in government.</p>
+
+<p>Tim Berners-Lee, the founder of the internet has envisioned a new type of web, one of linked data, where the dots are able to be connected. <a href="http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/">Berners-Lee gives five points of open linked data</a>.</p>
+
+<ol>
+  <li>
+    <p>make your stuff available on the web (whatever format)</p>
+  </li>
+  <li>
+    <p>make it available as structured data (e.g. excel instead of image scan of a table)</p>
+  </li>
+  <li>
+    <p>non-proprietary format (e.g. csv instead of excel)</p>
+  </li>
+  <li>
+    <p>use URLs to identify things, so that people can point at your stuff</p>
+  </li>
+  <li>
+    <p>link your data to other people’s data to provide context</p>
+  </li>
+</ol>
+
+<p>State Comptroller Richard Eckstrom’s state government spending transparency site accomplishes 4 of the 5 goals, a great accomplishment in my opinion. Our school websites on the other hand, meet only one of the 5 requirements. PDF’s with no structure, give engaged citizens no way to ingest and analyze more than one month worth of data.</p>
+
+<p>I was able to go in and scrap a <a href="http://www.berkeley.k12.sc.us/departments.cfm?subpage=33187">PDF off of Berkley County’s transparency website</a> and run the information through Many Eyes to get this chart that’s featured below. Ideally, there should be a simpler way for a developer or designer to visualize this information through API’s.
+<a href="http://www.chipoglesby.com/wp-content/uploads/2010/08/berkley.png"><img src="http://www.chipoglesby.com/wp-content/uploads/2010/08/berkley.png" alt="" /></a></p>
+
+<p>Eckstrom’s website is faced with the same type of problem. It focuses on the month to month expenditures, and if I want to build a database, I would have to download 12 separate .csv files to enter into another database to visualize.</p>
+
+<h2 id="all-data-is-dirty">All data is dirty</h2>
+
+<p>Once we’re able to actually collect data through publicly accessible API’s, does that necessarily mean the info is clean? Not really.</p>
+
+<p>Since data input still relies on human-beings we are all prone to make mistakes. Remember the disaster of recovery.gov? There was a huge scandal because of all of the ‘ghost’ districts where money was being spent. The to main views here are simple “It happened on purpose, democrats are trying to steal/take our money” or “It was just a simple mistake, a slip of the finger or some congressional page didn’t know what district they were in.”</p>
+
+<p>Also, if you browse the <a href="http://transparencydata.com/">transparency data portal</a> from the Sunlight Foundation and look for campaign contributions, names can be misspelled and instead of using proper nouns for occupation such as “Owner: Fast Bucks” a donor may simply list occupation as “store owner.”</p>
+
+<p>This can lead to a few errors. It makes it hard to track who’s actually giving because a researcher will have to double check which company the donor works for to help connect the dots. </p>
+
+<h2 id="data-needs-context">Data needs context</h2>
+
+<p>Once the data is published, it still needs context. PDF’s are good for looking at a small record, but what if we want to compare values over a given year, or the past six years? How do we know when a company a lobbyists represents gives a lawmaker money for his PAC so that he may be influenced to vote a certain way?</p>
+
+<p>Spending all day pouring through massive amounts of information can be tedious and lead to the wrong conclusions. Instead, there should be automated processes in place that alert people via email, text, tweet when anomalies arise. Like the internet, quietly working in the background, but always on.</p>
+
+<p>Designers and reporters also play an important roll in this because they can help clarify misunderstandings someone may have.</p>
+
+<h2 id="data-doesnt-equal-transparency">Data doesn’t equal transparency</h2>
+
+<p>Once we get the data, it’s been check to be accurate, and given context all is not complete in the transparency cycle. Government could publish every single bit of data it has, recorded votes, transit information, gis maps, <a href="http://www.internetartizans.co.uk/open_data_does_not_empower">but what good will it do if it just sits there</a>?</p>
+
+<p>It’s up to engaged citizens and Advocacy Groups to take the information from Designers, Developers, Journalists and Bloggers and form grassroots movements to hold government responsible. Data without action is done for naught.</p>
+
+<p>Once Citizens and Groups organize and take action, they along with others can work with Lawmakers to actually make a change.</p>
+
+<p>Transparency alone will not lead to more accountability in government. Data.gov and recovery.gov are great examples, Federal government have given citizens monitoring tools.</p>
+
+<p>In South Carolina, we face battles of our own. South Carolina Senate, comprised of only 46 people cannot simply decide if they’ll vote on the record because they say it’s unconstitutional. They’ve also argued that verbal roll-call voting takes too long, and I agree, it does. But there are solutions out there. Open-source software can be written so that bills, amendments and earmarks can be posted online 72 hours early for the public can expect them, then house and senate members could vote on the bills so that we can connect the dots to see where change and influence is happening.</p>
+
+<p>The question that South Carolina faces is: Who’s going to be first in the Transparency Cycle?</p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://chipoglesby.github.io/journalism/the%20future/putting-americans-to-work-through-technology/" class="btn" title="Putting Americans to work through technology">Previous</a>
+      
+      
+        <a href="http://chipoglesby.github.io/photography/photojournalism/crowdsourcing-my-denver-trip/" class="btn" title="Crowdsourcing my #denver trip">Next</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    
+
+<span>&copy; 2015 Chip Oglesby. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/so-simple/" rel="nofollow">So Simple Theme</a>.</span>
+<div class="social-icons">
+	
+	
+	
+	<a href="https://linkedin.com/in/chipoglesby" title="Chip Oglesby on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+	
+	<a href="https://instagram.com/chipoglesby" title="Chip Oglesby on Instagram" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+	
+	<a href="https://github.com/chipoglesby" title="Chip Oglesby on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+	
+  
+	
+  <a href="http://chipoglesby.github.io/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script type="text/javascript">
+  var BASE_URL = 'http://chipoglesby.github.io';
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://chipoglesby.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://chipoglesby.github.io/assets/js/scripts.min.js"></script>
+
+
+
+
+</body>
+</html>

@@ -5,6 +5,7 @@ date: 2015-02-07 02:33:28+00:00
 layout: post
 slug: fine-art-by-michelle
 title: Tell the one you love with Fine Art!
+excerpt: Valentine's Day is right around the corner!
 wordpress_id: 28167
 categories:
 - Sidenote

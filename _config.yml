@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Chip's Github Playground
+title: Chip Oglesby
 locale: en_US
-description: A Playground to learn new things.
+description: An online portfolio and notebook about the 'things' I think are interesting.
 logo: site-logo.png
 search: true
 url: http://chipoglesby.github.io
@@ -37,7 +37,7 @@ owner:
   avatar: bio-photo.jpg
   #email: you@email.com
   disqus-shortname:
-  twitter: #username
+  twitter: chipoglesby
   facebook: #username
   github: chipoglesby
   stackexchange: #http://stackoverflow.com/users/123456/username
@@ -48,7 +48,7 @@ owner:
   pinterest: #username
   weibo: #userid
   google:
-    plus: #username
+    plus: chipoglesby
     analytics:
     verify:
     ad-client:

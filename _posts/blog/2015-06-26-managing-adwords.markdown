@@ -2,8 +2,7 @@
 author: chipoglesby
 comments: true
 date: 2015-06-26 20:23:50+00:00
-excerpt: Today, we'll show you how to manage and keep an eye on your clients AdWords
-  spend with Google Sheets.
+excerpt: Today, we'll show you how to manage and keep an eye on your clients AdWords spend with Google Sheets.
 layout: post
 slug: managing-adwords
 title: 'How to: Create an AdWords budget with Google Sheets'
@@ -40,13 +39,11 @@ You could extend this Google sheet in a few ways:
 
 
 
-	
+
   * First you could write a Google AdWords script that automates pulling in your account spend for the month every hour.
 
-	
+
   * You could also automate campaigns to automatically pause if the account reaches a certain threshold to prevent auto pays on a credit card.
 
-	
+
   * You could also extend the spreadsheet further to automatically manage your campaign budgets, keyword bids and day-parting bids to better control your accounts.
-
-

@@ -1,0 +1,334 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Doing things the hard way vs the harder way &#8211; Chip's Github Playground</title>
+<meta name="description" content="Sometimes there is no easy answer to a problem. Let's take a look at why.">
+<meta name="keywords" content="semantics">
+
+  
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Doing things the hard way vs the harder way">
+<meta name="twitter:description" content="Sometimes there is no easy answer to a problem. Let's take a look at why.">
+
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://chipoglesby.github.io/images/site-logo.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Doing things the hard way vs the harder way">
+<meta property="og:description" content="Sometimes there is no easy answer to a problem. Let's take a look at why.">
+<meta property="og:url" content="http://chipoglesby.github.io/sidenote/hard-vs-harder/">
+<meta property="og:site_name" content="Chip's Github Playground">
+
+
+
+
+
+<link rel="canonical" href="http://chipoglesby.github.io/sidenote/hard-vs-harder/">
+<link href="http://chipoglesby.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Chip's Github Playground Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://chipoglesby.github.io/assets/css/main.css">
+<!-- Webfonts -->
+<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="http://chipoglesby.github.io/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="http://chipoglesby.github.io/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://chipoglesby.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+
+<!-- MathJax -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://chipoglesby.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://chipoglesby.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://chipoglesby.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://chipoglesby.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://chipoglesby.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://chipoglesby.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+      
+		    
+		        
+		    
+		    <li><a href="http://chipoglesby.github.io/about/" >About</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://chipoglesby.github.io/articles/" >Articles</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://chipoglesby.github.io/blog/" >Blog</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://chipoglesby.github.io/theme-setup/" >Theme Setup</a></li>
+		  
+		    
+		        
+		        
+		    <li><a href="http://mademistakes.com" target="_blank">Made Mistakes</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://chipoglesby.github.io/search/" >Search</a></li>
+		  
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<header class="masthead">
+	<div class="wrap">
+      <!-- 
+  		<a href="http://chipoglesby.github.io/" class="site-logo" rel="home" title="Chip's Github Playground"><img src="http://chipoglesby.github.io/images/site-logo.png" width="200" height="200" alt="Chip's Github Playground logo" class="animated fadeInDown"></a>
+        -->
+      <h1 class="site-title animated fadeIn"><a href="http://chipoglesby.github.io/">Chip's Github Playground</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">A Playground to learn new things.</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div class="js-menu-screen menu-screen"></div>
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"><a href="http://chipoglesby.github.io/tags/#semantics" title="Pages tagged semantics">semantics</a></span>
+        
+          <h1 class="entry-title">Doing things the hard way vs the harder way</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+          
+        
+        <span class="author vcard">By <span class="fn"></span></span>
+        <span class="entry-date date published"><time datetime="2015-02-09T21:51:40-07:00"><i class="fa fa-calendar-o"></i> February 09, 2015</time></span>
+        
+        
+        
+        
+      </footer>
+      <div class="entry-content">
+        <p>It’s always easy to think of things in terms of extremities:</p>
+
+<ul>
+  <li>
+    <p>Light vs Dark</p>
+  </li>
+  <li>
+    <p>High vs Low</p>
+  </li>
+  <li>
+    <p>Soft vs Firm</p>
+  </li>
+  <li>
+    <p>Easy vs Hard</p>
+  </li>
+</ul>
+
+<p>But sometimes we don’t have these extremes. Sometimes things might be difficult vs more difficult or hard vs harder. Let me give you a thought experiment:</p>
+
+<p>The thought experiment summary:</p>
+
+<ol>
+  <li>
+    <p>You have a business name and city/state but no address</p>
+  </li>
+  <li>
+    <p>You have locations but no physical corrdinates</p>
+  </li>
+  <li>
+    <p>You need to know the distance between the business and location</p>
+  </li>
+  <li>
+    <p>There are thousands of these combinations</p>
+  </li>
+  <li>
+    <p>You need to categorize them by the distance between each.</p>
+  </li>
+  <li>
+    <p>In aggregate you need to show how the categories perform collectively across hundreds of businesses.</p>
+  </li>
+</ol>
+
+<p><strong><em>BEGIN</em></strong>
+You run a successful PPC campaign for your clients and you want to answer a simple question: “How far can I extend my location radius before it becomes useless? Five miles? 10 miles? 20 miles? Depending on how you have your locations set up, this could be easy to answer. Let’s assume that you have a mixture of cities, zip codes and radius targeting.</p>
+
+<p>That may look something like:</p>
+
+<ul>
+  <li>
+    <p>Asheville, NC</p>
+  </li>
+  <li>
+    <p>28803</p>
+  </li>
+  <li>
+    <p>10 miles around 35.538932,-82.5654054</p>
+  </li>
+</ul>
+
+<p>First you’ll want to decide what program you want to tackle this with. Your two main options are R or Google Spreadsheets. Each has it’s advantages, but let’s look at a spreadsheet for right now. To start with, you’ll have a spreadsheet with two columns: 1. Business Name 2. City and State. Your goal is to figure out how to get the physical address of this business and paste it into a third column on the spreadsheet.</p>
+
+<p>You have three options:</p>
+
+<ol>
+  <li>
+    <p>Look up the web address of each business, go to their website and look for their contact information, copy and paste. It could be on any page, anywhere on site.</p>
+  </li>
+  <li>
+    <p>Look at the business listing on the search engine result page, copy and paste.</p>
+  </li>
+  <li>
+    <p>Write a small script that will query an API and return a possibly correct result (if there’s not more than one business, think grocery stores.)</p>
+  </li>
+</ol>
+
+<p>In this experiment, you don’t know what the address is. The number of businesses is also so large that you probably don’t want to do it by hand or pay an intern to do it for you. What do you do?</p>
+
+<p>If you choose option three, you’ll soon realize that it’s more daunting that you originally thought. The easiest option is to use the Google Maps Javascript API, but that <a href="https://developers.google.com/maps/faq#geocoder_queryformat">won’t return a business’ physical location</a>. You could possibly use a third-party service API like Yelp for example, if that business exists in their database.</p>
+
+<p>You could also write a web scraper to look for business listings under organic search results, but those queries are sometimes changed with the inclusion of Google’s Knowledge Graph.</p>
+
+<p>After you get the proper address of each business listing. You’ll then need to go into Google Adwords either manually or programatically via the API (that you have to register for) and using the GEO_PERFORMANCE_REPORT to pull the Region and Most Specific Location along with all of the data you need to make your decision.</p>
+
+<p>Following this, you’ll need use the Google Map’s Javascript API to get directions and return a driving distance between the most specific location and the business address. *Remember, the most specific location is not an exact location.</p>
+
+<p>Once you’ve done all of this, you’ll need a fourth column that tells you if this distance falls within these parameters:</p>
+
+<ul>
+  <li>
+    <p>Less than five miles away</p>
+  </li>
+  <li>
+    <p>Between five and ten miles</p>
+  </li>
+  <li>
+    <p>Between 10 and 20 miles</p>
+  </li>
+  <li>
+    <p>Between 21 and 30 miles</p>
+  </li>
+  <li>
+    <p>Between 31 and 40 miles</p>
+  </li>
+  <li>
+    <p>Between 41 and 50 miles</p>
+  </li>
+  <li>
+    <p>More than 50 miles</p>
+  </li>
+</ul>
+
+<p>Then you’ll be able to finally aggregate all of your account data together to decide what the best use of location targeting would be.</p>
+
+<p>To throw a wrench in things, your boss comes back to you and tells you that it would be great to know the breakdown of products with these results.</p>
+
+<p>Other things to consider:</p>
+
+<ol>
+  <li>
+    <p>You also need this to be reproducible so it can be done on a monthly and yearly basis.</p>
+  </li>
+  <li>
+    <p>You also need this to be updated as new businesses are added to your list at any point in time.</p>
+  </li>
+</ol>
+
+<p>So, how do you tackle this? Do you do it the hard way or the harder way?</p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://chipoglesby.github.io/sidenote/fine-art-by-michelle/" class="btn" title="Tell the one you love with Fine Art!">Previous</a>
+      
+      
+        <a href="http://chipoglesby.github.io/adwords/youtube-adwords-api/" class="btn" title="How to pull Youtube Metrics from the Adwords API">Next</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    
+
+<span>&copy; 2015 Chip Oglesby. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/so-simple/" rel="nofollow">So Simple Theme</a>.</span>
+<div class="social-icons">
+	
+	
+	
+	<a href="https://linkedin.com/in/chipoglesby" title="Chip Oglesby on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+	
+	<a href="https://instagram.com/chipoglesby" title="Chip Oglesby on Instagram" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+	
+	<a href="https://github.com/chipoglesby" title="Chip Oglesby on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+	
+  
+	
+  <a href="http://chipoglesby.github.io/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script type="text/javascript">
+  var BASE_URL = 'http://chipoglesby.github.io';
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://chipoglesby.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://chipoglesby.github.io/assets/js/scripts.min.js"></script>
+
+
+
+
+</body>
+</html>

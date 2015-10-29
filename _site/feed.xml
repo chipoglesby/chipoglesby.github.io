@@ -4,13 +4,38 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://chipoglesby.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://chipoglesby.github.io" />
-<updated>2015-10-29T14:24:35-06:00</updated>
+<updated>2015-10-29T14:46:24-06:00</updated>
 <id>http://chipoglesby.github.io/</id>
 <author>
   <name>Chip Oglesby</name>
   <uri>http://chipoglesby.github.io/</uri>
   
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Dear blog and readers: I haven't forgotten about you]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/photography/photojournalism/dear-blog-and-readers-i-havent-forgotten-about-you/" />
+  <id>http://chipoglesby.github.io/photography/photojournalism/dear-blog-and-readers-i-havent-forgotten-about-you</id>
+  <published>2015-10-26T07:18:14-06:00</published>
+  <updated>2015-10-26T07:18:14-06:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;a href=&quot;http://www.chipoglesby.com/wp-content/uploads/2015/10/12032649_723866255117_813998632279074498_o.jpg&quot;&gt;&lt;img src=&quot;http://www.chipoglesby.com/wp-content/uploads/2015/10/12032649_723866255117_813998632279074498_o-1024x683.jpg&quot; alt=&quot;Near Coalmont, CO&quot; /&gt;&lt;/a&gt; Near Coalmont, CO&lt;/p&gt;
+
+&lt;p&gt;Poor neglected blog, I haven’t forgotten about you! I have plenty ideas that I want to write about; we’ve just been so busy enjoying our new lives in Colorado!&lt;/p&gt;
+
+&lt;p&gt;Don’t worry though, I’ll be back soon with a new series of posts on something exciting (to me at least). Until then, enjoy this photo of Colorado!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/photography/photojournalism/dear-blog-and-readers-i-havent-forgotten-about-you/&quot;&gt;Dear blog and readers: I haven&#39;t forgotten about you&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on October 26, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -54,6 +79,456 @@ mathjax: true
   
 
 <entry>
+  <title type="html"><![CDATA[How to: Create an AdWords budget with Google Sheets]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/adwords/managing-adwords/" />
+  <id>http://chipoglesby.github.io/adwords/managing-adwords</id>
+  <published>2015-06-26T14:23:50-06:00</published>
+  <updated>2015-06-26T14:23:50-06:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;As a small business agency, one of the hardest things you’ll have to do is to manage your clients AdWords budgets. Hopefully this tool will help your job easier. Start by creating a new spreadsheet in Google Drive, this will be where we store all of our work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.chipoglesby.com/wp-content/uploads/2015/06/sheets-1024x159.png&quot; alt=&quot;Google Sheets&quot; /&gt;To start, add five columns: Account name, External Client ID, Budget, Spend, Days in Current Month. Here we can enter all of necessary information to get started. The Account Nickname that you gave it, their AdWords Client ID, The amount of money to spend this month and the amount of money they’ve spent so far this month.&lt;/p&gt;
+
+&lt;p&gt;First, let’s set up the number of days in the current month. You can use this formula: =DAY(DATE(YEAR(today()),MONTH(today())+1,0)). For June, this will return the value 30. It uses the today function in spreadsheets, so it’s automatically updated every month.&lt;/p&gt;
+
+&lt;p&gt;Next, let’s figure out how much money we need to spend. Let’s create a new column and call it Projected Spend. Here we’ll divide the budget by the total number of days in the month. You can use the formula =cX/eX. Just replace the X with the row number that you’re on. For example, if your client wants to spend $10,000 for June, we know the spend needed would be $333.33 per day.&lt;/p&gt;
+
+&lt;p&gt;In column D we’ll record how much the client has spent for the month so far. This can be automated, but that’s for another day. For this practice, let’s assume that it’s June 6th and the client has spent $3,000.00.&lt;/p&gt;
+
+&lt;p&gt;Let’s go ahead and create another column called Actual Spend Per Day. Here we can simply divide the total spend in column D by the number of days elapsed in the month so far. Since we don’t want to change this by hand daily, let’s use a formula. That formula will be =day(date(year(today()),month(today()), day(today()))).&lt;/p&gt;
+
+&lt;p&gt;According to this column, the client is spending an average of $500.00. At this pace they’ll spend $15,000 in June and spend all of their money in 20 days instead of 30. In another post, I’ll share how you can control this programmatically.&lt;/p&gt;
+
+&lt;p&gt;Another measure that we’ll want to measure is how close the actual spend is to the projected spend. Let’s add another column and call it % within projected spend. Here we are going to divide the actual spend by the projected spend. Here our formula tells us that we’re over our required spend by 150%.&lt;/p&gt;
+
+&lt;p&gt;If you manage a large number of accounts, this will give you a top level view of how each account is performing at any given time.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-this-can-this-do-for-me&quot;&gt;What can this can this do for me?&lt;/h2&gt;
+
+&lt;p&gt;You could extend this Google sheet in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;First you could write a Google AdWords script that automates pulling in your account spend for the month every hour.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You could also automate campaigns to automatically pause if the account reaches a certain threshold to prevent auto pays on a credit card.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You could also extend the spreadsheet further to automatically manage your campaign budgets, keyword bids and day-parting bids to better control your accounts.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/managing-adwords/&quot;&gt;How to: Create an AdWords budget with Google Sheets&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on June 26, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Google Analytics & 'Fake Traffic': Garbage In, Garbage Out?]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/sidenote/google-analytics-fake-traffic/" />
+  <id>http://chipoglesby.github.io/sidenote/google-analytics-fake-traffic</id>
+  <published>2015-06-02T23:46:06-06:00</published>
+  <updated>2015-06-02T23:46:06-06:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img src=&quot;http://www.chipoglesby.com/wp-content/uploads/2015/06/analytics.png&quot; alt=&quot;analytics&quot; /&gt;I was finally excited to start blogging again after a long hiatus.
+After publishing a few recent articles, I decided to check my Google Analytics account. To my surprise more than 43% of my traffic is what I would consider to be ‘fake traffic’.&lt;/p&gt;
+
+&lt;p&gt;Jeff Sauer originally brought this to my attention in his article: &lt;a href=&quot;http://www.jeffalytics.com/google-analytics-data-quality-issue/&quot;&gt;Is Google Analytics Newest Data Quality Issue the Most Challenging?&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;If a source of traffic has extreme metrics like 100% bounce rate or 0% bounce rate, it is usually non-human traffic. The same goes for 100% new visitor rates or 1.00 average page views. Humans don’t behave this way en masse, but these numbers are possible when computers visit your website.&lt;/blockquote&gt;
+
+&lt;p&gt;Now, originally I was excited to see my traffic grow and I thought surely it was from all of the amazing content I’ve been writing. I was wrong. For sites that average less than 1,000 users per month, this can be a big problem!&lt;/p&gt;
+
+&lt;p&gt;I work mainly in verticals for nonprofits, automotive, publishing and e-commerce. None of these verticals are immune to this problem. For sites that average more than 10,000 users per month, you would never notice this traffic, it’s just a blip on the radar. It does however raise bounce rate since most of this ‘fake traffic’ is 100% bounce.&lt;/p&gt;
+
+&lt;p&gt;Below is a screenshot of what this fake traffic might look like.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.chipoglesby.com/wp-content/uploads/2015/06/analytics2-1024x408.png&quot; alt=&quot;analytics2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-fix-this-problem-in-google-analytics&quot;&gt;How to fix this problem in Google Analytics&lt;/h2&gt;
+
+&lt;p&gt;Ask three people how to solve this and you’ll always get a different answer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Option one:&lt;/strong&gt; Create a new view and add a filter that excludes traffic that does not equal your sites url. If you have multiple domains, you can use a regular expression to quickly choose all. It’s always a best practice according to Google to have one view in Google Analytics that has no filter attached. It’s up to you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Option two:&lt;/strong&gt; If you have hundreds of Google Analytics accounts, you can write a short python script that will automatically create a filter that excludes hostnames that do not match a given hostname. I won’t go into the particulars of exactly how to do this, but I will share the code later. This option is best if you have a very large number of accounts that you have access to. Again, it’s not a best practice to have filters attached to your only view. Again, it’s up to you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Option three:&lt;/strong&gt; This is probably the easiest option. You can create an advanced segment in Google Analytics, labeled ‘Fake Traffic’. You can set it to exclude traffic to the hostnames that do not contain your hostname. If you need help, &lt;a href=&quot;https://www.google.com/analytics/web/template?uid=103oTUNPSgW35YUjCeCfOQ&quot;&gt;I’ve created one for you here&lt;/a&gt;. Just replace the hostname with your websites url.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrap-up&quot;&gt;Wrap-up&lt;/h2&gt;
+
+&lt;p&gt;Right now this is not a problem. One day it very well could be a problem. It wouldn’t be hard to build a webscraper that pulls in the UA-ID and sets the hostname as your url. Once that happens, we’ll have a much more difficult time distinguishing real traffic from this ‘fake traffic’.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/google-analytics-fake-traffic/&quot;&gt;Google Analytics &amp; &#39;Fake Traffic&#39;: Garbage In, Garbage Out?&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on June 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[How to: Translate Cells in Google Spreadsheets from English to Spanish (maybe!)]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/adwords/translate-google-spreadsheets/" />
+  <id>http://chipoglesby.github.io/adwords/translate-google-spreadsheets</id>
+  <published>2015-05-27T22:37:54-06:00</published>
+  <updated>2015-05-27T22:37:54-06:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;I should start by saying that I don’t speak Spanish and I certainly cannot translate it, but I thought it would be a fun exercise to see if I could programmatically translate cells in Google Spreadsheets from English to Spanish. This script uses Google Translate to automatically translate sentences after they’re typed into a spreadsheet. It could be helpful for writing Spanish ads for Google Adwords.&lt;/p&gt;
+
+&lt;p&gt;I’ve read a few articles on how reliable the translations are. Is anyone familiar with how accurate the translations are? If you’re proficient with English &amp;amp; Spanish and care to take a look, let me know your thoughts on if this actually works.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/translate-google-spreadsheets/&quot;&gt;How to: Translate Cells in Google Spreadsheets from English to Spanish (maybe!)&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on May 27, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[How to: Format cells in Google Spreadsheet based on a previous cells value]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/adwords/conditional-formatting/" />
+  <id>http://chipoglesby.github.io/adwords/conditional-formatting</id>
+  <published>2015-05-14T02:45:34-06:00</published>
+  <updated>2015-05-14T02:45:34-06:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;Recently I was asked to create a Google App Script for the old version of Google Spreadsheets that will format a new cell based on value of the previous cell. For example, if the value of B1 is greater than A1, set the background of B2 to lime green. If you update the cell later and the value is less than A1, the background will be removed.&lt;/p&gt;
+
+&lt;p&gt;When I was writing the script, I was having some issues identifying the previous cell. I realized that I could work around it by using the varible: var previousPositionValue = sheet.getRange(currentRow, previousPosition).getValue();. The previousPosition is defined as the current column minus one. So if the cell is B1, the previous position would be A1 and so on.&lt;/p&gt;
+
+&lt;p&gt;In laymen’s terms, this tells the script to pull the value of the previous cell. I’m sure there are much more elegant solutions, but this works for what I need. This script also assumes that you will be editing each cell manually by hand, ie: data entry. In the new version of Google Spreadsheets, this script wouldn’t be necessary. You can now do conditional formatting with formulas, so you could &lt;a href=&quot;http://www.chipoglesby.com/wp-content/uploads/2015/05/formatting.png&quot;&gt;create a statement like the photo attached&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/conditional-formatting/&quot;&gt;How to: Format cells in Google Spreadsheet based on a previous cells value&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on May 14, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Format Your Google Spreadsheet Using App Scripts]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/adwords/formatting-with-app-scripts/" />
+  <id>http://chipoglesby.github.io/adwords/formatting-with-app-scripts</id>
+  <published>2015-05-01T20:30:10-06:00</published>
+  <updated>2015-05-01T20:30:10-06:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;In a follow up to yesterday’s post about &lt;a href=&quot;http://www.chipoglesby.com/2015/04/youtube-adwords-api/&quot;&gt;how to pull Youtube Trueview metrics through the Adwords API&lt;/a&gt;, this post will show you how to automatically format your spreadsheet for a more beautiful report.&lt;/p&gt;
+
+&lt;p&gt;This script will go in the Google Spreadsheet that you created yesterday in the Script Editor. You can access that by going to Tools &amp;gt; Script Editor. When you start Script Editor for the first time, you’ll want to choose ‘blank script’ and give your project a name, something that will make sense to you in the future. You’ll also need to authorize your script the first time.&lt;/p&gt;
+
+&lt;p&gt;You can erase the information in the Code.gs and replace it with the gist above. This app script code will do a few things. First, it will create a menu item that will allow you to click and automatically format your spreadsheet. It will also rename your spreadsheet columns to reflect the actual metric names in the Trueview columns of Adwords.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/formatting-with-app-scripts/&quot;&gt;Format Your Google Spreadsheet Using App Scripts&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on May 01, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[How to pull Youtube Metrics from the Adwords API]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/adwords/youtube-adwords-api/" />
+  <id>http://chipoglesby.github.io/adwords/youtube-adwords-api</id>
+  <published>2015-04-30T20:17:01-06:00</published>
+  <updated>2015-04-30T20:17:01-06:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;I love the integration of Youtube with Google Adwords. Unfortunately you’re not currently able to pull all Youtube metrics through the Google Adwords API, but you are able to pull some.&lt;/p&gt;
+
+&lt;p&gt;While working in R recently, I was pulling some reports using the Adwords API and the &lt;a href=&quot;https://developers.google.com/adwords/api/docs/appendix/reports/budget-performance-report&quot;&gt;Budget Performance Report&lt;/a&gt;. This is the only time that I’ve seen any data from Youtube in the Adwords API reports.&lt;/p&gt;
+
+&lt;p&gt;In the script below, we’re going to query the Budget Performance Report and return the Campaign Name, Impressions, Views, View Rate, Cost Per View, Cost, Converted Clicks and View Through Conversions.&lt;/p&gt;
+
+&lt;p&gt;The first thing that you’ll notice is that the API will actually return the following names: AssociatedCampaignName, Impressions, Clicks, CTR, Average CPC, Cost, Converted Clicks and View Through Conversions. Don’t worry, these metrics are still the same. In tomorrow’s post, I’ll show you an easy Google App Script code that will automatically change the names for you.&lt;/p&gt;
+
+&lt;p&gt;The script:&lt;/p&gt;
+
+&lt;p&gt;In the script above, you’ll want to add your own Google Spreadsheet URL in Google Drive so that you have a place to record all of your metrics. The script will currently create two tabs, one for this month and one for last month. If you want to change the name of the tabs, search and replace any mention of ABC123. &lt;/p&gt;
+
+&lt;p&gt;The other important piece that you’ll need to change is on line 84: return ‘where AssociatedCampaignName CONTAINS ABC_YOUTUBE AND Clicks &amp;gt; 1’. This actually tells the Adwords Script what the name of your Youtube Campaign Is. You’ll want to replace ABC_YOUTUBE with your own campaign name. In my current job we use a job order code, so the campaign name will always contain a certain set of characters so we don’t have to update the script each month. You might want to consider using something like “Youtube” in your campaign name so that it’s easier to find.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/youtube-adwords-api/&quot;&gt;How to pull Youtube Metrics from the Adwords API&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on April 30, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Doing things the hard way vs the harder way]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/sidenote/hard-vs-harder/" />
+  <id>http://chipoglesby.github.io/sidenote/hard-vs-harder</id>
+  <published>2015-02-09T21:51:40-07:00</published>
+  <updated>2015-02-09T21:51:40-07:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;It’s always easy to think of things in terms of extremities:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Light vs Dark&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;High vs Low&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Soft vs Firm&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Easy vs Hard&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But sometimes we don’t have these extremes. Sometimes things might be difficult vs more difficult or hard vs harder. Let me give you a thought experiment:&lt;/p&gt;
+
+&lt;p&gt;The thought experiment summary:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;You have a business name and city/state but no address&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You have locations but no physical corrdinates&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You need to know the distance between the business and location&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There are thousands of these combinations&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You need to categorize them by the distance between each.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In aggregate you need to show how the categories perform collectively across hundreds of businesses.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;BEGIN&lt;/em&gt;&lt;/strong&gt;
+You run a successful PPC campaign for your clients and you want to answer a simple question: “How far can I extend my location radius before it becomes useless? Five miles? 10 miles? 20 miles? Depending on how you have your locations set up, this could be easy to answer. Let’s assume that you have a mixture of cities, zip codes and radius targeting.&lt;/p&gt;
+
+&lt;p&gt;That may look something like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Asheville, NC&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;28803&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;10 miles around 35.538932,-82.5654054&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;First you’ll want to decide what program you want to tackle this with. Your two main options are R or Google Spreadsheets. Each has it’s advantages, but let’s look at a spreadsheet for right now. To start with, you’ll have a spreadsheet with two columns: 1. Business Name 2. City and State. Your goal is to figure out how to get the physical address of this business and paste it into a third column on the spreadsheet.&lt;/p&gt;
+
+&lt;p&gt;You have three options:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Look up the web address of each business, go to their website and look for their contact information, copy and paste. It could be on any page, anywhere on site.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Look at the business listing on the search engine result page, copy and paste.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write a small script that will query an API and return a possibly correct result (if there’s not more than one business, think grocery stores.)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this experiment, you don’t know what the address is. The number of businesses is also so large that you probably don’t want to do it by hand or pay an intern to do it for you. What do you do?&lt;/p&gt;
+
+&lt;p&gt;If you choose option three, you’ll soon realize that it’s more daunting that you originally thought. The easiest option is to use the Google Maps Javascript API, but that &lt;a href=&quot;https://developers.google.com/maps/faq#geocoder_queryformat&quot;&gt;won’t return a business’ physical location&lt;/a&gt;. You could possibly use a third-party service API like Yelp for example, if that business exists in their database.&lt;/p&gt;
+
+&lt;p&gt;You could also write a web scraper to look for business listings under organic search results, but those queries are sometimes changed with the inclusion of Google’s Knowledge Graph.&lt;/p&gt;
+
+&lt;p&gt;After you get the proper address of each business listing. You’ll then need to go into Google Adwords either manually or programatically via the API (that you have to register for) and using the GEO_PERFORMANCE_REPORT to pull the Region and Most Specific Location along with all of the data you need to make your decision.&lt;/p&gt;
+
+&lt;p&gt;Following this, you’ll need use the Google Map’s Javascript API to get directions and return a driving distance between the most specific location and the business address. *Remember, the most specific location is not an exact location.&lt;/p&gt;
+
+&lt;p&gt;Once you’ve done all of this, you’ll need a fourth column that tells you if this distance falls within these parameters:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Less than five miles away&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Between five and ten miles&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Between 10 and 20 miles&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Between 21 and 30 miles&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Between 31 and 40 miles&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Between 41 and 50 miles&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;More than 50 miles&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then you’ll be able to finally aggregate all of your account data together to decide what the best use of location targeting would be.&lt;/p&gt;
+
+&lt;p&gt;To throw a wrench in things, your boss comes back to you and tells you that it would be great to know the breakdown of products with these results.&lt;/p&gt;
+
+&lt;p&gt;Other things to consider:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;You also need this to be reproducible so it can be done on a monthly and yearly basis.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You also need this to be updated as new businesses are added to your list at any point in time.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, how do you tackle this? Do you do it the hard way or the harder way?&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/hard-vs-harder/&quot;&gt;Doing things the hard way vs the harder way&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on February 09, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Tell the one you love with Fine Art!]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/sidenote/fine-art-by-michelle/" />
+  <id>http://chipoglesby.github.io/sidenote/fine-art-by-michelle</id>
+  <published>2015-02-06T19:33:28-07:00</published>
+  <updated>2015-02-06T19:33:28-07:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;Valentine’s day is right around the corner! This year instead of the boring roses and&lt;img src=&quot;http://www.chipoglesby.com/wp-content/uploads/2015/02/michelle-300x300.jpg&quot; alt=&quot;michelle&quot; /&gt;candies, show your loved one exactly how much you love them with a &lt;a href=&quot;https://www.etsy.com/shop/FineArtbyMichelleO?ref=l2-shopheader-name&quot;&gt;Fine Art print by Michelle&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;These one of a kind prints are handmade and perfect for the home or office. Order yours by February 10th, and get a special surprise with your purchase!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/fine-art-by-michelle/&quot;&gt;Tell the one you love with Fine Art!&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on February 06, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[When breaking news happens on Twitter]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/journalism/breaking-news-twitter/" />
+  <id>http://chipoglesby.github.io/journalism/breaking-news-twitter</id>
+  <published>2015-02-05T19:24:29-07:00</published>
+  <updated>2015-02-05T19:24:29-07:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;Today two people died in a murder-suicide at the University of South Carolina. It was very sad to see the tweets start rolling in shortly after lunch time today. After seeing the first tweet below, I hopped into Twitter Search to see what was going on:&lt;/p&gt;
+
+&lt;blockquote&gt;Really hoping everyone [@UofSC](https://twitter.com/UofSC) is okay.
+
+— Rita Fitzgerald (@ritamkfitz) [February 5, 2015](https://twitter.com/ritamkfitz/status/563402454357008387)&lt;/blockquote&gt;
+
+&lt;p&gt;Rolling out in real-time was a play by play of exactly what happened at USC during this frightening ordeal. News was being shared by amateurs faster than the established local media could collect, analyze and report on it.&lt;/p&gt;
+
+&lt;p&gt;In a weird way, it reminded me of why I was initially drawn to Twitter in 2008. This was before “personal brands” and the notion of constantly and mindlessly sharing tweets; back when I actually cared about being a part of social media.&lt;/p&gt;
+
+&lt;p&gt;One of the first times I remember going to Twitter to find out what was happening was during the president’s address to joint congress on September 9, 2009.&lt;/p&gt;
+
+&lt;p&gt;While President Obama was addressing Immigration Reform, Rep. Joe Wilson from South Carolina blurted out “YOU LIE!”&lt;/p&gt;
+
+&lt;p&gt;Within moments of this happening, Twitter was ablaze postulating and then confirming exactly who it was. This was an entire hour before the newsroom was even aware of who it was and could have something on the internet about it.&lt;/p&gt;
+
+&lt;p&gt;That was the first time that I remember thinking “Twitter could actually be worth something for collecting breaking news.” There will always be a need to verify before reporting something as fact, but I’ve watched for more than five years as news outlets struggle with social media.&lt;/p&gt;
+
+&lt;p&gt;Today was a sobering and somber reminder of what the immediacy of Twitter can be.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/journalism/breaking-news-twitter/&quot;&gt;When breaking news happens on Twitter&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on February 05, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[This one simple reason why I haven't blogged lately may surprise you!]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/sidenote/on-blogging-less/" />
+  <id>http://chipoglesby.github.io/sidenote/on-blogging-less</id>
+  <published>2015-01-28T20:43:52-07:00</published>
+  <updated>2015-01-28T20:43:52-07:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;Seriously, who doesn’t love a good clickbait headline? So I don’t have 394,000,000 reason why I&lt;img src=&quot;http://www.chipoglesby.com/wp-content/uploads/2015/01/shock-300x251.png&quot; alt=&quot;shock&quot; /&gt; haven’t blogged in a very long time; I just have one: Life has become so crazy and busy!&lt;/p&gt;
+
+&lt;p&gt;The truth of the matter is, back in August around the time of my last post, I was teaching myself python so that I could pass a data science class on Coursera.&lt;/p&gt;
+
+&lt;p&gt;I passed that class and became much more interested in actually pursuing a graduate degree. There are plenty of data science degrees from many well respected universities, but not everyone is statistically literate. After reading many great articles on statistical literacy on &lt;a href=&quot;http://simplystatistics.org/2013/06/14/the-vast-majority-of-statistical-analysis-is-not-performed-by-statisticians/&quot;&gt;simply statistics&lt;/a&gt;, I realized if I’m going to get a degree, it should be a Master’s of Applied Statistics or something equal.&lt;/p&gt;
+
+&lt;p&gt;You don’t have to look very far to realize that most marketers are horrible at statistics. I know I won’t always be right, but I sure do want to be less wrong more often.&lt;/p&gt;
+
+&lt;p&gt;Between looking for possible schools and &lt;a href=&quot;http://www.amazon.com/gp/registry/wishlist/2RZSVPI68UDNG/ref=topnav_lists_1&quot;&gt;reading as many books as possible&lt;/a&gt;, I haven’t had much time for anything else and then I was offered an amazing job opportunity!&lt;/p&gt;
+
+&lt;p&gt;Shortly after New Years day, Michelle and i packed our bags and headed south back to Greenville, South Carolina. It wasn’t easy to leave Asheville after so many years, but we’re excited about this new journey and being closer to our families. I think this will be a great opportunity that helps us both grow personally and professionally.&lt;/p&gt;
+
+&lt;p&gt;So, until next time….&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/on-blogging-less/&quot;&gt;This one simple reason why I haven&#39;t blogged lately may surprise you!&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on January 28, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
   <title type="html"><![CDATA[Hello World]]></title>
   <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/blog/hello-world/" />
   <id>http://chipoglesby.github.io/blog/hello-world</id>
@@ -84,6 +559,213 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 
     &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/blog/hello-world/&quot;&gt;Hello World&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on August 08, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[My advice to kids: learn to type, then code]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/journalism/kids-learn-to-type-code/" />
+  <id>http://chipoglesby.github.io/journalism/kids-learn-to-type-code</id>
+  <published>2014-08-03T11:00:10-06:00</published>
+  <updated>2014-08-03T11:00:10-06:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;blockquote&gt;The person who knows how will always have a job. The person who knows why will always be his boss.&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Setting the scene&lt;/strong&gt;
+School is starting back soon and that means that kids will be pouring out of their homes and back into school. Unfortunately schools in the United States are not properly prepared to teach kids the basics of typing or computer science.&lt;/p&gt;
+
+&lt;p&gt;The best skill I learned in high school was learning to type and being able to do it proficiently. I learned how to type 15 years ago and it’s one of the few skills I have never forgotten.&lt;/p&gt;
+
+&lt;p&gt;For me, learning to type and learning basic computer science skills were my ticket out of rural South Carolina and ultimately led to me being a full time Data Analyst and small business owner. I did that on my own through sheer determination and being self taught.&lt;/p&gt;
+
+&lt;p&gt;15 years ago, there were no online learning programs or free sites that would teach you computer science. Recently I gave my brother-in-law who is in high school a challenge: Pass your typing class with an A and type 75 wpm (words per minute) and we’ll give you $150 in cash. Regrettably, we’re still hanging on to that money and maybe we’ll invest it in something else in the future.&lt;/p&gt;
+
+&lt;p&gt;This led me to spend a lot of time thinking about how our schools systems throughout the US are woefully underprepared to teach students this basic CS skills necessary to be successful.&lt;/p&gt;
+
+&lt;p&gt;In June at Fast Pivot, we hired our first college intern from Mars Hill. Without a doubt, our intern as been one of the most exceptional CS majors I’ve met. This is an exception to the rule though, it’s hard to find people in the south who are this motivated.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why I care so much about kids learning code&lt;/strong&gt;
+Learning how to type and code helps you learn how to solve problems. Let me give you an example. Say you’re at home and the door rings. You open the door and one of two things will happen: 1. You’ll see someone who you know. 2. You’ll see someone you don’t know. Immediately your brain runs through a decision tree and formulates a sentence and you’ll speak one of two types of sentences: A salutation that you would use for someone that you know or a salutation for someone who you do not know.&lt;/p&gt;
+
+&lt;p&gt;In computer programming, here’s how we would solve the same problem:&lt;/p&gt;
+
+&lt;p&gt;That’s a pretty simple example. But if you think about how many aspects of our lives are touched by technology, teaching kids these skills becomes necessary. As we depend on fewer people and organizations to provide us with more resources, it’s good to be self sufficient. The same could be said with learning how to grow a garden or fix a car. What’s wrong with learning how to do it yourself?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So what is being done to address this problem?&lt;/strong&gt;
+Fortunately there are a few great non-profits in the US that are trying to tackle this problem head on. Probably one of the more popular non-profits is &lt;a href=&quot;http://code.org&quot;&gt;Code.org&lt;/a&gt;. According to its website, Code.org has the following goals:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bringing Computer Science classes to every K-12 school in the United States, especially in &lt;em&gt;urban and rural neighborhoods.&lt;/em&gt; &lt;strong&gt;*Emphasis mine&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Demonstrating the successful use of online curriculum in public school classrooms&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Changing policies in all 50 states to categorize C.S. as part of the math/science “core” curriculum&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Harnessing the collective power of the tech community to celebrate and grow C.S. education worldwide&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Increasing the representation of women and students of color in the field of Computer Science.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s a great promotional video from their site:&lt;/p&gt;
+
+&lt;p&gt;There are also two great non-profits that are specifically aimed at helping young girls learn how to code: &lt;a href=&quot;http://www.girlswhocode.com/&quot;&gt;Girls Who Code&lt;/a&gt; and &lt;a href=&quot;http://www.girldevelopit.com/&quot;&gt;Girls Develop It.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Coding shouldn’t just be limited to children either. Could you imagine what could be done if we were able to teach, empower and hire one percent of the unemployed population by teaching them to code?&lt;/p&gt;
+
+&lt;p&gt;15 years ago, access to resources were limited. But now a lot of the barriers have been removed and the tools are there. We just need someone to step up and accept the challenge.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/journalism/kids-learn-to-type-code/&quot;&gt;My advice to kids: learn to type, then code&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on August 03, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[I hate snakes, but I'm learning to like Python]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/journalism/sidenote/learning-python/" />
+  <id>http://chipoglesby.github.io/journalism/sidenote/learning-python</id>
+  <published>2014-07-27T11:00:37-06:00</published>
+  <updated>2014-07-27T11:00:37-06:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;Indiana Jones and I don’t have a lot in common other than our mutual disdain for snakes. “Snakes, why’d it have to be SNAKES?” Indy, you are my hero!&lt;/p&gt;
+
+&lt;p&gt;Obviously Python has nothing to do with snakes, it’s just a name of a programming language. Just like my last post about Git, my first interaction with Django, a framework written in Python happened in 2007 at The State Newspaper.&lt;/p&gt;
+
+&lt;p&gt;There were some very interesting people doing very cool things back then &lt;em&gt;at other newspapers&lt;/em&gt;. &lt;a href=&quot;http://en.wikipedia.org/wiki/Adrian_Holovaty&quot;&gt;Adrian Holovaty&lt;/a&gt; had just launched Everyblock. While he was at the Lawrence World Journal, he and some coworkers had created Django and &lt;a href=&quot;http://www.ellingtoncms.com/&quot;&gt;Ellington&lt;/a&gt;, a far superior framework/CMS than anything I had ever seen at the time.&lt;/p&gt;
+
+&lt;p&gt;At The State, we had just started working with an ace programmer &lt;a href=&quot;http://justinlilly.com/python/django_at_30000ft.html&quot;&gt;Justin Abrahms&lt;/a&gt;, who introduced us to Django. The tagline for Django is “The web framework for perfectionists with deadlines.”&lt;/p&gt;
+
+&lt;p&gt;In October 2010 after mastering WordPress, I decided to conquer Django and Python. I purchased “&lt;a href=&quot;http://www.amazon.com/gp/product/1430219386/ref=oh_details_o01_s00_i00?ie=UTF8&amp;amp;psc=1&quot;&gt;&lt;em&gt;Practical Django Projects&lt;/em&gt;&lt;/a&gt;”. I made it 1/2 way through the book before I gave up. Ultimately at SCPC I wanted to future proof The Nerve, so we relaunched their site in Django. That was my last time using it.&lt;/p&gt;
+
+&lt;p&gt;Fast forward four years and I am once again dipping my toes in the water of learning Python, this time I want to learn it the right way. I needed it recently to finish a homework assignment for Cousera and after hacking my way through it, I realized it’s time to learn it properly.&lt;/p&gt;
+
+&lt;p&gt;I started the Google Python Exercise class, but I really need something more beginner than that. The i stumbled upon Code Academy. Their &lt;a href=&quot;http://www.codecademy.com/en/tracks/python?jump_to=4fd50d26d7fc680003030bd9&quot;&gt;Python class&lt;/a&gt; has been one of my favorite online classes that I’ve taken so far. This class just gets you to the beginner level and I am by no means an expert at anything.&lt;/p&gt;
+
+&lt;p&gt;There are multiple ways of approaching coding. There isn’t a “right” way to do anything, only more optimal routes. For example, take this code:&lt;/p&gt;
+
+&lt;p&gt;You don’t have to understand what they’re saying, but their both doing the same thing: counting the number of doughnuts and returning two values, if it’s less than 10, return the exact number and if it’s more than ten, say ‘many’. Pretty cool right?&lt;/p&gt;
+
+&lt;p&gt;One of the work projects that I have is building an automated reporting system for clients. The system that I’ve created is rudimentary and limited, but it’s a step in the right directions and lightyears beyond how I use to do things. With the help of an awesome intern, we built a script that pulls numbers and puts them into a spreadsheet. That spreadsheet uses a mail merge function to pull numbers into a prebuilt template that we can export to a client. This takes about 10 minutes instead of the old four hours.&lt;/p&gt;
+
+&lt;p&gt;The next step of course is a web based system where someone can log in and this could happen automatically. We skip the spreadsheet and word document and it’s printed out in a web interface. Automation for the win!&lt;/p&gt;
+
+&lt;p&gt;When I began looking for a system that could do this, I was immediately reminded of the python class that I was taking. It handles reusing apps easily and supports all of the functions that I need. For a visual example of this, check out the LA Times data desk app: &lt;a href=&quot;http://maps.latimes.com/neighborhoods/region/central-la/&quot;&gt;Mapping L.A.&lt;/a&gt; The charts on that page use the Google Charts API and are created automatically on the fly each time. For me, that means no more charts in excel or R. The population metrics are part of a template that are generated automatically as well. In the backend, I image their system looks like this: %s population in %d, according to the U.S. Census. Again, this part is automatically generated when the data is updated.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Example of a chart created with the Google Charts API: ![](http://chart.apis.google.com/chart?chs=350x275&amp;amp;cht=bvg&amp;amp;chbh=45,20,20&amp;amp;chm=N%2A0s%2A,000000,0,0,13,0,e::5&lt;/td&gt;
+      &lt;td&gt;N%2A0s%2A,000000,0,1,13,0,e::5&lt;/td&gt;
+      &lt;td&gt;N%2A0s%2A,000000,0,2,13,0,e::5&lt;/td&gt;
+      &lt;td&gt;N%2A0s%2A,000000,0,3,13,0,e::5&lt;/td&gt;
+      &lt;td&gt;N%2A0s%2A,000000,0,4,13,0,e::5&amp;amp;chds=0,146794.8&amp;amp;chco=adc9d6&lt;/td&gt;
+      &lt;td&gt;adc9d6&lt;/td&gt;
+      &lt;td&gt;adc9d6&lt;/td&gt;
+      &lt;td&gt;adc9d6&lt;/td&gt;
+      &lt;td&gt;adc9d6&amp;amp;chd=t:122329.0,90059.0,47566.0,51960.0,21255.0&amp;amp;chxt=x,y&amp;amp;chxl=0:&lt;/td&gt;
+      &lt;td&gt;20+or+less&lt;/td&gt;
+      &lt;td&gt;20-40&lt;/td&gt;
+      &lt;td&gt;40-60&lt;/td&gt;
+      &lt;td&gt;60-125&lt;/td&gt;
+      &lt;td&gt;125+and+up&amp;amp;chxs=1,ffffff,10,0,t,ffffff)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;By editing the url, we can also edit the chart. Example, change one of the bar numbers: &lt;img src=&quot;http://chart.apis.google.com/chart?chs=350x275&amp;amp;cht=bvg&amp;amp;chbh=45,20,20&amp;amp;chm=N%2A0s%2A,000000,0,0,13,0,e::5|N%2A0s%2A,000000,0,1,13,0,e::5|N%2A0s%2A,000000,0,2,13,0,e::5|N%2A0s%2A,000000,0,3,13,0,e::5|N%2A0s%2A,000000,0,4,13,0,e::5&amp;amp;chds=0,146794.8&amp;amp;chco=adc9d6|adc9d6|adc9d6|adc9d6|adc9d6&amp;amp;chd=t:122329.0,90059.0,47566.0,51960.0,500000.0&amp;amp;chxt=x,y&amp;amp;chxl=0:|20+or+less|20-40|40-60|60-125|125+and+up&amp;amp;chxs=1,ffffff,10,0,t,ffffff&quot; alt=&quot;&quot; /&gt;
+Prior to doing all of this, the old me would have thought these charts and numbers had to be created manually and inserted by hand. Imagine doing that 20 times per week. Who wouldn’t go crazy doing that?&lt;/p&gt;
+
+&lt;p&gt;Not only am I learning how to code, I’m also learning to think programmatically and learning how to solve problems in this manner. Coding helps you learn how to think.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/journalism/sidenote/learning-python/&quot;&gt;I hate snakes, but I&#39;m learning to like Python&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on July 27, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[I finally 'git' it!]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/sidenote/i-finally-git-it/" />
+  <id>http://chipoglesby.github.io/sidenote/i-finally-git-it</id>
+  <published>2014-07-20T11:39:04-06:00</published>
+  <updated>2014-07-20T11:39:04-06:00</updated>
+  <author>
+    <name></name>
+    <uri>http://chipoglesby.github.io</uri>
+    
+  </author>
+  <content type="html">
+    &lt;p&gt;I joined Github back in September of 2010. At the time, I was working at SCPC. I can’t remember why I actually signed up but it was probably to be able to say that I in fact have a Github account.&lt;/p&gt;
+
+&lt;p&gt;For those of you who don’t know, &lt;a href=&quot;http://git-scm.com/&quot;&gt;Git is defined&lt;/a&gt; as a: “distributed version control system designed to handle everything from small to very large projects with speed and efficiency.” &lt;/p&gt;
+
+&lt;p&gt;In laymen’s terms think about Git this way: It’s an online system where you can store files and it keeps track of all of the copies of your work. Your coworkers can make a copy of what you’re working on, make changes and send it back to you. If you decide that the changes are good, you can merge them together and you have a better working copy. Git also keeps track of every single change that goes through its systems. You can go back and undo your changes without losing any of your files.&lt;/p&gt;
+
+&lt;p&gt;It took me almost four years until I finally set down to begin using git and making it a part of my workflow. Git itself is a command line tool, there is no GUI (graphic user interface). There are web based versions of Git, two of the most popular being: Github and Bitbucket.&lt;/p&gt;
+
+&lt;p&gt;Learning how to use the command line tool was a bit of a challenge, but once you’ve been using it for about a month, it becomes more muscle memory. For a great introductory tutorial using the command line system, read &lt;a href=&quot;http://readwrite.com/2014/07/18/command-line-tutorial-intro&quot;&gt;Lauren Orsini’s article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.chipoglesby.com/wp-content/uploads/2014/07/git.png&quot; alt=&quot;Github&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The screenshot above is what it looks like when you’re working with git. Let me break down the steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;cd desktop. This tells the computer to change the directory to the desktop.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;mkdir new. This tells the the computer to make a new directory and call it new.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;git init. This tells the computer to set up a new initialization of a git repository or repo.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;git clone git@github.com:chipoglesby/RGA.git. This tells the computer to clone my RGA folder into this folder.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Of course, there are a few more steps to take before and after that, but those four steps will get you up and running. If you work alone like I do, Github can be a bit of an overkill, but it’s also a good piece of insurance in case anything happens to local copies of your work.&lt;/p&gt;
+
+&lt;p&gt;For a team environment, having a version control system is a must, there’s no way around it. if you’re interested Scott Chacon, a developer at Github, has an excellent post about their &lt;a href=&quot;http://scottchacon.com/2011/08/31/github-flow.html&quot;&gt;workflow at Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So why did it take me so long to get it?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Learning something new like git can be intimidating. I’m not a classic developer, I can only hack/use other people’s code right now. I’ve also always used the computer GUI and textedit so I’m very set it my ways.&lt;/p&gt;
+
+&lt;p&gt;Using Google Drive for the past &lt;a href=&quot;http://googlepress.blogspot.com/2006/10/google-announces-google-docs_11.html&quot;&gt;eight years&lt;/a&gt; gave me the confidence that you can store things like word documents online and have every change saved with the ability to roll back at any point.&lt;/p&gt;
+
+&lt;p&gt;It’s also hard for me to wrap my head around why I would want to use it as an individual. There are plenty of great projects on Github and if i wanted to use it, I would just download a zip file and try it out.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So what changed?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I made my first &lt;a href=&quot;https://github.com/chipoglesby/google-python-exercises&quot;&gt;init and my first push four days ago&lt;/a&gt;. I’ve been taking &lt;a href=&quot;https://class.coursera.org/datasci-002&quot;&gt;classes on Coursera&lt;/a&gt;. Part of the class involved knowing Python which is something I’ve always wanted to learn. I tested the waters in 2010, but quickly gave up. So I started the &lt;a href=&quot;https://developers.google.com/edu/python/exercises/basic&quot;&gt;Google Python Exercises&lt;/a&gt; tutorial and have now started taking a easy class for Python on Code Academy.  The Code Academy class has made learning Python much easier than other methods.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you work with computers and you have’t used git or github before and you work in a team environment, I highly recommend you check it out. There’s still so much more that I have to learn about the Git system before I could ever call myself “proficient” at it, but at least it’s a step in the right direction.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/i-finally-git-it/&quot;&gt;I finally &#39;git&#39; it!&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on July 20, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -141,116 +823,32 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
   
 
 <entry>
-  <title type="html"><![CDATA[Syntax Highlighting Post]]></title>
-  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/articles/code-highlighting-post/" />
-  <id>http://chipoglesby.github.io/articles/code-highlighting-post</id>
-  <published>2013-08-16T00:00:00-06:00</published>
-  <updated>2013-08-16T00:00:00-06:00</updated>
+  <title type="html"><![CDATA[You're a dad to someone]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/sidenote/fathers-day/" />
+  <id>http://chipoglesby.github.io/sidenote/fathers-day</id>
+  <published>2014-06-15T21:57:30-06:00</published>
+  <updated>2014-06-15T21:57:30-06:00</updated>
   <author>
-    <name>Chip Oglesby</name>
+    <name></name>
     <uri>http://chipoglesby.github.io</uri>
     
   </author>
   <content type="html">
-    &lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+    &lt;p&gt;Two years ago on Father’s Day, I was working alone at the Drew Wellness Center for &lt;a href=&quot;http://www.enduringfx.com/&quot;&gt;EnduringFX&lt;/a&gt;. I got into a conversation with someone and they asked me what I planned on doing with my children for Father’s Day. After explaining that I wasn’t a dad, they told me:&lt;/p&gt;
 
-&lt;h3 id=&quot;pygments-or-rouge-code-blocks&quot;&gt;Pygments or Rouge Code Blocks&lt;/h3&gt;
+&lt;blockquote&gt;You might not be a father, but you&#39;re a dad to someone.&lt;/blockquote&gt;
 
-&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_syntax.scss&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Even now, two years later, I still think about that quote. I wish I could remember who that person was or at least asked their name and written it down, because I never knew how much of an impact that would have on me.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.chipoglesby.com/2013/05/happy-birthday-dad/&quot;&gt;I lost my father&lt;/a&gt; shortly before I got married in 2013. It wasn’t as unexpected but it’s still sad when I think about it. My dad had been sick for the past 10 years, so I knew something bad would happen sooner or later.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;pagination&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navigation&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    {% if page.previous %}
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;btn&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ page.previous.title }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;btn&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ page.next.title }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    {% endif %}
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Sometimes it’s easy to forget that young children and teenagers around us are watching our every move and hanging on to our every word. It’s easy to forget that we should always carry ourselves highly and always be above reproach, but many times we fall short.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TagIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;index.html&amp;#39;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;_layouts&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;tag_index.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tag&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tag_title_prefix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Tagged: &amp;#39;&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tag_title_suffix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;amp;#8211;&amp;#39;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;title&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;description&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There have been many men in my life who were not my father, but they were a dad to me. Some of them are still with me and some have passed on, but each made a very big impact in my life.&lt;/p&gt;
 
-&lt;h3 id=&quot;standard-code-block&quot;&gt;Standard Code Block&lt;/h3&gt;
+&lt;p&gt;As we celebrate Father’s Day today, we need to remember not only to celebrate our own fathers but also those unsung heroes in our lives.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;fenced-code-blocks&quot;&gt;Fenced Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_coderay.scss&lt;/code&gt;. Line numbers and a few other things can be modified in &lt;code&gt;_config.yml&lt;/code&gt;. Consult &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Jekyll’s documentation&lt;/a&gt; for more information.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-ruby&quot;&gt;module Jekyll
-  class TagIndex &amp;lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = &#39;index.html&#39;
-      self.process(@name)
-      self.read_yaml(File.join(base, &#39;_layouts&#39;), &#39;tag_index.html&#39;)
-      self.data[&#39;tag&#39;] = tag
-      tag_title_prefix = site.config[&#39;tag_title_prefix&#39;] || &#39;Tagged: &#39;
-      tag_title_suffix = site.config[&#39;tag_title_suffix&#39;] || &#39;&amp;amp;#8211;&#39;
-      self.data[&#39;title&#39;] = &quot;#{tag_title_prefix}#{tag}&quot;
-      self.data[&#39;description&#39;] = &quot;An archive of posts tagged #{tag}.&quot;
-    end
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/articles/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on August 16, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/fathers-day/&quot;&gt;You&#39;re a dad to someone&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on June 15, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -258,20 +856,46 @@ end
   
 
 <entry>
-  <title type="html"><![CDATA[Sample Link Post]]></title>
-  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/articles/sample-link-post/" />
-  <id>http://chipoglesby.github.io/articles/sample-link-post</id>
-  <published>2013-08-12T00:00:00-06:00</published>
-  <updated>2013-08-12T00:00:00-06:00</updated>
+  <title type="html"><![CDATA[Bent Creek Experimental Forest]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/photojournalism/sidenote/bent-creek-experimental-forest/" />
+  <id>http://chipoglesby.github.io/photojournalism/sidenote/bent-creek-experimental-forest</id>
+  <published>2014-06-08T18:20:19-06:00</published>
+  <updated>2014-06-08T18:20:19-06:00</updated>
   <author>
-    <name>Chip Oglesby</name>
+    <name></name>
     <uri>http://chipoglesby.github.io</uri>
     
   </author>
   <content type="html">
-    &lt;p&gt;So Simple Theme now supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To activate just add &lt;code&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
+    &lt;p&gt;“&lt;em&gt;&lt;strong&gt;Show, Don’t tell!&lt;/strong&gt;&lt;/em&gt;” Back when I was working full time as a photojournalist this was a quote that was often thrown around in our A.P.A.D (A Photo A Day) group. &lt;a href=&quot;http://www.chipoglesby.com/wp-content/uploads/2014/06/IMG_20140607_121401.jpg&quot;&gt;&lt;img src=&quot;http://www.chipoglesby.com/wp-content/uploads/2014/06/IMG_20140607_121401-300x181.jpg&quot; alt=&quot;Bent Creek Experimental Forest&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/articles/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on August 12, 2013.&lt;/p&gt;
+&lt;p&gt;Lately though, I’ve been traveling less and less with my camera. Instead of always capturing photos, I’ve been training myself to enjoy things without the incessant need to document things with cameras or social media.&lt;/p&gt;
+
+&lt;p&gt;I’ve become more withdrawn from my social media presence because I find less value in the connections I use to have. Maybe it’s because things have changed or the 5 W’s of what I consume is different.&lt;/p&gt;
+
+&lt;p&gt;Recently we went on vacation in Charleston and this was the first time I’ve left my camera at home. I wanted to enjoy a sunrise walk on the beach with my wife without worrying about what f-stop to use. I wanted to sit on the beach with a book without getting notifications for email, Twitter, Facebook, Linkedin and whatever else. I have a Kindle, but you can only read one book at a time, so why do I need 35,000 books at my fingertips?&lt;/p&gt;
+
+&lt;p&gt;And you know what? It was really nice.&lt;/p&gt;
+
+&lt;p&gt;I think about Bent Creek a lot. Did you know that Bent Creek is nearly 6,000 acres within Pisgah National Forest? That’s huge! I would say that at least 50% of the people who go to Bent Creek go to ride their mountain bikes, but I really like walking along the same roads towards Lake Powhatan. It’s not a very long road but there are some nice areas to sit and reflect on life, something else that I’m trying to do more of lately.&lt;/p&gt;
+
+&lt;p&gt;Sometimes I think about Walden and what solitude in present day life looks like. Doing research today I found that the median home price in Asheville is around $350,000. This blows my mind. I think about what it would be like to be in an undiscovered area that know one knows about yet, that would be nice.&lt;/p&gt;
+
+&lt;p&gt;I’ll leave you with something that I jotted down on my recent trek into the experimental forest.&lt;/p&gt;
+
+&lt;blockquote&gt;The wind whispers secrets through the leaves to those who listen.
+
+Humidity doesn&#39;t hang over your head like a stifling blanket.
+
+The stream babbles through the rocks in a methodical tone.
+
+The birds serenade the trees, singing songs of praise.
+
+I always imagined that I would look down and find gold. What I didn&#39;t realize is that the gold was right in front of me.
+
+I know I am home.&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/photojournalism/sidenote/bent-creek-experimental-forest/&quot;&gt;Bent Creek Experimental Forest&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on June 08, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -279,303 +903,68 @@ end
   
 
 <entry>
-  <title type="html"><![CDATA[A Post with a Video]]></title>
-  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/articles/video-post/" />
-  <id>http://chipoglesby.github.io/articles/video-post</id>
-  <published>2013-06-25T00:00:00-06:00</published>
-  <updated>2013-06-25T00:00:00-06:00</updated>
+  <title type="html"><![CDATA[So long unregulated Internet access]]></title>
+  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/sidenote/so-long-internet/" />
+  <id>http://chipoglesby.github.io/sidenote/so-long-internet</id>
+  <published>2014-04-24T08:30:27-06:00</published>
+  <updated>2014-04-24T08:30:27-06:00</updated>
   <author>
-    <name>Chip Oglesby</name>
+    <name></name>
     <uri>http://chipoglesby.github.io</uri>
     
   </author>
   <content type="html">
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/pdSp4Y4GOQs&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+    &lt;p&gt;The &lt;a href=&quot;http://www.nytimes.com/2014/04/24/technology/fcc-new-net-neutrality-rules.html&quot;&gt;FCC announced late Wednesday&lt;/a&gt; afternoon that they have backtracked on their original ruling and will release a proposal for an Internet “fast lane” on Friday. In technology terms, this means the end of net neutrality.&lt;/p&gt;
 
-&lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;What is net neutrality? Think of it this way:&lt;/p&gt;
 
-&lt;p&gt;Not sure if this only effects Kramdown or if it’s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the &lt;code&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; tags and remove &lt;code&gt;allowfullscreen&lt;/code&gt;. Example below:&lt;/p&gt;
+&lt;blockquote&gt;&quot;Net neutrality advocates like to use the metaphor of cars on a highway, where cars represent internet traffic and the road represents the network. Left alone (read: neutral) any vehicle can zoom down whichever lane on the highway it wants without interference so long as the lane is open. But what if someone built fast lanes where only certain types of cars were allowed to travel? And what if someone toll booths along the road that already exists, just so that other cars had to pay extra to use the road? What if some cars were kicked off the road completely? This is what a world without net neutrality could look like. Tuesday&#39;s decision invites big telecom companies like Time Warner and Verizon, who originally brought the case against the FCC, to charge companies faster speeds that get passed on to the end-user. [Gizmodo](http://gizmodo.com/the-grim-future-of-a-world-without-net-neutrality-1501161513)&lt;/blockquote&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;560&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;315&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://www.youtube.com/embed/PWf4WUoMXwg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;0&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If that doesn’t sound bad, just think about it this way: “The proposed rules could increase costs for content companies like Netflix or Amazon, which would then have an incentive to pass on those costs to consumers as part of their subscription prices.” &lt;a href=&quot;https://www.facebook.com/nytimes/posts/10150403244229999&quot;&gt;The New York Times&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;And here’s a Vimeo embed for testing purposes.&lt;/p&gt;
+&lt;p&gt;Not only would sites like Facebook, Netflix and Amazon pass their cost on to you, Internet Service Providers will also be charging YOU more for access to these sites. This will play out in a tiered service where you’re charged more for more popular sites.&lt;/p&gt;
 
-&lt;iframe src=&quot;//player.vimeo.com/video/98146708?title=0&amp;amp;byline=0&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+&lt;p&gt;Not only that, but it could also prevent sites like mine or even my company’s website from even being accessed. I built my company on the grounds of everyone having free and equal access to the world’s information.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/articles/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on June 25, 2013.&lt;/p&gt;
-  </content>
-</entry>
+&lt;blockquote&gt;The FCC is letting us all down. - Gizmodo&lt;/blockquote&gt;
 
+&lt;p&gt;And this doesn’t bode well for people who are already upset with their ISP. Have you ever done a twitter search for people who are pissed at Time Warner, Comcast or Charter? Check it out: &lt;a href=&quot;https://twitter.com/search?q=I%20hate%20my%20internet%20provider&amp;amp;src=typd&quot;&gt;I hate my internet provider on Twitter&lt;/a&gt;&lt;/p&gt;
 
-  
+&lt;p&gt;&lt;strong&gt;So why does this happen?&lt;/strong&gt;&lt;/p&gt;
 
-<entry>
-  <title type="html"><![CDATA[Post with Large Feature Image and Text]]></title>
-  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/articles/readability-feature-post/" />
-  <id>http://chipoglesby.github.io/articles/readability-feature-post</id>
-  <updated>2013-06-30T00:00:00-00:00</updated>
-  <published>2013-05-23T00:00:00-06:00</published>
-  
-  <author>
-    <name>Chip Oglesby</name>
-    <uri>http://chipoglesby.github.io</uri>
-    
-  </author>
-  <content type="html">
-    &lt;p&gt;This is a sample post with a large feature image up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+&lt;p&gt;Start with the revolving door that exists between government and corporations:&lt;/p&gt;
 
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
+&lt;blockquote&gt;FCC commissioner Meredith Atwell Baker announced that she was leaving the commission to become the chief lobbyist for the newly merged Comcast/NBCUniversal. Only months before, Baker had voted to allow the historic and controversial merger between the cable company and the broadcast network, and though the 4-1 tally meant her vote had not provided the crucial margin, she was also on record complaining on multiple occasions that the FCC took too long to approve the deal. [New Republic via NPR, 2011](http://www.npr.org/2011/05/20/136492206/new-republic-the-fccs-revolving-door-is-shameless)&lt;/blockquote&gt;
 
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
+&lt;p&gt;AND from Open Secrets:&lt;/p&gt;
 
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s. &lt;/p&gt;
+&lt;blockquote&gt;But the revolving door doesn&#39;t just swing from the FCC to Comcast. Lobbyists also can head back to the public sector. That&#39;s been the case with David Krone. Krone has an extensive background with the telecommunications industry, holding leadership and lobbying positions with companies like AT&amp;amp;T, TCI Communications and the National Cable &amp;amp; Telecommunications Association. [The Comcast-FCC Revolving Door](http://www.opensecrets.org/news/2014/04/the-comcast-fcc-revolving-door.html)&lt;/blockquote&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie &lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage &lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;What does Tim think about all of this?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
+&lt;p&gt;Tim Beners-Lee the founder of the internet recently shared some great insight about what helped the web grow to what it is today:&lt;/p&gt;
 
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
+&lt;blockquote&gt;There are a few principles which allowed the web, as a platform, to support such growth. By design, the Web is universal, royalty-free, open and decentralised. Thousands of people worked together to build the early Web in an amazing, non-national spirit of collaboration; tens of thousands more invented the applications and services that make it so useful to us today, and there is still room for each one of us to create new things on and through the Web. This is for everyone. [The Web at 25](http://www.webat25.org/news/tbl-web25-welcome)&lt;/blockquote&gt;
 
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;So where does that leave us?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole. &lt;/p&gt;
+&lt;p&gt;That leaves us between a rock and a hard place.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Maybe the &lt;a href=&quot;http://en.wikipedia.org/wiki/Invisible_hand&quot;&gt;invisible hand&lt;/a&gt; of the free market will swoop in and save us all.&lt;/p&gt;
 
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
+&lt;p&gt;Maybe soon we’ll all be paying double what we already pay for substandard Internet access compared to the rest of the world.&lt;/p&gt;
 
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
+&lt;p&gt;Maybe we’re all already so addicted to the Internet that we’ll be willing to pony up whatever is needed to keep our daily “high”.&lt;/p&gt;
 
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
+&lt;p&gt;If this does pass, I see a lot of people waking up soon with worse Internet access and no clue what’s going on. The sad part is, there’s not a damn thing we can do about it.&lt;/p&gt;
 
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
+&lt;h2 id=&quot;section&quot;&gt;–&lt;/h2&gt;
 
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
+&lt;h2 id=&quot;addendum&quot;&gt;Addendum&lt;/h2&gt;
 
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
+&lt;p&gt;From 2007: &lt;a href=&quot;http://www.cnet.com/news/obama-pledges-net-neutrality-laws-if-elected-president/&quot;&gt;Obama pledges Net neutrality laws if elected president&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/articles/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on May 23, 2013.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[A Post with Images]]></title>
-  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/articles/sample-post-images/" />
-  <id>http://chipoglesby.github.io/articles/sample-post-images</id>
-  <published>2013-05-22T00:00:00-06:00</published>
-  <updated>2013-05-22T00:00:00-06:00</updated>
-  <author>
-    <name>Chip Oglesby</name>
-    <uri>http://chipoglesby.github.io</uri>
-    
-  </author>
-  <content type="html">
-    &lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code&gt;figure&lt;/code&gt; with the appropriate &lt;code&gt;class&lt;/code&gt;. Each instance of &lt;code&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
-
-&lt;h2 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h2&gt;
-
-&lt;h3 id=&quot;one-up&quot;&gt;One Up&lt;/h3&gt;
-
-&lt;figure&gt;
-	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;two-up&quot;&gt;Two Up&lt;/h3&gt;
-
-&lt;p&gt;Apply the &lt;code&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;half&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-1.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-2.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;
-	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;three-up&quot;&gt;Three Up&lt;/h3&gt;
-
-&lt;p&gt;Apply the &lt;code&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;third&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/1200x600.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/600x300.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/1200x600.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/600x300.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/1200x600.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/600x300.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/articles/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on May 22, 2013.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Sample Post]]></title>
-  <link rel="alternate" type="text/html" href="http://chipoglesby.github.io/articles/sample-post/" />
-  <id>http://chipoglesby.github.io/articles/sample-post</id>
-  <updated>2013-05-31T00:00:00-00:00</updated>
-  <published>2011-03-10T00:00:00-07:00</published>
-  
-  <author>
-    <name>Chip Oglesby</name>
-    <uri>http://chipoglesby.github.io</uri>
-    
-  </author>
-  <content type="html">
-    &lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-
-&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://chipoglesby.github.io/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;HTML and &lt;abbr title=&quot;cascading stylesheets&quot;&gt;CSS&lt;abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/abbr&gt;&lt;/abbr&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Item one
-    &lt;ol&gt;
-      &lt;li&gt;sub item one&lt;/li&gt;
-      &lt;li&gt;sub item two&lt;/li&gt;
-      &lt;li&gt;sub item three&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Item one&lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-  &lt;li&gt;Item three&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table class=&quot;table&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
-
-&lt;p&gt;Syntax highlighting via Pygments and Rouge&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Non Pygments/Rouge code example&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
-    &amp;lt;p&amp;gt;This is great isn&#39;t it?&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
-
-&lt;p&gt;Make any link standout more when applying the &lt;code&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
-
-&lt;div&gt;&lt;a href=&quot;http://mademistakes.com&quot; class=&quot;btn&quot;&gt;This is a button&lt;/a&gt;&lt;/div&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/articles/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on March 10, 2011.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/so-long-internet/&quot;&gt;So long unregulated Internet access&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on April 24, 2014.&lt;/p&gt;
   </content>
 </entry>
 

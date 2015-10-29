@@ -2,8 +2,7 @@
 author: chipoglesby
 comments: true
 date: 2015-06-03 05:46:06+00:00
-excerpt: YAY! My traffic has increased 50 bajillion percent over last month. Wait,
-  what do you mean 50% of it might be FAKE? NOOO!
+excerpt: YAY! My traffic has increased 50 bajillion percent over last month. Wait, what do you mean 50% of it might be FAKE? NOOO!
 layout: post
 slug: google-analytics-fake-traffic
 title: 'Google Analytics & ''Fake Traffic'': Garbage In, Garbage Out?'
