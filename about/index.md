@@ -1,21 +1,17 @@
 ---
 layout: page
 title: About Chip Oglesby
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+excerpt: "A little something about myself"
 modified: 2014-08-08T19:44:38.564948-04:00
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 Personal:
 
-I’m Chip Oglesby and I’m a small business owner and former award winning photojournalist. I’m orginally from Van Wyck, SC and I currently live in Asheville, NC with my amazing wife Michelle.
+I’m Chip Oglesby and I’m a small business owner and former award winning photojournalist. I’m orginally from Van Wyck, SC and I currently live in Fort Collins, Colorado with my amazing wife Michelle.
 
 I attended Mars Hill College and have lived a pretty amazing life so far. After college, I worked as a photojournalist and photo editor at two different newspapers. I’ve also worked with for profit and non-profit businesses as well.
 
-Currently I am a data analyst at Fastpivot in Asheville, N.C. We help businesses with their online advertising, reporting and help them make data driven decisions to increase their revenue.
+Currently I am the manager of online advertising and analytics at Group Publishing in Loveland, Colorado.
 
 I also run a small business called Creative Spark Columbia.
 
