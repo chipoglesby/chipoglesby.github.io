@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Chip Oglesby
+title: About
 excerpt: "A little something about myself"
 modified: 2014-08-08T19:44:38.564948-04:00
 ---
