@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">Chip's Github Playground</title>
+<title type="text">Chip Oglesby</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://chipoglesby.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://chipoglesby.github.io" />
-<updated>2015-10-29T14:46:24-06:00</updated>
+<updated>2015-10-29T14:55:45-06:00</updated>
 <id>http://chipoglesby.github.io/</id>
 <author>
   <name>Chip Oglesby</name>
@@ -33,7 +33,7 @@
 
 &lt;p&gt;Don’t worry though, I’ll be back soon with a new series of posts on something exciting (to me at least). Until then, enjoy this photo of Colorado!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/photography/photojournalism/dear-blog-and-readers-i-havent-forgotten-about-you/&quot;&gt;Dear blog and readers: I haven&#39;t forgotten about you&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on October 26, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/photography/photojournalism/dear-blog-and-readers-i-havent-forgotten-about-you/&quot;&gt;Dear blog and readers: I haven&#39;t forgotten about you&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on October 26, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -71,7 +71,7 @@ mathjax: true
 
 &lt;p&gt;The only thing to look out for is the escaping of the backslash when using markdown, so the delimiters become &lt;code&gt;\\[ ... \\]&lt;/code&gt; and &lt;code&gt;\\( ... \\)&lt;/code&gt; for inline and block maths respectively.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/blog/mathjax-example/&quot;&gt;MathJax Example&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/blog/mathjax-example/&quot;&gt;MathJax Example&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -124,7 +124,7 @@ mathjax: true
   &lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/managing-adwords/&quot;&gt;How to: Create an AdWords budget with Google Sheets&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on June 26, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/managing-adwords/&quot;&gt;How to: Create an AdWords budget with Google Sheets&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on June 26, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -172,7 +172,7 @@ After publishing a few recent articles, I decided to check my Google Analytics a
 
 &lt;p&gt;Right now this is not a problem. One day it very well could be a problem. It wouldn’t be hard to build a webscraper that pulls in the UA-ID and sets the hostname as your url. Once that happens, we’ll have a much more difficult time distinguishing real traffic from this ‘fake traffic’.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/google-analytics-fake-traffic/&quot;&gt;Google Analytics &amp; &#39;Fake Traffic&#39;: Garbage In, Garbage Out?&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on June 02, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/google-analytics-fake-traffic/&quot;&gt;Google Analytics &amp; &#39;Fake Traffic&#39;: Garbage In, Garbage Out?&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on June 02, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -196,7 +196,7 @@ After publishing a few recent articles, I decided to check my Google Analytics a
 &lt;p&gt;I’ve read a few articles on how reliable the translations are. Is anyone familiar with how accurate the translations are? If you’re proficient with English &amp;amp; Spanish and care to take a look, let me know your thoughts on if this actually works.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/translate-google-spreadsheets/&quot;&gt;How to: Translate Cells in Google Spreadsheets from English to Spanish (maybe!)&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on May 27, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/translate-google-spreadsheets/&quot;&gt;How to: Translate Cells in Google Spreadsheets from English to Spanish (maybe!)&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on May 27, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -221,7 +221,7 @@ After publishing a few recent articles, I decided to check my Google Analytics a
 
 &lt;p&gt;In laymen’s terms, this tells the script to pull the value of the previous cell. I’m sure there are much more elegant solutions, but this works for what I need. This script also assumes that you will be editing each cell manually by hand, ie: data entry. In the new version of Google Spreadsheets, this script wouldn’t be necessary. You can now do conditional formatting with formulas, so you could &lt;a href=&quot;http://www.chipoglesby.com/wp-content/uploads/2015/05/formatting.png&quot;&gt;create a statement like the photo attached&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/conditional-formatting/&quot;&gt;How to: Format cells in Google Spreadsheet based on a previous cells value&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on May 14, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/conditional-formatting/&quot;&gt;How to: Format cells in Google Spreadsheet based on a previous cells value&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on May 14, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -246,7 +246,7 @@ After publishing a few recent articles, I decided to check my Google Analytics a
 
 &lt;p&gt;You can erase the information in the Code.gs and replace it with the gist above. This app script code will do a few things. First, it will create a menu item that will allow you to click and automatically format your spreadsheet. It will also rename your spreadsheet columns to reflect the actual metric names in the Trueview columns of Adwords.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/formatting-with-app-scripts/&quot;&gt;Format Your Google Spreadsheet Using App Scripts&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on May 01, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/formatting-with-app-scripts/&quot;&gt;Format Your Google Spreadsheet Using App Scripts&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on May 01, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -279,7 +279,7 @@ After publishing a few recent articles, I decided to check my Google Analytics a
 
 &lt;p&gt;The other important piece that you’ll need to change is on line 84: return ‘where AssociatedCampaignName CONTAINS ABC_YOUTUBE AND Clicks &amp;gt; 1’. This actually tells the Adwords Script what the name of your Youtube Campaign Is. You’ll want to replace ABC_YOUTUBE with your own campaign name. In my current job we use a job order code, so the campaign name will always contain a certain set of characters so we don’t have to update the script each month. You might want to consider using something like “Youtube” in your campaign name so that it’s easier to find.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/youtube-adwords-api/&quot;&gt;How to pull Youtube Metrics from the Adwords API&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on April 30, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/adwords/youtube-adwords-api/&quot;&gt;How to pull Youtube Metrics from the Adwords API&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on April 30, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -426,7 +426,7 @@ You run a successful PPC campaign for your clients and you want to answer a simp
 
 &lt;p&gt;So, how do you tackle this? Do you do it the hard way or the harder way?&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/hard-vs-harder/&quot;&gt;Doing things the hard way vs the harder way&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on February 09, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/hard-vs-harder/&quot;&gt;Doing things the hard way vs the harder way&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on February 09, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -449,7 +449,7 @@ You run a successful PPC campaign for your clients and you want to answer a simp
 
 &lt;p&gt;These one of a kind prints are handmade and perfect for the home or office. Order yours by February 10th, and get a special surprise with your purchase!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/fine-art-by-michelle/&quot;&gt;Tell the one you love with Fine Art!&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on February 06, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/fine-art-by-michelle/&quot;&gt;Tell the one you love with Fine Art!&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on February 06, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -488,7 +488,7 @@ You run a successful PPC campaign for your clients and you want to answer a simp
 
 &lt;p&gt;Today was a sobering and somber reminder of what the immediacy of Twitter can be.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/journalism/breaking-news-twitter/&quot;&gt;When breaking news happens on Twitter&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on February 05, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/journalism/breaking-news-twitter/&quot;&gt;When breaking news happens on Twitter&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on February 05, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -521,7 +521,7 @@ You run a successful PPC campaign for your clients and you want to answer a simp
 
 &lt;p&gt;So, until next time….&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/on-blogging-less/&quot;&gt;This one simple reason why I haven&#39;t blogged lately may surprise you!&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on January 28, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/on-blogging-less/&quot;&gt;This one simple reason why I haven&#39;t blogged lately may surprise you!&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on January 28, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -558,7 +558,7 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/blog/hello-world/&quot;&gt;Hello World&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on August 08, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/blog/hello-world/&quot;&gt;Hello World&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on August 08, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -628,7 +628,7 @@ Fortunately there are a few great non-profits in the US that are trying to tackl
 
 &lt;p&gt;15 years ago, access to resources were limited. But now a lot of the barriers have been removed and the tools are there. We just need someone to step up and accept the challenge.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/journalism/kids-learn-to-type-code/&quot;&gt;My advice to kids: learn to type, then code&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on August 03, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/journalism/kids-learn-to-type-code/&quot;&gt;My advice to kids: learn to type, then code&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on August 03, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -697,7 +697,7 @@ Prior to doing all of this, the old me would have thought these charts and numbe
 
 &lt;p&gt;Not only am I learning how to code, I’m also learning to think programmatically and learning how to solve problems in this manner. Coding helps you learn how to think.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/journalism/sidenote/learning-python/&quot;&gt;I hate snakes, but I&#39;m learning to like Python&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on July 27, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/journalism/sidenote/learning-python/&quot;&gt;I hate snakes, but I&#39;m learning to like Python&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on July 27, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -765,7 +765,7 @@ Prior to doing all of this, the old me would have thought these charts and numbe
 
 &lt;p&gt;If you work with computers and you have’t used git or github before and you work in a team environment, I highly recommend you check it out. There’s still so much more that I have to learn about the Git system before I could ever call myself “proficient” at it, but at least it’s a step in the right direction.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/i-finally-git-it/&quot;&gt;I finally &#39;git&#39; it!&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on July 20, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/i-finally-git-it/&quot;&gt;I finally &#39;git&#39; it!&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on July 20, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -815,7 +815,7 @@ Prior to doing all of this, the old me would have thought these charts and numbe
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;billy_rick&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/articles/author-override/&quot;&gt;Override Author Byline Test Post&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on June 19, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/articles/author-override/&quot;&gt;Override Author Byline Test Post&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on June 19, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -848,7 +848,7 @@ Prior to doing all of this, the old me would have thought these charts and numbe
 
 &lt;p&gt;As we celebrate Father’s Day today, we need to remember not only to celebrate our own fathers but also those unsung heroes in our lives.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/fathers-day/&quot;&gt;You&#39;re a dad to someone&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on June 15, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/fathers-day/&quot;&gt;You&#39;re a dad to someone&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on June 15, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -895,7 +895,7 @@ I always imagined that I would look down and find gold. What I didn&#39;t realiz
 
 I know I am home.&lt;/blockquote&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/photojournalism/sidenote/bent-creek-experimental-forest/&quot;&gt;Bent Creek Experimental Forest&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on June 08, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/photojournalism/sidenote/bent-creek-experimental-forest/&quot;&gt;Bent Creek Experimental Forest&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on June 08, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -964,7 +964,7 @@ I know I am home.&lt;/blockquote&gt;
 
 &lt;p&gt;From 2007: &lt;a href=&quot;http://www.cnet.com/news/obama-pledges-net-neutrality-laws-if-elected-president/&quot;&gt;Obama pledges Net neutrality laws if elected president&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/so-long-internet/&quot;&gt;So long unregulated Internet access&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip's Github Playground&lt;/a&gt; on April 24, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://chipoglesby.github.io/sidenote/so-long-internet/&quot;&gt;So long unregulated Internet access&lt;/a&gt; was originally published by Chip Oglesby at &lt;a href=&quot;http://chipoglesby.github.io&quot;&gt;Chip Oglesby&lt;/a&gt; on April 24, 2014.&lt;/p&gt;
   </content>
 </entry>
 
