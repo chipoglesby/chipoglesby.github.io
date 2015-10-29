@@ -1,0 +1,13 @@
+---
+author: chipoglesby
+comments: true
+date: 2006-12-20 23:45:00+00:00
+layout: post
+slug: mary
+title: Mary
+wordpress_id: 113
+categories:
+- Photojournalism
+---
+
+she's pretty cool, if you get to meet her.[![](http://bp3.blogger.com/_GlcbreYSTwI/RYnLdKxECGI/AAAAAAAAAFE/i1-lfBogaoM/s400/mary.jpg)](http://bp3.blogger.com/_GlcbreYSTwI/RYnLdKxECGI/AAAAAAAAAFE/i1-lfBogaoM/s1600-h/mary.jpg)
