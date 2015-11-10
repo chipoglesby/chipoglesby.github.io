@@ -49,7 +49,7 @@ owner:
   weibo: #userid
   google:
     plus: chipoglesby
-    analytics:
+    analytics: UA-10870918-1
     verify:
     ad-client:
     ad-slot:
