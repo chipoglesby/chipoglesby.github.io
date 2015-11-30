@@ -175,7 +175,7 @@ categories:
 
 42. The most money I’ve ever spent in the bookstore at one time?
 
-    42. >$50
+    42. More than $50
 
 43. How often do you skim a book before reading it?
 
