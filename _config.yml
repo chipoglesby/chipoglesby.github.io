@@ -9,7 +9,7 @@ url: http://chipoglesby.github.io
 
 # Jekyll configuration
 
-permalink:   /:year/:month/:day/:/:title/
+permalink:   /:year/:month/:day/:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
