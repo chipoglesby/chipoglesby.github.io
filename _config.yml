@@ -9,7 +9,7 @@ url: http://chipoglesby.github.io
 
 # Jekyll configuration
 
-permalink:   /:date/:title/
+permalink:   /:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
@@ -35,18 +35,10 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Chip Oglesby
   avatar: bio-photo.jpg
-  #email: you@email.com
-  disqus-shortname:
   twitter: chipoglesby
-  facebook: #username
   github: chipoglesby
-  stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: chipoglesby
   instagram: chipoglesby
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
   google:
     plus: chipoglesby
     analytics: UA-10870918-1
