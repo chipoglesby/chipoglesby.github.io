@@ -9,7 +9,7 @@ url: http://chipoglesby.github.io
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   /:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
