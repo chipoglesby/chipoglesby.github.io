@@ -36,14 +36,6 @@ If you manage a large number of accounts, this will give you a top level view of
 
 
 You could extend this Google sheet in a few ways:
-
-
-
-
   * First you could write a Google AdWords script that automates pulling in your account spend for the month every hour.
-
-
   * You could also automate campaigns to automatically pause if the account reaches a certain threshold to prevent auto pays on a credit card.
-
-
   * You could also extend the spreadsheet further to automatically manage your campaign budgets, keyword bids and day-parting bids to better control your accounts.
