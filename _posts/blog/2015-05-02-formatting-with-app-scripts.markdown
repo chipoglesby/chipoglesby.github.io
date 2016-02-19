@@ -15,7 +15,7 @@ tags:
 
 In a follow up to yesterday's post about [how to pull Youtube Trueview metrics through the Adwords API](http://www.chipoglesby.com/2015/04/youtube-adwords-api/), this post will show you how to automatically format your spreadsheet for a more beautiful report.
 
-
+<script src="https://gist.github.com/chipoglesby/cb4b323e6194cb73df90.js"></script>
 
 This script will go in the Google Spreadsheet that you created yesterday in the Script Editor. You can access that by going to Tools > Script Editor. When you start Script Editor for the first time, you'll want to choose 'blank script' and give your project a name, something that will make sense to you in the future. You'll also need to authorize your script the first time.
 
