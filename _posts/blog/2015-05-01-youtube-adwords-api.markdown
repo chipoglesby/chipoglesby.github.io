@@ -24,7 +24,8 @@ The first thing that you'll notice is that the API will actually return the foll
 
 The script:
 
+<script src="https://gist.github.com/chipoglesby/5c1263d6ea2729adbc42.js"></script>
 
-In the script above, you'll want to add your own Google Spreadsheet URL in Google Drive so that you have a place to record all of your metrics. The script will currently create two tabs, one for this month and one for last month. If you want to change the name of the tabs, search and replace any mention of ABC123. 
+In the script above, you'll want to add your own Google Spreadsheet URL in Google Drive so that you have a place to record all of your metrics. The script will currently create two tabs, one for this month and one for last month. If you want to change the name of the tabs, search and replace any mention of ABC123.
 
 The other important piece that you'll need to change is on line 84: return 'where AssociatedCampaignName CONTAINS ABC_YOUTUBE AND Clicks > 1'. This actually tells the Adwords Script what the name of your Youtube Campaign Is. You'll want to replace ABC_YOUTUBE with your own campaign name. In my current job we use a job order code, so the campaign name will always contain a certain set of characters so we don't have to update the script each month. You might want to consider using something like "Youtube" in your campaign name so that it's easier to find.
