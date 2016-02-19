@@ -22,6 +22,4 @@ I also run a small business called [Creative Spark Columbia.](http://www.creativ
 
 **Full Disclosure:**
 
-All of the views and ideas on this blog are the sole property of Chip Oglesby and do not represent the ideas or interest of my current or future employers. All blog posts unless other wise noted are licensed under the [Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License.
-](http://creativecommons.org/licenses/by-nc-sa/3.0/us/)
-[](http://creativecommons.org/licenses/by-nc-sa/3.0/us/)
+All of the views and ideas on this blog are the sole property of Chip Oglesby and do not represent the ideas or interest of my current or future employers. All blog posts unless other wise noted are licensed under the [Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License.](http://creativecommons.org/licenses/by-nc-sa/3.0/us/)
