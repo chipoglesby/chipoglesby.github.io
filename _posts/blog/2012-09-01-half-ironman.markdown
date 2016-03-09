@@ -2,8 +2,7 @@
 author: chipoglesby
 comments: true
 date: 2012-09-01 03:11:55+00:00
-excerpt: Am I crazy? Today my friends and I signed up for Raleigh's Half Ironman on
-  June 2, 2013.
+excerpt: Am I crazy? Today my friends and I signed up for Raleigh's Half Ironman on June 2, 2013.
 layout: post
 slug: half-ironman
 title: My next big journey - it's time to get down to serious business
