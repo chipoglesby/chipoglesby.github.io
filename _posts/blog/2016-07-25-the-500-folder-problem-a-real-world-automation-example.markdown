@@ -37,6 +37,7 @@ Then you stop and think through all of the steps involved:
 You can now begin to build your bash shell script. You know that the majority of what you want to do will be in the form of for loops and if statements. For you, that means a line like:
 
 `for directory in *; do` - This accomplishes step 2.
+
 `if [ =~ \.txt$ ]; then` - This accomplishes part of step 6
 
 You finish writing your script, send your boss a link to the files. Their so happy that they let you have an early start to the weekend!
