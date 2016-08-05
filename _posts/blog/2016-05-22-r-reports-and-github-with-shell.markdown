@@ -2,10 +2,8 @@
 author: chipoglesby
 comments: true
 date: 2016-05-22 06:00:37+00:00
-excerpt: In this post, I'll share how I use a shell script to automate some of my
-  Github Flow work.
+excerpt: In this post, I'll share how I use a shell script to automate some of my Github Flow work.
 layout: post
-link: http://www.chipoglesby.com/2016/05/r-reports-and-github-with-shell/
 slug: r-reports-and-github-with-shell
 title: Automating reports in R and version control with a shell script
 wordpress_id: 28300
@@ -22,14 +20,8 @@ Until recently learning about [Github Flow](https://guides.github.com/introducti
 
 There are normally two main things that I push to my Github repo
 
-
-
- 	
   1. Commits that I make to my code for improvements and tweaking.
-
- 	
   2. Markdown based analysis reports that I knit together.
-
 
 I put much more thought into the first set of commits than I do for reports. When I'm making improvements or changes to my R code, I'll create a new working branch, commit changes, go to Github and painstakingly create a pull request for myself with the changes that I'm planning to make. It's kind of like planning to be on a team, but I'm really just working by myself.
 
@@ -56,5 +48,3 @@ My plans for next week are to build a system that uses [Github hooks to automati
 The shell script can also be set up on a cron job to run automatically, removing the need for me to intervene and if it's running on the cloud, my local machine doesn't have to be active for it to happen.
 
 What are your thoughts? How could this be improved?
-
-

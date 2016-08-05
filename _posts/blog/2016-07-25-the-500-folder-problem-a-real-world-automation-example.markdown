@@ -2,8 +2,7 @@
 author: chipoglesby
 comments: true
 date: 2016-07-25 00:34:15+00:00
-excerpt: You have a deadline driven task that needs to be done in one hour, but the
-  task takes 3-4 hours. What do you do?
+excerpt: You have a deadline driven task that needs to be done in one hour, but the task takes 3-4 hours. What do you do?
 layout: post
 slug: the-500-folder-problem-a-real-world-automation-example
 title: 'The 500 folder problem: A Real World Automation Example'
@@ -53,5 +52,5 @@ Here's a full example of this situation:
 
 If you're interested in learning bash or shell scripting, I recommend reading these two books:
 
-1. [bash Cookbook: Solutions and Examples for bash Users](https://www.amazon.com/bash-Cookbook-Solutions-Examples-Cookbooks/dp/0596526784) 
+1. [bash Cookbook: Solutions and Examples for bash Users](https://www.amazon.com/bash-Cookbook-Solutions-Examples-Cookbooks/dp/0596526784)
 2. [Classic Shell Scripting](https://www.amazon.com/Classic-Shell-Scripting-Arnold-Robbins/dp/0596005954/ref=pd_bxgy_14_img_3?ie=UTF8&psc=1&refRID=3Y1ZZ6NDAKH3XDA9G1C9)
