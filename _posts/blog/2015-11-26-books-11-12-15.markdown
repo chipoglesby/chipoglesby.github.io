@@ -13,24 +13,12 @@ tags:
 - books
 ---
 
-
-
-  1. [Probability for dummies](https://www.goodreads.com/book/show/746141.Probability_For_Dummies)
-
-
-  2. [Dave Ramsey's Complete Guide to Money: The Handbook of Financial Peace University](https://www.goodreads.com/book/show/12174298-dave-ramsey-s-complete-guide-to-money)
-
-
-  3. [An Introduction to Mathematical Reasoning](https://www.goodreads.com/book/show/1105215.An_Introduction_to_Mathematical_Reasoning)
-
-
-  4. [Data Science for Business: What you need to know about data mining and data-analytic thinking](https://www.goodreads.com/book/show/17912916-data-science-for-business)
-
-
-  5. [Numbersense: How to Use Big Data to Your Advantage](https://www.goodreads.com/book/show/17079661-numbersense)
-
-
-  6. [The Magic of Math: Solving for x and Figuring Out Why](https://www.goodreads.com/book/show/24612214-the-magic-of-math)
+1. [Probability for dummies](https://www.goodreads.com/book/show/746141.Probability_For_Dummies)
+2. [Dave Ramsey's Complete Guide to Money: The Handbook of Financial Peace University](https://www.goodreads.com/book/show/12174298-dave-ramsey-s-complete-guide-to-money)
+3. [An Introduction to Mathematical Reasoning](https://www.goodreads.com/book/show/1105215.An_Introduction_to_Mathematical_Reasoning)
+4. [Data Science for Business: What you need to know about data mining and data-analytic thinking](https://www.goodreads.com/book/show/17912916-data-science-for-business)
+5. [Numbersense: How to Use Big Data to Your Advantage](https://www.goodreads.com/book/show/17079661-numbersense)
+6. [The Magic of Math: Solving for x and Figuring Out Why](https://www.goodreads.com/book/show/24612214-the-magic-of-math)
 
 
 P.S.: I have a habit of reading multiple books at once. Does anyone else do this?
