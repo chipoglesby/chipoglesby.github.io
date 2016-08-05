@@ -4,7 +4,6 @@ comments: true
 date: 2016-08-14 13:00:45+00:00
 excerpt: Missing home? This comfort food sandwich will take you back to your childhood with a spin on a classic grilled cheese.
 layout: post
-link: http://www.chipoglesby.com/?p=28359
 published: false
 slug: pimento-grilled-cheese
 title: 'Dinner ideas: Palmetto Grilled Cheese Sandwiches with Bacon and Tomato'
@@ -25,6 +24,7 @@ One thing they do get the pleasure of enjoying is [Palmetto Cheese](http://www.p
 Just like my last post, a good grilled cheese is all about how you cook it!
 
 **Ingredients:**
+
   * Texas Toast
   * Palmetto Cheese, regular or jalapeno. Whatever you like.
   * One or two Roma tomatoes
@@ -32,6 +32,7 @@ Just like my last post, a good grilled cheese is all about how you cook it!
   * Unsalted Butter or whatever you have on hand
 
 **Tools:**
+
   * Cast Iron Skillet
   * Electric Griddle [like this one](http://www1.macys.com/shop/product/presto-07030-griddle-jumbo-cool-touch?ID=136866)
   * Flexible Metal Spatula
@@ -39,6 +40,7 @@ Just like my last post, a good grilled cheese is all about how you cook it!
   * Cutting Board
 
 **Directions:**
+
   1. Begin by turning on your electric griddle to 400 or as high as it will go, leave it alone while it warms up.
   2. In a cast iron skillet, cook your bacon on medium low (level four) on your stove. I like to cook my bacon “low and slow” to avoid burning it and smoking out the house. It also helps control splatter outside of the pan. Cook the bacon to your liking, remove and drain on a plate with a paper towel to remove excess grease from bacon. Turn oven off and sit skillet aside.
   3. Once the bacon is done, turn your attention to your grilled cheese. This is where the magic happens. Begin by taking a small amount of butter from the block and cutting it in half down the middle. You’ll use one dollop for each piece of bread. By now your griddle should be piping out. Add butter, moving it around the griddle with the knife until it’s almost completely melted. Take your Texas Toast and add it to the griddle. Cook your bread until it’s golden on the bottom, check it every few minutes.

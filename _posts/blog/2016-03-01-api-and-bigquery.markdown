@@ -2,10 +2,8 @@
 author: chipoglesby
 comments: true
 date: 2016-03-01 05:25:40+00:00
-excerpt: In this post, we'll look at how to use Google Apps Script to query an API,
-  parse the results and upload the information to BigQuery.
+excerpt: In this post, we'll look at how to use Google Apps Script to query an API, parse the results and upload the information to BigQuery.
 layout: post
-link: http://www.chipoglesby.com/2016/03/api-and-bigquery/
 slug: api-and-bigquery
 title: 'How to: Query an API and send the results to Google BigQuery with Apps Script'
 wordpress_id: 28288
@@ -32,22 +30,22 @@ If you decide to run this, here's what you'll need:
 
 
 
- 	
+
   1. Your own Google Cloud Project with the BigQuery API enabled
 
- 	
+
   2. You'll need billing enabled for your project
 
- 	
+
   3. You'll need to create your own table and set the schema prior to loading data. You can do that with [Apps Script](https://developers.google.com/apps-script/advanced/bigquery) as well.
 
- 	
+
   4. In your Apps Script project, you'll also need to enable the BigQuery API under Resources > Advanced Google Services.
 
- 	
+
   5. Follow the directions below and replace the 'xxx' with your own information.
 
- 	
+
   6. This script can be used to query other API's and you'll have to figure that our yourself.
 
 

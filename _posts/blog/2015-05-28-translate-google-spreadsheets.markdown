@@ -2,8 +2,7 @@
 author: chipoglesby
 comments: true
 date: 2015-05-28 04:37:54+00:00
-excerpt: This Google App Script for Spreadsheets will automatically convert words
-  and sentences from English to Spanish.
+excerpt: This Google App Script for Spreadsheets will automatically convert words and sentences from English to Spanish.
 layout: post
 slug: translate-google-spreadsheets
 title: 'How to: Translate Cells in Google Spreadsheets from English to Spanish (maybe!)'

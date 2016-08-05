@@ -2,8 +2,7 @@
 author: chipoglesby
 comments: true
 date: 2015-05-01 02:17:01+00:00
-excerpt: A quick and painless way to pull key Trueview metrics through the Adwords
-  API.
+excerpt: A quick and painless way to pull key Trueview metrics through the Adwords API.
 layout: post
 slug: youtube-adwords-api
 title: How to pull Youtube Metrics from the Adwords API

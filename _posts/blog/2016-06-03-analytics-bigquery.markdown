@@ -4,7 +4,6 @@ comments: true
 date: 2016-06-03 19:59:50+00:00
 excerpt: How I import Google Analytics data into BigQuery using Google Apps Script.
 layout: post
-link: http://www.chipoglesby.com/2016/06/analytics-bigquery/
 slug: analytics-bigquery
 title: How to send your Google Analytics data to BigQuery with Apps Script
 wordpress_id: 28306
@@ -27,43 +26,20 @@ The Github Gist below should serve as a starting point if you want to import you
 
 In this script, you'll need to set the following items for your own project:
 
-
-
- 	
   1. Project ID for Google Cloud
-
- 	
   2. Dataset ID for Google Cloud
-
- 	
   3. Table ID for Google Cloud
-
- 	
   4. Your Google Analytics ID which you will find under "View Settings." It will be called View ID and you should make sure that ga: is prepended to your ID.
-
 
 This script in particular is triggered to run every 24 hours and will only pull the information from the previous day. You can change your metrics and dimensions as needed to suit your own reporting needs. In the example I've provided, for an ecommerce site, this will give you a good start on most of your basic reporting needs. Sometimes you will run up against dimensions and metrics that cannot be queried together and for those instances, you'll have to write a different script.
 
 One thing you will notice is this line: 'date': responseData.rows[i][0].replace(/(^[0-9]{4})([0-9]{2})([0-9]{2})/g,"$1-$2-$3T00:00:00Z"), Google Analytics by default prints the date as "20160601" instead of an iso8601 timestamp option. This regex will reformat the date so that you can import it as a timestamp into BigQuery. It does set the time to 00:00:00, but for me that isn't as important.
 
-
-
 Once you've got your information into BigQuery, you can use [Mark Edmondson's BigQueryR package](https://github.com/MarkEdmondson1234/bigQueryR) to do your analysis in R.
 
 One thing worth mentioning is that you'll need the following items:
 
-
-
- 	
   1. A Google Analytics account that's receiving live data.
-
- 	
   2. A Google Drive account with Apps Script enabled.
-
- 	
   3. A Google Cloud Account with billing enabled and one active project.
-
- 	
   4. This script also assumes that you already have a dataset and table set up for your Google Analytics data. If not, you should either create one by hand or you'll need to write a GAS that creates the table for you and add it to the logic of your own script.
-
-

@@ -2,8 +2,7 @@
 author: chipoglesby
 comments: true
 date: 2016-02-13 19:04:42+00:00
-excerpt: The future relies on us to think programmatically and solve the worlds greatest
-  mysteries. The way that we teach math currently won't get us there.
+excerpt: The future relies on us to think programmatically and solve the worlds greatest mysteries. The way that we teach math currently won't get us there.
 layout: post
 link: http://www.chipoglesby.com/2016/02/we-hate-math/
 slug: we-hate-math
@@ -28,5 +27,3 @@ I was reminded about my own struggles with math as a child. I loved logic puzzle
 As I've written before, [kids need to learn how to type and then learn how to code](http://www.chipoglesby.com/2014/08/kids-learn-to-type-code/). There is so much more to learning to code than _actually learning to write code_. It teaches one to [think programmatically](http://www.chipoglesby.com/2015/02/hard-vs-harder/). For example, you have a list of 100 local businesses in a list and you need to know how many of the address are correct and if they are not, then update the list with the best possible address. How would you do that? That's thinking about things in a programmatic manner. Math is done the same way.
 
 Watch this video:
-
-

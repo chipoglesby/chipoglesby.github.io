@@ -4,7 +4,6 @@ comments: true
 date: 2016-05-24 13:00:47+00:00
 excerpt: The story about shutting up and building those damn boxes.
 layout: post
-link: http://www.chipoglesby.com/2016/05/i-love-automation/
 slug: i-love-automation
 title: How I became enamored with automation
 wordpress_id: 28303
