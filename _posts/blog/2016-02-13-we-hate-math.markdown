@@ -27,3 +27,5 @@ I was reminded about my own struggles with math as a child. I loved logic puzzle
 As I've written before, [kids need to learn how to type and then learn how to code](http://www.chipoglesby.com/2014/08/kids-learn-to-type-code/). There is so much more to learning to code than _actually learning to write code_. It teaches one to [think programmatically](http://www.chipoglesby.com/2015/02/hard-vs-harder/). For example, you have a list of 100 local businesses in a list and you need to know how many of the address are correct and if they are not, then update the list with the best possible address. How would you do that? That's thinking about things in a programmatic manner. Math is done the same way.
 
 Watch this video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/60OVlfAUPJg" frameborder="0" allowfullscreen></iframe>
