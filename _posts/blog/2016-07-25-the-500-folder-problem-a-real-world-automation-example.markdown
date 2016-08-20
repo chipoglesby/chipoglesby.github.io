@@ -22,6 +22,7 @@ Here's the scenario:
 Most people will start clicking with a fever pitch, trying to copy and paste each file by hand. But not you, you're smarter than that. You know from experience half of the files have to be processed one way, the other half have to be processed a different way. You know that each of the 500 directories all have the same four sub-directories (directory1, directory2, directory3, directory4). You think that each of the sub-directories will also have two directories (modified, original).
 
 Then you stop and think through all of the steps involved:
+
   1. Open your first directory containing all of your other 500 directories
   2. Open your first of 500 directories
   3. Open your first of four directories: directory1

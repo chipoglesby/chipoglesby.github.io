@@ -4,7 +4,7 @@ comments: true
 date: 2016-08-14 13:00:45+00:00
 excerpt: Missing home? This comfort food sandwich will take you back to your childhood with a spin on a classic grilled cheese.
 layout: post
-published: false
+published: true
 slug: pimento-grilled-cheese
 title: 'Dinner ideas: Palmetto Grilled Cheese Sandwiches with Bacon and Tomato'
 wordpress_id: 28359
