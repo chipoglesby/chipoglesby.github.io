@@ -4,7 +4,7 @@ comments: true
 date: 2016-08-07 13:00:12+00:00
 excerpt: A legitimately amazing grilled cheese sandwich.
 layout: post
-published: false
+published: true
 slug: grilled-cheese-nutella-brie
 title: 'Dinner ideas: Gourmet Grilled Cheese with Nutella, Brie & Bacon'
 wordpress_id: 28354
