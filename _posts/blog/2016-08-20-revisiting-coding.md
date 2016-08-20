@@ -1,6 +1,6 @@
 ---
 author: chipoglesby
-date: 2016-08-16 00:00:00
+date: 2016-08-20 00:00:00
 excerpt: Programming a computer is the by-product of learning how to code. Let's look at what it really teaches us.
 layout: post
 published: true
