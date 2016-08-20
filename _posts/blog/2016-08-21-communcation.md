@@ -10,6 +10,7 @@ categories:
 - Coding
 tags:
 - learning
+- BigQuery
 ---
 
 I am by no means a master at the majority of the work that I do. Each day I strive to learn something new from  books or blog posts or stackoverflow or even on Twitter.
