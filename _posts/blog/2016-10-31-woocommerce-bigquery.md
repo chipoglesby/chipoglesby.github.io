@@ -3,8 +3,6 @@ author: chipoglesby
 date: 2016-10-31 00:00:00
 excerpt: A simple tutorial to use a shell script to upload data from a Woocommerce API and push it to Google Bigquery.
 layout: post
-2016-10-31woocommerce-bigquery.md
-
 published: true
 slug: woocommerce-bigquery
 title: 'Upload Your Woocommerce data to Google BigQuery with a Shell Script'
