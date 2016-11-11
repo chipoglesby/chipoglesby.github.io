@@ -1,8 +1,7 @@
 ---
 author: chipoglesby
 date: 2016-11-11 09:30:00
-excerpt: A simple shell script that uploads data from Shopify's API into Google
-BigQuery
+excerpt: A simple shell script that uploads data from Shopify's API into Google BigQuery
 layout: post
 published: true
 slug: shopify-bigquery
