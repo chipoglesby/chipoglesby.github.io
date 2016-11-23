@@ -20,7 +20,7 @@ tags:
 
 On September 26, 2012, I went to USC School of Public Health to be tested for my V02 max. [Wikipedia defines V02 max as](http://en.wikipedia.org/wiki/VO2_max):
 
-![](http://www.chipoglesby.com/wp-content/uploads/2012/10/vo2-202x300.jpeg)
+![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/10/vo2-202x300.jpeg)
 
 
 <blockquote>**VO2 max** (also **maximal oxygen consumption**, **maximal oxygen uptake**, **peak oxygen uptake** or **maximal aerobic capacity**) is the maximum capacity of an individual's body to transport and use oxygen during [incremental exercise](http://en.wikipedia.org/wiki/Incremental_exercise), which reflects the [physical fitness](http://en.wikipedia.org/wiki/Physical_fitness) of the individual. The name is derived from V - [volume](http://en.wikipedia.org/wiki/Volume), O2 - [oxygen](http://en.wikipedia.org/wiki/Oxygen), max - maximum.</blockquote>

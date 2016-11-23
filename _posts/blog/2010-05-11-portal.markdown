@@ -26,7 +26,7 @@ There, doesn't that feel better? When newspaper CEO's look to cut costs, they lo
 When your news site publishes AP feeds for example, you're not only wasting money, you're also helping to fragment the web. 
 
 Take for example the recent Associated Press headline ["Some oil spill events from Tuesday, May 11, 2010." This query in Google returns over 3,000 versions of the same story](http://www.google.com/#hl=en&source=hp&q=%22Some+oil+spill+events+from+Tuesday%2C+May+11%2C+2010%22&btnG=Google+Search&aq=f&aqi=&aql=&oq=%22Some+oil+spill+events+from+Tuesday%2C+May+11%2C+2010%22&gs_rfai=&fp=56fa4ceda65d5bbf). Do we really need that many copies of one single story floating around the internet?
-![screengrab from google.com](http://www.chipoglesby.com/wp-content/uploads/2010/05/googleoil.jpg)
+![screengrab from google.com](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2010/05/googleoil.jpg)
 
 Jeff Jarvis has a great idea known as the [link economy](http://www.guardian.co.uk/media/2008/jun/30/digitalmedia). His basic thesis: Do what you do best, link to the rest.
 
@@ -43,7 +43,7 @@ If it's better to link to a story, why run AP feeds at all? Most of the time, AP
 
 Newspapers have always bundled news into their products. It's a low cost, low value alternative to actually producing original news. Prior to the internet, Editors have made a living deciding what news is most relevant to readers. Most ed's considered their "news judgment" superior to readers judgment.  
 
-**Step one:** Educate readers on how to consume news electronically. Show them how to use and subscribe to your RSS feeds. Show them how to collect different RSS feeds from around the internet. Show them free tools like Google Reader.![What we're reading with Publish2](http://www.chipoglesby.com/wp-content/uploads/2010/05/publish2.jpg)
+**Step one:** Educate readers on how to consume news electronically. Show them how to use and subscribe to your RSS feeds. Show them how to collect different RSS feeds from around the internet. Show them free tools like Google Reader.![What we're reading with Publish2](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2010/05/publish2.jpg)
 
 **Step two:** Create an [OPML file of RSS feeds](http://en.wikipedia.org/wiki/OPML) for them to get started with. Include feeds from the New York Times, Washington Post and other large daily newspapers from around the U.S. Include various types of feeds like news, business and sports.
 

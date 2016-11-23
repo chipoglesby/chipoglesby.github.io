@@ -16,7 +16,7 @@ tags:
 - exercise
 ---
 
-[![](http://www.chipoglesby.com/wp-content/uploads/2011/12/wood1-150x150.jpg)](http://www.chipoglesby.com/wp-content/uploads/2011/12/wood1.jpg)
+[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2011/12/wood1-150x150.jpg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2011/12/wood1.jpg)
 If you're like me, you may not always have access to a gym. So what are some exercises you can do around the house?
 
 If you live in the country and have some old logs laying around, one of the best full body exercises is to go buy an axe and chop some wood!

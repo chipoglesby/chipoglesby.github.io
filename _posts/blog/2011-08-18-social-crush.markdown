@@ -15,7 +15,7 @@ tags:
 - social media
 ---
 
-![](http://www.chipoglesby.com/wp-content/uploads/2011/08/2011-08-17-15.59.53.jpg)
+![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2011/08/2011-08-17-15.59.53.jpg)
 
 This post will be short, sweet and to the point. [Social Crush](http://socialcrush.com) was a very intense two day hands-on social media conference for Columbia, SC.
 

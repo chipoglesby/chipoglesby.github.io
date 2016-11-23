@@ -20,4 +20,4 @@ It's peak season for leaves here in Asheville.
 Here's a photo from my iPhone until I download all of my other photos
 
 
-[![](http://www.chipoglesby.com/wp-content/uploads/2009/10/l_1600_1200_22D23487-352F-4CAE-A705-231C88D154EC.jpeg)](http://www.chipoglesby.com/wp-content/uploads/2009/10/l_1600_1200_22D23487-352F-4CAE-A705-231C88D154EC.jpeg)
+[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2009/10/l_1600_1200_22D23487-352F-4CAE-A705-231C88D154EC.jpeg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2009/10/l_1600_1200_22D23487-352F-4CAE-A705-231C88D154EC.jpeg)

@@ -27,7 +27,7 @@ tags:
 ## The swim:
 
 
-[![](http://www.chipoglesby.com/wp-content/uploads/2012/08/swim-300x225.jpeg)](http://www.chipoglesby.com/wp-content/uploads/2012/08/swim.jpeg)As I scan the warm water of Lake Lure, I’m looking for the yellow buoy that marks the halfway point of the 750 meter swim. “What have I gotten myself into?” I think as the first wave of triathletes take to the water. The person who [finished first](http://blogs2.citizen-times.com/outdoors/2012/08/26/hayball-hayes-win-lake-lure-triathlon/), completed the swim 20 minutes quicker than I did. That’s no problem, I’ve got this.
+[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/swim-300x225.jpeg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/swim.jpeg)As I scan the warm water of Lake Lure, I’m looking for the yellow buoy that marks the halfway point of the 750 meter swim. “What have I gotten myself into?” I think as the first wave of triathletes take to the water. The person who [finished first](http://blogs2.citizen-times.com/outdoors/2012/08/26/hayball-hayes-win-lake-lure-triathlon/), completed the swim 20 minutes quicker than I did. That’s no problem, I’ve got this.
 
 I trod off slowly into the water to give the other people in front of me a head start. I don’t want them to kick me in the head and I’m not really interested in competing with the other people in the 5th wave which I am a part of. By now, most of the other racers have gone ahead of us, so the water is pretty open. I slowly feel the smooth sand give way and disappear beneath me. “This isn’t going to be like swimming at the YMCA” I realize.
 
@@ -49,7 +49,7 @@ I finally enter the harbor and I can hear Michelle, my mom and my friend Joe che
 
 Columbia doesn’t have the steep ascents that Lake Lure does, so I thought the hills might be a challenge.  I make my way out of the resort and hook a right to begin my journey on a 13.8 mile bike ride through the beautiful countryside of Lake Lure. Within the first 20 minutes someone finally passes me, but that’s no big deal, now I have someone to chase after. After realizing that I might not catch her, I settle back into my pace and keep on hammering on the pedals.
 
-![](http://www.chipoglesby.com/wp-content/uploads/2012/08/bike-300x268.jpeg)
+![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/bike-300x268.jpeg)
 
 Speaking of pedals, let me tell you how awesome my setup for the bike was. I’m on a [Trek 7.1FX bike](http://www.trekbikes.com/us/en/bikes/town/fitness/fx/7_1_fx/), a hybrid, with no clipless pedals, no special shoes, no special shorts meaning no padding and no aerodynamic “[teardrop looking](http://www.buy.com/prod/giro-advantage-2-triathlon-helmet-matte-black-white-l/230021505.html?listingId=209879953)” helmet. That’s right, I’m keeping this puppy old school!
 
@@ -65,7 +65,7 @@ When I get into the transition area my chip starts beeping. Another participant 
 
 By this point a fair number of people have finished the entire triathlon and I’m beginning my run. Once they realize what I’m doing, everyone and I mean everyone in the transition area stops what they’re doing and starts clapping, applauding and screaming for me! “Go 49!” “Don’t give up! You can do it!” Busted! Now that they’re cheering, I can stop to tie my shoe, I’ll look like a fool! I wave my hands, smile real big and thank them and I’m off running. After a quick word of encouragement and a kiss from my fiancee I’m off on a slow uphill run.
 
-I made a point to encourage everyone that I passed by telling them that they were doing great. It was amazing to see so many different people out competing in this event.[![](http://www.chipoglesby.com/wp-content/uploads/2012/08/run-198x300.jpeg)](http://www.chipoglesby.com/wp-content/uploads/2012/08/run.jpeg)
+I made a point to encourage everyone that I passed by telling them that they were doing great. It was amazing to see so many different people out competing in this event.[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/run-198x300.jpeg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/run.jpeg)
 
 Now my entire body is sore. My calves ache and I and digging deep within my soul to finish strong. It would be so easy to stop. So easy to walk, but I find strength within that I thought I never had and I power through. The words of encouragement from other athletes keep coming and it keeps raising my spirits higher and higher. It doesn’t matter if I finish dead last, I’m still going to do it.
 
@@ -73,7 +73,7 @@ It’s officially a mind game. The mind always quits before the body does. It’
 
 I make my way down to the beach where I have to literally bat people out of the way who are waiting for an open water swim. Just like the old football days, move or get knocked over. Sorry if you got an elbow but you heard them scream “make a path! MAKE A PATH!”
 
-2 hours, 54 minutes and 48 seconds after starting the biggest challenge of my life, I crossed the finish line. I was greeted by my friends and family, surrounded by the most important people in my life, I couldn’t ask for anything better. I began the race as Chip Oglesby, but I crossed the finish line as a new man, Chip 2.0 if you will.[![](http://www.chipoglesby.com/wp-content/uploads/2012/08/finish.jpeg)](http://www.chipoglesby.com/wp-content/uploads/2012/08/finish.jpeg)
+2 hours, 54 minutes and 48 seconds after starting the biggest challenge of my life, I crossed the finish line. I was greeted by my friends and family, surrounded by the most important people in my life, I couldn’t ask for anything better. I began the race as Chip Oglesby, but I crossed the finish line as a new man, Chip 2.0 if you will.[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/finish.jpeg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/finish.jpeg)
 
 
 ## Final thoughts:
@@ -85,9 +85,9 @@ I make my way down to the beach where I have to literally bat people out of the 
 
 
 Every triathlon means something different to everyone. For some, it’s about the challenge. For others it’s about the competition. For me though, it was about the determination to see something through. To show myself that I have the mental and physical capacity to see something through. Going from a lethargic 400 pound man who did almost no physical activity to swimming, biking and running every single day for one full year showed the world that I have arrived.[
-![](http://www.chipoglesby.com/wp-content/uploads/2012/08/family-300x225.jpeg)](http://www.chipoglesby.com/wp-content/uploads/2012/08/family.jpeg)
+![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/family-300x225.jpeg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/family.jpeg)
 
 I could not have done this without all of the wonderful support of my family and my fiancee Michelle who is my biggest cheerleader/coach/assistant and number one superfan. I always owe a huge thanks to my brothers Joe Bland, Matt Thein and Brian Dawson at [Raleigh Coffee Company](http://www.raleighcoffeecompany.com) who helped sponsor me and provided me with a jersey, constant encouragement and so much more.[
-](http://www.chipoglesby.com/wp-content/uploads/2012/08/family.jpeg)
+](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/family.jpeg)
 
 I also owe a huge debt of gratitude to all fans of [#teamchip](https://www.facebook.com/chip2point0). Without your likes and comments and words of encouragement, I would have given up a long time ago. Knowing that I’ve inspired at least one person to change their life has been worth every minute of it. Thank you all so much for everything.

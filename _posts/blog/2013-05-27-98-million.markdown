@@ -13,7 +13,7 @@ tags:
 - movies
 ---
 
-[![](http://www.chipoglesby.com/wp-content/uploads/2013/05/Moviegoers.jpg)](http://www.chipoglesby.com/wp-content/uploads/2013/05/Moviegoers.jpg)What could we do with[ $98,000,000 (98 million) and 2,205,000 hours](http://boxofficemojo.com/weekend/chart/)?
+[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2013/05/Moviegoers.jpg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2013/05/Moviegoers.jpg)What could we do with[ $98,000,000 (98 million) and 2,205,000 hours](http://boxofficemojo.com/weekend/chart/)?
 
 This weekend’s box office smash, Fast and Furious 6 netted 98 million in sales. Our tickets to a different movie this weekend cost $10. So we can estimate that about 980,000 people went to see this movie. The move is about 135 minutes (with end credits) so collectively, we watched about 2 million hours worth of movies. That's just for one movie. The Hangover Part III netted $42 million (which we saw and cost us $31.50) while the new Star Trek gained an additional $38 million dollars.
 

@@ -15,7 +15,7 @@ tags:
 - grilled cheese
 ---
 
-![Nutella, Brie & Bacon Grilled Cheese](http://www.chipoglesby.com/wp-content/uploads/2016/07/brie-1.jpg)
+![Nutella, Brie & Bacon Grilled Cheese](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2016/07/brie-1.jpg)
 
 Okay, this grilled cheese sandwich is legitimately amazing. You can make it with Brie or with a good triple cream. I told the cheese monger at my local supermarket what I was making and they suggested a brie that didn't have a super "mushroomy" taste to it and I thought it turned out great.
 

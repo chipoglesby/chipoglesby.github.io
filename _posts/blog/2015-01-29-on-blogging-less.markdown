@@ -15,7 +15,7 @@ tags:
 - statistics
 ---
 
-Seriously, who doesn't love a good clickbait headline? So I don't have 394,000,000 reason why I![shock](http://www.chipoglesby.com/wp-content/uploads/2015/01/shock-300x251.png) haven't blogged in a very long time; I just have one: Life has become so crazy and busy!
+Seriously, who doesn't love a good clickbait headline? So I don't have 394,000,000 reason why I![shock](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2015/01/shock-300x251.png) haven't blogged in a very long time; I just have one: Life has become so crazy and busy!
 
 The truth of the matter is, back in August around the time of my last post, I was teaching myself python so that I could pass a data science class on Coursera.
 
