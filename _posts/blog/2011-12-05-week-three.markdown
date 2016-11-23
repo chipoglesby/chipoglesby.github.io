@@ -10,7 +10,7 @@ title: Week three spin and swim recap
 wordpress_id: 28048
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - bike
 - Mary

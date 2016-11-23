@@ -9,7 +9,7 @@ title: What leg muscles do you use when biking?
 wordpress_id: 28049
 categories:
 - fitspiration
-- Weightloss Journey
+- weightloss
 tags:
 - graph
 - leg muscles

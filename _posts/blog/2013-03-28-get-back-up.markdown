@@ -10,7 +10,7 @@ title: When you fall off of the bandwagon, you get back on
 wordpress_id: 28075
 categories:
 - personal
-- Weightloss Journey
+- weightloss
 tags:
 - weight loss
 ---

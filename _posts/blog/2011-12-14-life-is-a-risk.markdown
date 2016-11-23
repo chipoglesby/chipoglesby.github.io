@@ -9,7 +9,7 @@ title: life is all about risk. What risks are you taking?
 wordpress_id: 28056
 categories:
 - personal
-- Weightloss Journey
+- weightloss
 tags:
 - risk
 ---

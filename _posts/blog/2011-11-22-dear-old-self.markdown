@@ -11,7 +11,7 @@ wordpress_id: 28042
 categories:
 - personal
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - breaking up
 - food

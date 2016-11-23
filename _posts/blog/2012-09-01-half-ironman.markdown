@@ -9,7 +9,7 @@ title: My next big journey - it's time to get down to serious business
 wordpress_id: 28068
 categories:
 - training
-- Weightloss Journey
+- weightloss
 ---
 
 <blockquote>As iron sharpens iron, so one man sharpens another. Proverbs 27:17</blockquote>

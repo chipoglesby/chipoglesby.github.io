@@ -12,7 +12,7 @@ title: 'This weeks meal: Dang Quesadillas!'
 wordpress_id: 28062
 categories:
 - meals
-- Weightloss Journey
+- weightloss
 tags:
 - chicken
 ---

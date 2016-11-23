@@ -10,7 +10,7 @@ title: The test results are in and not what I expected
 wordpress_id: 28073
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - breathing
 - training

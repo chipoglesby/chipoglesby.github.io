@@ -9,7 +9,7 @@ title: I've stopped running with headphones
 wordpress_id: 28071
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - running
 ---

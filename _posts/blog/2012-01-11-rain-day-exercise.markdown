@@ -10,7 +10,7 @@ title: Ugh, What exercises can you do when it's raining?
 wordpress_id: 28061
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - indoor exercise
 - running

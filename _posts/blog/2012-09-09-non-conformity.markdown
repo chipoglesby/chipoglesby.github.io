@@ -14,7 +14,7 @@ title: 'Update: No, I don''t want to be like everyone else, here''s why'
 wordpress_id: 28070
 categories:
 - fitspiration
-- Weightloss Journey
+- weightloss
 tags:
 - inspiration
 ---

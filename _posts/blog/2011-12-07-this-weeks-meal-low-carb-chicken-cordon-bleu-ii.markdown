@@ -9,7 +9,7 @@ title: 'This weeks meal: low carb chicken cordon bleu'
 wordpress_id: 28055
 categories:
 - meals
-- Weightloss Journey
+- weightloss
 tags:
 - chicken
 ---
