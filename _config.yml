@@ -5,7 +5,7 @@ locale: en_US
 description: An online portfolio and notebook about the 'things' I think are interesting.
 logo: site-logo.png
 search: true
-url: https://chipoglesby.github.io
+url: dev.chipoglesby.com
 
 # Jekyll configuration
 
