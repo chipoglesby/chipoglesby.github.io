@@ -10,7 +10,7 @@ title: It doesn't matter if you're a fast runner or not
 wordpress_id: 124
 categories:
 - fitspiration
-- Weightloss Journey
+- weightloss
 tags:
 - running
 ---

@@ -9,7 +9,7 @@ title: This morning's cold commute to work
 wordpress_id: 28040
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - cold weather
 - cycling

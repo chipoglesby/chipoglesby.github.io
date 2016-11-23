@@ -10,7 +10,7 @@ title: 'No gym needed exercises: Chopping wood'
 wordpress_id: 28059
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - chopping wood
 - exercise

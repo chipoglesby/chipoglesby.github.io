@@ -11,7 +11,7 @@ wordpress_id: 28067
 categories:
 - personal
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - biking
 - running

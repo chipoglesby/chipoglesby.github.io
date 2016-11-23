@@ -9,7 +9,7 @@ title: 'Countdown: 9 days until the triathlon'
 wordpress_id: 28066
 categories:
 - personal
-- Weightloss Journey
+- weightloss
 ---
 
 [caption id="attachment_167" align="alignright" width="300"][![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/578893_371716036235149_501534535_n.jpeg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/578893_371716036235149_501534535_n.jpeg) Chip Oglesby. Photo by Jeff Blake.[/caption]

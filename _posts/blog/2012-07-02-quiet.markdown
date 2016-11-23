@@ -14,7 +14,7 @@ title: This blog might be quiet, but I'm still training!
 wordpress_id: 28065
 categories:
 - training
-- Weightloss Journey
+- weightloss
 ---
 
 Yes, that's right. I'm still here and I'm still working out everyday. Recently I've begun to get up at 4:30 am and go running six miles in the morning before work. I don't always want to, but I force myself to get out of bed and go do it anyways.

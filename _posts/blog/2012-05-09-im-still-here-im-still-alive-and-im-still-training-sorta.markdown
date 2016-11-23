@@ -10,7 +10,7 @@ title: I'm still here! I'm still alive and I'm still training, sorta
 wordpress_id: 28064
 categories:
 - personal
-- Weightloss Journey
+- weightloss
 tags:
 - weight loss
 ---

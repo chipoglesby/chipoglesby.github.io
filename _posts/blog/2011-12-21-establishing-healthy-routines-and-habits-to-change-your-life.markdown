@@ -10,7 +10,7 @@ title: Establishing healthy routines and habits to change your life
 wordpress_id: 28057
 categories:
 - personal
-- Weightloss Journey
+- weightloss
 tags:
 - bad habits
 - habits

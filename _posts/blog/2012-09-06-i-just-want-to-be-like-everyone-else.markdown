@@ -11,7 +11,7 @@ title: I just want to be like everyone else
 wordpress_id: 28069
 categories:
 - personal
-- Weightloss Journey
+- weightloss
 tags:
 - weight loss
 ---

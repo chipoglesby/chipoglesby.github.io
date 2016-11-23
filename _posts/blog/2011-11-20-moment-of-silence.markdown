@@ -9,7 +9,7 @@ title: Let's pause for a moment of silence shall we?
 wordpress_id: 28043
 categories:
 - fitspiration
-- Weightloss Journey
+- weightloss
 tags:
 - bike
 ---

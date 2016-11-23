@@ -9,7 +9,7 @@ title: 34 weeks and counting until Raleigh
 wordpress_id: 28072
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - '70.3'
 - Raleigh
