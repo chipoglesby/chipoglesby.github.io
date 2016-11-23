@@ -18,7 +18,7 @@ tags:
 - video
 ---
 
-On July 14th, I posed a simple question on twitter: [Why not use bit.ly links in the newspaper?](http://twitter.com/cophotog/status/2640813609)![twitter](http://www.chipoglesby.com/wp-content/uploads/2009/08/bitly.png)
+On July 14th, I posed a simple question on twitter: [Why not use bit.ly links in the newspaper?](http://twitter.com/cophotog/status/2640813609)![twitter](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2009/08/bitly.png)
 
 Here's the backstory to all of this. One day, i was reading the paper and I saw a line that read "For more info go to thestate.com" It looked a lot like this: ![a1](http://chipoglesby.com/wp-content/uploads/2009/08/a1.jpg) This has long caused a very interesting discussion with our online department. Do people who actually read the paper go online to read an accompanying PDF or see a photo gallery?
 

@@ -13,7 +13,7 @@ tags:
 - Pinterest
 ---
 
-[![](http://www.chipoglesby.com/wp-content/uploads/2012/04/Picture-2-300x144.png)](http://www.chipoglesby.com/wp-content/uploads/2012/04/Picture-2.png)If you're in the social media world, you can't ignore its newest darling, Pinterest.
+[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/04/Picture-2-300x144.png)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/04/Picture-2.png)If you're in the social media world, you can't ignore its newest darling, Pinterest.
 
 If you're a newspaper or a photojournalist, you can use this quick tip to see who's been pinning your work.
 
