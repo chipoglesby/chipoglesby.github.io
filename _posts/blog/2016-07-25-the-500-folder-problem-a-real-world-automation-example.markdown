@@ -42,7 +42,7 @@ You can now begin to build your bash shell script. You know that the majority of
 
 You finish writing your script, send your boss a link to the files. Their so happy that they let you have an early start to the weekend!
 
-This is a mis mash of experiences that has happened to me in different workplaces.  I was the person who just started doing a task so that I could get it done as quickly as possible. Then I remembered the story of "[shutting up and building those damn boxes](2016/05/i-love-automation)". Now I like to plan and think through things before I ever start working. In a case like this, I'm looking for similarities. Do the directories and their sub directories all contain the same files? Are all of the files the same, even if they're wrong and need to be fixed?
+This is a mis mash of experiences that has happened to me in different workplaces.  I was the person who just started doing a task so that I could get it done as quickly as possible. Then I remembered the story of "[shutting up and building those damn boxes](http://www.chipoglesby.com/2016/05/i-love-automation/)". Now I like to plan and think through things before I ever start working. In a case like this, I'm looking for similarities. Do the directories and their sub directories all contain the same files? Are all of the files the same, even if they're wrong and need to be fixed?
 
 I've included an example of what the finished version of the script looks like. It's not perfect. For example, what if there are unintended line breaks? The script doesn't clean up line breaks using dos2unix, so there is even more planning and coding that would need to be included.
 

@@ -52,7 +52,7 @@ Have you ever tried to pick up a date while on a bicycle? It ain’t easy! Lots 
 
 Other things are pretty simple. Anytime I go somewhere, I always take a bag with me. Grocery shopping is a lot easier than you would imagine. I usually buy about $50 worth of clean food once a week. I recently got a rack for the back of my bike and plan on purchasing some panniers to go with it so I don’t always have to lug my backpack or messenger bag around everywhere.
 
-[If you're interested in finding out more about the back story, check out some of my other posts.](http://www.chipoglesby.com/tag/biking/)
+[If you're interested in finding out more about the back story, check out some of my other posts.](http://www.chipoglesby.com/tag/#biking/)
 
 
 ## Conclusion
@@ -74,67 +74,65 @@ I asked around on Facebook and Twitter for alternate headlines. Here are some of
 
 
 
-	
+
   * Four-wheel no drive: A year without a car
 
-	
+
   * "Keyless Entry: Unlocking the power of a year with no car"
 
-	
+
   * "Car-free ... and carefree." ;-)
 
-	
+
   * fist pump - not gas pump.
 
-	
+
   * Gasless in Columbia, Captains Log, Year One.
 
-	
+
   * Wheels-free for 365?
 
-	
+
   * ‎"Cars suck more than gas" or "Henry Ford can kiss my ass...whats left of it."
 
-	
+
   * Moderately Quicksilver
 
-	
+
   * Life in the Bike Lane
 
-	
+
   * Ow, My Butt: One Man's Fight Giving Up His Car and the Sensation in His Nethers
 
-	
+
   * Zen and the Art of Chiptorcycle Maintenance
 
-	
+
   * Breezy Rider
 
-	
+
   * Off the Chain!
 
-	
+
   * Bike me.
 
-	
+
   * Bike to the future!
 
-	
+
   * "Wheels of Steel"
 
-	
+
   * "Cycling Four Seasons"
 
-	
+
   * Cycled Four Seasons
 
-	
+
   * "Celebrate Cycling; Can the Car"
 
-	
+
   * "One Year On Two Wheels"
 
-	
+
   * CycleHIP
-
-
