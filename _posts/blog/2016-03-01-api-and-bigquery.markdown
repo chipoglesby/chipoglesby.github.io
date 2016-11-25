@@ -48,7 +48,6 @@ If you decide to run this, here's what you'll need:
 
   6. This script can be used to query other API's and you'll have to figure that our yourself.
 
-
-
+<script src="https://gist.github.com/chipoglesby/a9c821eec94fb72ba40a.js"></script>
 
 If you see any way that this script can be improved, please feel free to fork the gist and share your new version with me!
