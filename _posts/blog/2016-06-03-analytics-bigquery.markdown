@@ -35,6 +35,8 @@ This script in particular is triggered to run every 24 hours and will only pull 
 
 One thing you will notice is this line: 'date': responseData.rows[i][0].replace(/(^[0-9]{4})([0-9]{2})([0-9]{2})/g,"$1-$2-$3T00:00:00Z"), Google Analytics by default prints the date as "20160601" instead of an iso8601 timestamp option. This regex will reformat the date so that you can import it as a timestamp into BigQuery. It does set the time to 00:00:00, but for me that isn't as important.
 
+<script src="https://gist.github.com/chipoglesby/eb9a9889375e1ac02663e1960a61361e.js"></script>
+
 Once you've got your information into BigQuery, you can use [Mark Edmondson's BigQueryR package](https://github.com/MarkEdmondson1234/bigQueryR) to do your analysis in R.
 
 One thing worth mentioning is that you'll need the following items:
