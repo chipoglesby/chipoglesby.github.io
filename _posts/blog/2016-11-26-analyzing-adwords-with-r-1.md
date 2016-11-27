@@ -7,6 +7,9 @@ layout: post
 published: yes
 slug: analyzing-adwords-with-r-1
 categories: R-Analysis
+tags:
+- Analysis-With-R
+- Adwords
 ---
 
 When I first started doing any type of analysis of Adwords, I began mainly by using Google Sheets and programatically pulling data in with Google Apps Script. That worked for a while, but at some point became very limiting. That's when I began to use R more for my analysis. 
