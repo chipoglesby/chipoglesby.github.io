@@ -9,13 +9,13 @@ slug: analyzing-adwords-with-r-1
 categories: R-Analysis
 ---
 
-When I first started doing Analysis of Adwords, I began mainly by using Google Sheets and programatically pulling data in with Google Apps Script. That worked for a while, but at some point became very limiting. That's when I began to use R more for my analysis. 
+When I first started doing any type of analysis of Adwords, I began mainly by using Google Sheets and programatically pulling data in with Google Apps Script. That worked for a while, but at some point became very limiting. That's when I began to use R more for my analysis. 
 
 In this series, I'd like to share with you how I do this. Today's post will be about getting set up to begin your own analysis.
 
 You can do this same process without any of the next steps, but for you own sanity, **I DO NOT RECOMMEND IT!** It is much easier to go with the programmatic method.
 
-Questions to answer: If you can answer yes to all of these two then you'll be able to follow the rest of this tutorial?
+Questions to answer: If you can answer yes to these two questions then you'll be able to follow the rest of this tutorial.
 
 1. Do you currently have a [My Client Center](https://adwords.google.com/home/tools/manager-accounts/) account with Google Adwords?
 2. Do you currently have a [Google Cloud account](https://cloud.google.com)?
