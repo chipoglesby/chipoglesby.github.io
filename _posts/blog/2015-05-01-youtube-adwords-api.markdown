@@ -11,6 +11,7 @@ categories:
 - Adwords
 tags:
 - Adwords scripts
+- Adwords
 ---
 
 I love the integration of Youtube with Google Adwords. Unfortunately you're not currently able to pull all Youtube metrics through the Google Adwords API, but you are able to pull some.
