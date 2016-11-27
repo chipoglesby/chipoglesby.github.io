@@ -25,7 +25,7 @@ It took me almost four years until I finally set down to begin using git and ma
 
 Learning how to use the command line tool was a bit of a challenge, but once you've been using it for about a month, it becomes more muscle memory. For a great introductory tutorial using the command line system, read [Lauren Orsini's article](http://readwrite.com/2014/07/18/command-line-tutorial-intro).
 
-![Github](http://www.chipoglesby.com/wp-content/uploads/2014/07/git.png)
+![Github](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2014/07/git.png)
 
 The screenshot above is what it looks like when you're working with git. Let me break down the steps:
 

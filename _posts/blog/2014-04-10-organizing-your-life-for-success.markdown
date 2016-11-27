@@ -45,4 +45,4 @@ Those three columns are:
 
 What are some of the things you want to accomplish?
 
-[![could](http://www.chipoglesby.com/wp-content/uploads/2014/04/could.png)](http://www.chipoglesby.com/wp-content/uploads/2014/04/could.png)
+[![could](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2014/04/could.png)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2014/04/could.png)

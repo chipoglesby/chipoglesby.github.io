@@ -9,7 +9,7 @@ title: My next big journey - it's time to get down to serious business
 wordpress_id: 28068
 categories:
 - training
-- Weightloss Journey
+- weightloss
 ---
 
 <blockquote>As iron sharpens iron, so one man sharpens another. Proverbs 27:17</blockquote>
@@ -43,7 +43,7 @@ My goal is to finish in under 7 hours.
 ## More about the team
 
 
-Matt Thein: What can you say about Matt Thein? He's a man of God and a man's man! He might be a novice, but he has a warriors heart! Matt manages a full time job in the navy, a family, a passion for writing and performing music. He claims to have have zero triathlon experience but have a few friends that are steering me to success! his goals are to push himself to be healthy and always live in a state of reformation![![](http://www.chipoglesby.com/wp-content/uploads/2012/08/brothers-271x300.jpg)](http://www.chipoglesby.com/wp-content/uploads/2012/08/brothers.jpg)
+Matt Thein: What can you say about Matt Thein? He's a man of God and a man's man! He might be a novice, but he has a warriors heart! Matt manages a full time job in the navy, a family, a passion for writing and performing music. He claims to have have zero triathlon experience but have a few friends that are steering me to success! his goals are to push himself to be healthy and always live in a state of reformation![![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/brothers-271x300.jpg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/brothers.jpg)
 
 Austin Lee: Austin lives in Atlanta, GA and he is training for his first triathlon. He and his wife Courtney are some of the best people you'll ever meet. You can keep up Austin on his website. I've known Austin since college and I can tell you that Austin accomplishes everything he sets his mind to. I cannot wait to cross the finish line with him in 2013!
 

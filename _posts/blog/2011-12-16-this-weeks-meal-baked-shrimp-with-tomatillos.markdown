@@ -8,7 +8,7 @@ title: 'This weeks meal: Baked shrimp with tomatillos'
 wordpress_id: 28058
 categories:
 - meals
-- Weightloss Journey
+- weightloss
 tags:
 - shrimp
 ---

@@ -12,7 +12,7 @@ wordpress_id: 28063
 categories:
 - personal
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - schedules
 - time management

@@ -17,7 +17,7 @@ tags:
 - link economy
 ---
 
-This may seem trivial for most, [but I have lamented the use of generic uses of refers to our website before.](http://www.chipoglesby.com/2009/08/wheres-the-short-url-love/).![louries](http://www.chipoglesby.com/wp-content/uploads/2009/10/louries.jpg)
+This may seem trivial for most, [but I have lamented the use of generic uses of refers to our website before.](http://www.chipoglesby.com/2009/08/wheres-the-short-url-love/).![louries](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2009/10/louries.jpg)
 
 Today we moved one small step towards where we need to be by using a bit.ly link in the paper. The link was to an op-ed piece in the Times and Democrat in Orangeburg.
 

@@ -10,7 +10,7 @@ title: Week three spin and swim recap
 wordpress_id: 28048
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - bike
 - Mary
@@ -24,7 +24,7 @@ The HIIT class showed me that if I want to get serious about the triathlon, I'll
 
 As some of you know, I will be ending my job with The South Carolina Policy Council at the end of the year. My last official day was this past Wednesday, but I'm planning on starting my own business.
 
-[![Chip on a merry go round.](http://www.chipoglesby.com/wp-content/uploads/2011/12/463368654-222x300.jpg)](http://www.chipoglesby.com/wp-content/uploads/2011/12/463368654.jpg)
+[![Chip on a merry go round.](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2011/12/463368654-222x300.jpg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2011/12/463368654.jpg)
 
 I'll have more details later. This has kind of thrown a wrench in things (stability and security) but I'm excited about the opportunity for things to come. I've decided to go ahead and continue training on a daily basis and working it into my everyday routine. See, all of these huge changes can be great!
 

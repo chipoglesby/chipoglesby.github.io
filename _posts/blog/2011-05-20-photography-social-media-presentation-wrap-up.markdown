@@ -18,7 +18,7 @@ tags:
 ---
 
 [![Charleston South Carolina](http://farm6.static.flickr.com/5044/5343710923_71bfee1d26.jpg)](http://www.flickr.com/photos/chipoglesby/5343710923/)
-In my presentation last night to [Social Media Club Columbia](http://www.smccolumbia.com), I discussed how bloggers can legally choose images for their sites. We also discussed the best options for hosting content, ie: self hosting, using a Content Delivery Network, Amazon's S3 buckets or a third party service such as flickr.
+In my presentation last night to Social Media Club Columbia, I discussed how bloggers can legally choose images for their sites. We also discussed the best options for hosting content, ie: self hosting, using a Content Delivery Network, Amazon's S3 buckets or a third party service such as flickr.
 
 We also discussed how you can embed photos from sights such as flickr or picasa. We also dicussed how a Photographer or content creator can protect themselves by embedding IPTC and EXIF data into their photos and use the [tineye.](http://www.tineye.com/)
 
@@ -39,4 +39,3 @@ Columbia, SC based photojournalist [Brett Flashnick](http://www.flashnickvisuals
 Brett also shared the copyright document "[Title 17](http://www.law.cornell.edu/uscode/html/uscode17/usc_sup_01_17.html)." If you have time to read it, you should check it out. It has everything you could ever know about copyright policies.
 
 Here are the slides from last night's presentation:
-

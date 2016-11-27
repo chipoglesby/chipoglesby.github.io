@@ -10,7 +10,7 @@ title: I'm still here! I'm still alive and I'm still training, sorta
 wordpress_id: 28064
 categories:
 - personal
-- Weightloss Journey
+- weightloss
 tags:
 - weight loss
 ---
@@ -23,4 +23,4 @@ I do still go to the gym for HIIT class at least twice a week as much as possibl
 
 Just to let you know things are working out. Here's a before and after photo of me from recently. I wish I could tell you exactly how much weight I've lost, but I have no idea. Let's just focus on keeping up the good work!
 
-[![](http://www.chipoglesby.com/wp-content/uploads/2012/05/488350_294461357293951_220315421375212_724267_1652708575_n.jpeg)](http://www.chipoglesby.com/wp-content/uploads/2012/05/488350_294461357293951_220315421375212_724267_1652708575_n.jpeg)
+[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/05/488350_294461357293951_220315421375212_724267_1652708575_n.jpeg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/05/488350_294461357293951_220315421375212_724267_1652708575_n.jpeg)

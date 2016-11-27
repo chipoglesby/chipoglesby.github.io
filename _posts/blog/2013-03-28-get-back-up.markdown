@@ -10,12 +10,12 @@ title: When you fall off of the bandwagon, you get back on
 wordpress_id: 28075
 categories:
 - personal
-- Weightloss Journey
+- weightloss
 tags:
 - weight loss
 ---
 
-[![Chip and Michelle Oglesby](http://www.chipoglesby.com/wp-content/uploads/2013/03/892904_10151585600550628_1833385046_o-300x189.jpg)](http://www.chipoglesby.com/wp-content/uploads/2013/03/892904_10151585600550628_1833385046_o.jpg)
+[![Chip and Michelle Oglesby](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2013/03/892904_10151585600550628_1833385046_o-300x189.jpg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2013/03/892904_10151585600550628_1833385046_o.jpg)
 The past few months have been a roller coaster of emotions for me. I took a break from training every day in November to focus on my business and get things back up and running. Then came Thanksgiving, then Christmas, then New Years. Then in February I moved to Asheville. On March 13th my father passed away. Then on March 17th I got married! (Best decision I've ever made!)
 
 So what happened along the way? I fell off the bandwagon. I stopped swimming, biking and running everyday. I started using Michelle's car when I moved to Asheville and my weight crept back up on me. I went from a slender 355 and have now ballooned back up to a staggering 381.

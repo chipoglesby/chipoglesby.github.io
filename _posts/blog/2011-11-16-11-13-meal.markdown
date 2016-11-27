@@ -12,7 +12,7 @@ title: 'This weeks meal: Chicken soup'
 wordpress_id: 28039
 categories:
 - meals
-- Weightloss Journey
+- weightloss
 tags:
 - chicken soup
 ---

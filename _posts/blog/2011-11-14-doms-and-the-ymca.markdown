@@ -13,7 +13,7 @@ title: DOMS and the YMCA
 wordpress_id: 28036
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - HIIT
 - muscle soreness

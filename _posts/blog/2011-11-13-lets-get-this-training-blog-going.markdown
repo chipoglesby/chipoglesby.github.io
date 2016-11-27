@@ -8,7 +8,7 @@ title: Let's get this training blog going
 wordpress_id: 28035
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - first post
 ---

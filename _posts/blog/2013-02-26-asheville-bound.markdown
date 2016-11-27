@@ -15,6 +15,6 @@ tags:
 - Columbia
 ---
 
-Did you know? If you haven't heard the good news, [I'm getting married in March](http://www.chipoglesby.com/2012/08/marriage/)! My fiancee and I are both living in [Asheville, NC](http://www.chipoglesby.com/tag/asheville/). I'll have more to say about my time in [Columbia](http://www.chipoglesby.com/?s=Columbia&submit=Search) and what I'll be doing next. Until then, have a great week!
+Did you know? If you haven't heard the good news, [I'm getting married in March](http://www.chipoglesby.com/2012/08/marriage/)! My fiancee and I are both living in [Asheville, NC](http://www.chipoglesby.com/http://www.chipoglesby.com/tag/#asheville/). I'll have more to say about my time in [Columbia](http://www.chipoglesby.com/tags/#Columbia) and what I'll be doing next. Until then, have a great week!
 
-[caption id="attachment_27785" align="alignright" width="2542"][![Kenilworth Inn Apartments](http://www.chipoglesby.com/wp-content/uploads/2013/02/13-1.jpg)](http://www.chipoglesby.com/wp-content/uploads/2013/02/13-1.jpg) The Kenilworth Inn Apartments[/caption]
+[![Kenilworth Inn Apartments](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2013/02/13-1.jpg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2013/02/13-1.jpg) The Kenilworth Inn Apartments[/caption]

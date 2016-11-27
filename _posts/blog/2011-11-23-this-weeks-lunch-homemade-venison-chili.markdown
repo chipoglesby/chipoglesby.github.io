@@ -10,7 +10,7 @@ title: 'This weeks meal: Homemade venison chili'
 wordpress_id: 28047
 categories:
 - meals
-- Weightloss Journey
+- weightloss
 tags:
 - chili
 ---

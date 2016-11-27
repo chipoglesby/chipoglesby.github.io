@@ -9,7 +9,7 @@ title: 'What guides my actions? The purpose behind what I do  '
 wordpress_id: 171
 categories:
 - training
-- Weightloss Journey
+- weightloss
 ---
 
 <blockquote>Failure. Loser. Not good enough. Doesn't have what it takes. Won't ever make it.</blockquote>

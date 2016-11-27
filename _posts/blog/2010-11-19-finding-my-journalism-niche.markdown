@@ -19,7 +19,7 @@ tags:
 
 Ok, it's time to get serious about this site, no really!
 
-Starting next week I'll be doing a weekly column every Friday called **[online tools for small news organizations](http://www.chipoglesby.com/category/journalism/tools-journalism/).**
+Starting next week I'll be doing a weekly column every Friday called **[online tools for small news organizations](http://www.chipoglesby.com/tags/#tools).**
 
 **Since I've worked in small and medium sized newspapers my whole life, this is the market that I know best. I also know online journalism tools pretty well. I'm also fed up with crappy news sites that just don't work.**
 

@@ -13,7 +13,7 @@ tags:
 - App Scripts
 ---
 
-In a follow up to yesterday's post about [how to pull Youtube Trueview metrics through the Adwords API](http://www.chipoglesby.com/2015/04/youtube-adwords-api/), this post will show you how to automatically format your spreadsheet for a more beautiful report.
+In a follow up to yesterday's post about [how to pull Youtube Trueview metrics through the Adwords API](http://www.chipoglesby.com/2015/05/youtube-adwords-api/), this post will show you how to automatically format your spreadsheet for a more beautiful report.
 
 <script src="https://gist.github.com/chipoglesby/cb4b323e6194cb73df90.js"></script>
 

@@ -9,14 +9,14 @@ title: 'This weeks meal: low carb chicken cordon bleu'
 wordpress_id: 28055
 categories:
 - meals
-- Weightloss Journey
+- weightloss
 tags:
 - chicken
 ---
 
 I found this recipe in an old cookbook that my mom gave me I modified it a tiny bit. It's simple and easy and surprisingly low carb. Enjoy!
 
-[![](http://www.chipoglesby.com/wp-content/uploads/2011/12/MP7028-300x300.jpg)](http://www.chipoglesby.com/wp-content/uploads/2011/12/MP7028.jpg)Ingredients:
+[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2011/12/MP7028-300x300.jpg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2011/12/MP7028.jpg)Ingredients:
 
 
 

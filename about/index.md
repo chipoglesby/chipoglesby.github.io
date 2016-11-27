@@ -9,17 +9,25 @@ wordpress_id: 2
 excerpt: "A little something about myself"
 
 ---
+# Personal:
 
-**Personal:**
+I'm Chip Oglesby originally from Van Wyck, SC and I currently live in
+Fort Collins, Colorado with my amazing wife Michelle.
 
-I'm Chip Oglesby and I'm a small business owner and former award winning photojournalist. I'm originally from Van Wyck, SC and I currently live in Fort Collins, Colorado with my amazing wife Michelle.
+I attended Mars Hill College and after college, I worked as a
+photojournalist and photo editor at two different newspapers. I've also worked
+with for profit and non-profit businesses as well.
 
-I attended Mars Hill College and have lived a pretty amazing life so far. After college, I worked as a photojournalist and photo editor at two different newspapers. I've also worked with for profit and non-profit businesses as well.
+Currently I am the manager of online advertising and analytics where I head up
+Data Science at Group Publishing in Loveland, Colorado.
 
-Currently I am the manager of online advertising and analytics at Group Publishing in Loveland, Colorado.
+I also run a small business
+called [Creative Spark Columbia.](http://www.creativesparkcolumbia.com/)
 
-I also run a small business called [Creative Spark Columbia.](http://www.creativesparkcolumbia.com/)
+## Full Disclosure:
 
-**Full Disclosure:**
-
-All of the views and ideas on this blog are the sole property of Chip Oglesby and do not represent the ideas or interest of my current or future employers. All blog posts unless other wise noted are licensed under the [Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License.](http://creativecommons.org/licenses/by-nc-sa/3.0/us/)
+All of the views and ideas on this blog are the sole property of
+Chip Oglesby and do not represent the ideas or interest of my current or
+future employers. All blog posts unless other wise noted are licensed under
+the
+[Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License.](http://creativecommons.org/licenses/by-nc-sa/3.0/us/)

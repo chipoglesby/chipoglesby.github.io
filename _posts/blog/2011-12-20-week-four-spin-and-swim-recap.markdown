@@ -10,7 +10,7 @@ title: Week four spin and swim recap
 wordpress_id: 28060
 categories:
 - training
-- Weightloss Journey
+- weightloss
 tags:
 - bike
 - running
