@@ -6,7 +6,9 @@ excerpt: Step One Getting Setup With Authentication
 layout: post
 published: yes
 slug: analyzing-adwords-with-r-1
-categories: R-Analysis
+categories: 
+- R-Analysis
+- Adwords
 tags:
 - Analysis-With-R
 - Adwords
