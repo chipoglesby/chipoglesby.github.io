@@ -11,6 +11,7 @@ categories:
 - Adwords
 tags:
 - Adwords scripts
+- Adwords
 ---
 
 As a small business agency, one of the hardest things you'll have to do is to manage your clients AdWords budgets. Hopefully this tool will help your job easier. Start by creating a new spreadsheet in Google Drive, this will be where we store all of our work.
