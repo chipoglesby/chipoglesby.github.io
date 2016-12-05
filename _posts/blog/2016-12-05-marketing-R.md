@@ -40,14 +40,14 @@ But you'd have ask if that is the best solution? or if there are other options?
 A less than ideal option might be to look the zip codes up by hand and write
 some `sql` code for it like:
 
-````
+```
 SELECT
   customerNumber
 FROM
 [table.dataSet]
 WHERE
 regexp_match(postalCode, "80535, 80536,......")
-````
+```
 
 But after looking at a list of hundreds zip codes, who would want to do that?
 
@@ -73,9 +73,7 @@ code would be:
 
 Let's dive into the code!
 
-````
-code goes here.
-````
+<script src="http://gist-it.appspot.com/github/chipoglesby/rSnippets/blob/master/zipCodesAPI.R"></script>
 
 Let's walk through what the code does:
 
@@ -91,7 +89,8 @@ the results into a string for the query.
 3. `bigrquery` runs the query and returns results to a dataframe.
 
 The function will build a query like this:
-````
+
+```
 SELECT
   customerNumber,
 FROM
@@ -100,7 +99,7 @@ WHERE
   REGEXP_MATCH(LEFT(postalCode, 2), "xx|xx|xx|xx|xx")
 GROUP BY
   customerNumber
-````
+```
 
 Now we've written our function and it's ready to run. Depending on our needs, we
 can extend it further and save it as a CSV and mail it to someone if desired.
