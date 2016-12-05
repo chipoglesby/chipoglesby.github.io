@@ -4,7 +4,7 @@ author: "chipoglesby"
 date: '2016-12-05'
 excerpt: Trying to make complex marketing requests more simple
 layout: post
-published: no
+published: yes
 slug: complex-list-requests
 categories:
 
