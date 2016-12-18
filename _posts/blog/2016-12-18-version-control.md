@@ -44,8 +44,10 @@ doing a pull request.
 
 For data, it depends on how often the data are changing. Here's my thinking:
 
-1. If the data are [larger than 100 mb](https://help.github.com/articles/working-with-large-files/) it will be
-kept in cloud storage. Github has limits on how large uploaded files are.
+1. If the data are
+[larger than 100 mb](https://help.github.com/articles/working-with-large-files/)
+it will be kept in cloud storage. Github has limits on how large uploaded files
+are.
 2. If the data are constantly changing, it stays in our data warehouse
 (***We love BigQuery!!***). I'll use
 [`bigrquery`](https://github.com/rstats-db/bigrquery). The data may be given a
