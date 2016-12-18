@@ -1,7 +1,7 @@
 ---
 title: "Why I version control all of my analysis and data science work"
 author: "chipoglesby"
-date: '2016-12-05'
+date: '2016-12-18'
 excerpt: Explaining the pedantic reasons why I use version control even when I work alone.
 layout: post
 published: yes
