@@ -2,8 +2,7 @@
 title: "Why I version control all of my work"
 author: "chipoglesby"
 date: '2016-12-05'
-excerpt: Explaining the pedantic reasons why I use version control even when
-I work alone.
+excerpt: Explaining the pedantic reasons why I use version control even when I work alone.
 layout: post
 published: yes
 slug: version-control-everything
