@@ -1,7 +1,7 @@
 ---
 title: "Please don't hardcode your SQL values"
 author: "chipoglesby"
-date: '2016-12-18'
+date: '2016-12-19'
 excerpt: Let's try to make our queries more dynamic, shall we?
 layout: post
 published: yes
