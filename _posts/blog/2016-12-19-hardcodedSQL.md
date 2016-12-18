@@ -4,7 +4,7 @@ author: "chipoglesby"
 date: '2016-12-19'
 excerpt: Let's try to make our queries more dynamic, shall we?
 layout: post
-published: false
+published: true
 slug: stop-hardcoding-sql
 categories:
 
