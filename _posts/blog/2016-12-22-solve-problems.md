@@ -34,8 +34,8 @@ Really, I don't. I find that one of the best ways to stay on top of job trends
 is to constantly look at what my favorite companies are looking for in
 candidates.
 
-Recently I came across a post that said something like `Strong programming
-ability (Python, consideration given for R).` I found that rather interesting.
+Recently I came across a post that said something like `You need to know Python
+but we'll consider you if you know R.` I found that rather interesting.
 
 I guess if you don't take standardization into account I don't know why it would
 matter if you use `R` or `Python`. If I were hiring you for a position, I'd
@@ -48,7 +48,8 @@ that knows a specific language? `R` for example has `caret` and `Python` has
 debug a piece of code if your coworker is having a problem.
 
 I think that companies like [StitchFix do a great job of letting their employees
-use whatever tools they need to get the job done](http://multithreaded.stitchfix.com/blog/2015/03/17/grammar-of-data-science/).
+use whatever tools they need to get the job done]
+(http://multithreaded.stitchfix.com/blog/2015/03/17/grammar-of-data-science/).
 
 ## Why
 
