@@ -1,7 +1,7 @@
 ---
 title: "Programming for data analysts"
 author: "chipoglesby"
-date: '2016-12-24'
+date: '2016-12-26'
 excerpt: Today I'm trying to answer the question "Why should I learn to program?"
 layout: post
 published: true
