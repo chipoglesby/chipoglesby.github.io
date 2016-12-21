@@ -14,6 +14,9 @@ tags:
 
 - Bigquery
 ---
+## Update: I thought this quote by @randyzwitch was much better than my title and very concise about getting my point across.
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">+10000 on thinking about THE question, not today&#39;s question RT <a href="https://twitter.com/chipoglesby">@chipoglesby</a>: Please don’t hardcode your SQL values <a href="https://t.co/N19vsziShQ">https://t.co/N19vsziShQ</a></p>&mdash; Randy Zwitch (@randyzwitch) <a href="https://twitter.com/randyzwitch/status/811343722092892160">December 20, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Let me get this out of the way right now: I freaking love Google BigQuery!! It's
 one of the best tools I have in my tool belt right now. It has a no-sql
