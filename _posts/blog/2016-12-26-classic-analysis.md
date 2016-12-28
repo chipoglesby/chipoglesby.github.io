@@ -30,7 +30,7 @@ Most of the time there's not a lot of consideration given to those people in
 the middle. There are plenty of sites that will explain the what and the how
 of programmatic data analysis, but not always the 'why'.
 
-## Why would I want to learn to program???
+## Why would I want to learn to program??
 
 Established analysts who don't work for large companies or start-ups will
 usually ask this question and I will attempt to answer it.
