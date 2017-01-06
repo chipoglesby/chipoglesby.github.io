@@ -1,5 +1,5 @@
 ---
-title: "A reproducible research template for R."
+title: "A Reproducible Research Template for R."
 author: "chipoglesby"
 date: '2017-01-06'
 excerpt: A quick and easy template for reproducible research in R.
@@ -64,6 +64,10 @@ The last file, `plots.R` is normally used to create any plots for the analysis.
 Since R stores all of the data in memory, you can break your analysis up into as
 many files as you want. If you do that, I recommend keeping track of which files
 are doing what. I normally do this with the `README.md` files within folders.
+
+Feel free to fork this project on github and make changes for yourself. You could
+even use this in a private repo and then change the upstream to a new repo when you
+clone this from github.
 
 If you want to checkout out the project, you can find it here on Github:
 [Reproducible Research Template for R by Chip Oglesby](https://github.com/chipoglesby/reproducibleResearchTemplate)
