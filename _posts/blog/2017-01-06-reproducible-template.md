@@ -17,21 +17,23 @@ tags:
 ---
 
 Reproducible research is vitally important for scientific studies, but what
-for businesses?
+about for businesses?
 
 A LOT of analysts still do things the manual way. That might involve using a
 combination of Microsoft Access, Excel and Word to produce their analysis.
 
-Toolset aside, it's hard to easily update your analysis if you've found an error
+Toolsets aside, it's hard to easily update your analysis if you've found an error
 in your sql queries or made a calculation error in Excel. If you find a problem
 it usually means repeating multiple steps to correct your mistakes.
 
-My preference for the past two - three years has been to use R to make my
-reports as accessible as possible.
+My preference for the past two to three years has been to use R to make my
+reports as accessible and repoducible as possible.
 
 To that extent I'm sharing a template for how I set up all of my analyses. There
 is probably hundreds of ways that this could be improved, but it works the
-majority of time for me.
+majority of time for me. In the future, I'd like to learn more about `make`,
+I think it could really improve this process. The way things currently are,
+each time the shell script is invoked, the analysis is rebuilt from scratch.
 
 Let's take a look at the setup. Each analysis includes the following items:
 
