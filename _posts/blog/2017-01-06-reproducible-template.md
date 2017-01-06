@@ -1,5 +1,5 @@
 ---
-title: "A Reproducible Research Template for R."
+title: "A Reproducible Research Template for R"
 author: "chipoglesby"
 date: '2017-01-06'
 excerpt: A quick and easy template for reproducible research in R.
