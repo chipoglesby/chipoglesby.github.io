@@ -39,9 +39,13 @@ Here's an example that will walk through.
 ```
 #!/bin/bash
 
+# Variables
 token='token'
 url='https://github.com'
+table='table'
+
 sql=$(curl -H "Content-Type: application/json" -H "Authorization: token $token" $url | jq '.content' | sed -e 's/\\n/ /g' -re 's/"//g' | base64 --decode)
+
 bq query --q --destination_table '$table --allow_large_results --replace $sql
 ```
 
