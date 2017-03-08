@@ -13,7 +13,7 @@ categories:
 tags:
 
 - SQL
-- Bigquery
+- BigQuery
 - R
 ---
 
