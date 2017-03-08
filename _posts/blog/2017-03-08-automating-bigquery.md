@@ -14,7 +14,7 @@ tags:
 
 - github
 - bash
-- bigquery
+- BigQuery
 
 ---
 
