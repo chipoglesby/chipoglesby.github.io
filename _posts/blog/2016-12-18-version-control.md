@@ -15,7 +15,7 @@ tags:
 - R
 - github
 - version control
-- Bigquery
+- BigQuery
 ---
 
 Earlier this year I took the steps to get our small team set up on
