@@ -5,6 +5,7 @@ modified:
 categories: blog
 excerpt:
 tags: []
+published: false
 image:
   feature:
 date: 2014-08-08T15:39:55-04:00
