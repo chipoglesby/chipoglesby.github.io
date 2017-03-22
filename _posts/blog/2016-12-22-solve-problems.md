@@ -48,8 +48,7 @@ that knows a specific language? `R` for example has `caret` and `Python` has
 debug a piece of code if your coworker is having a problem.
 
 I think that companies like [StitchFix do a great job of letting their employees
-use whatever tools they need to get the job done]
-(http://multithreaded.stitchfix.com/blog/2015/03/17/grammar-of-data-science/).
+use whatever tools they need to get the job done](http://multithreaded.stitchfix.com/blog/2015/03/17/grammar-of-data-science/).
 
 ## Why
 
