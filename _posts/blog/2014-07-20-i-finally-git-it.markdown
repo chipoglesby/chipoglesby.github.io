@@ -11,7 +11,6 @@ wordpress_id: 27978
 categories:
 - Sidenote
 tags:
-- git
 - github
 ---
 
