@@ -88,4 +88,4 @@ I've been working on my own idea for something like this that we could use at my
 office to quickly supply reports and analyses without a lot of man hours 
 involved using static sites or something more dynamic like a shiny app.
 
-This project is as close as I've come to sharing that vision
+This project is as close as I've come to sharing that vision.
