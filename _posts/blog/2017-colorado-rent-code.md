@@ -4,7 +4,7 @@ author: "chipoglesby"
 date: '2017-03-08'
 excerpt: Examining ways you might automate reporting for analysis.
 layout: post
-published: false
+published: true
 slug:
 categories:
 
