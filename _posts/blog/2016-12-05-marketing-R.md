@@ -9,6 +9,7 @@ slug: complex-list-requests
 categories:
 
 - R-Analysis
+- Automation
 
 tags:
 
