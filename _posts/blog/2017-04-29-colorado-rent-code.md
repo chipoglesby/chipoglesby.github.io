@@ -9,10 +9,12 @@ slug:
 categories:
 
 - Coding
-
+- R-Analysis
 tags:
 
-- R
+- Analysis-With-R
+
+---
 
 ---
 
