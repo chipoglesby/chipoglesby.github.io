@@ -9,11 +9,10 @@ slug:
 categories:
 
 - Coding
-
+- R-Analysis
 tags:
 
-- R
-- Colorado
+- Analysis-With-R
 
 ---
 
