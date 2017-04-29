@@ -8,6 +8,7 @@ slug: automatically-open-issues-on-github-using-google-apps-script
 title: 'Automatically open issues on Github using Google Apps Script'
 categories:
 - Coding
+- Automation
 tags:
 - Apps Script
 ---
