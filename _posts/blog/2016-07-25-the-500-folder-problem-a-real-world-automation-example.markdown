@@ -9,8 +9,8 @@ title: 'The 500 folder problem: A Real World Automation Example'
 wordpress_id: 28341
 categories:
 - Coding
+- Automation
 tags:
-- automation
 - bash
 ---
 
