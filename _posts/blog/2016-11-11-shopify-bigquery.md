@@ -8,6 +8,7 @@ slug: shopify-bigquery
 title: Importing Shopify data into Google BigQuery
 categories:
 - Coding
+- Automation
 tags:
 - BigQuery
 ---
