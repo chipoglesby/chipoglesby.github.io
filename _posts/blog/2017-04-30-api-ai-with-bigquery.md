@@ -5,8 +5,7 @@ comments: true
 date: "2017-04-30"
 layout: post
 slug: api-ai-with-bigquery
-excerpt: What if I could build a system to analyze information and allows
-me to do more important work?
+excerpt: What if I could build a system to analyze information and allows me to do more important work?
 published: true
 categories:
 
