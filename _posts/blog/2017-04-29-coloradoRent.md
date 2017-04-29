@@ -24,8 +24,14 @@ Is the rent is too damn high in Colorado? Let's analyze data from the
 [Rent database](https://data.colorado.gov/Housing/Rents-by-Type-of-Apartment-in-Colorado/cmr9-ue2w)
 and find some afforable places to rent around Colorado.
 
-Rent Changes Over Time
-----------------------
+### Note
+Please note that the information collected from The Department of Local Affairs Housing Division
+may be inaccurate or incomplete. For example, rent prices in Aspen may not have fallen as much as
+believed. You should consult an outside listing service like Craigslist or Redfin prior to moving
+to a new area. The full methodology from DLAHD
+[can be found here](https://www.colorado.gov/pacific/dola/vacancy-rent-surveys).
+
+## Rent Changes Over Time
 
 ### How have rents increased between 1996 and 2015?
 
@@ -58,33 +64,33 @@ in Grand Junction for $258.78 per month!
 
 The full analysis of each subregion can be found here:
 
-| subregion             | file                                                         |
-|:----------------------|:-------------------------------------------------------------|
-| Alamosa               | [Alamosa](http://www.chipoglesby.com/coloradoRent/analysis/alamosa.html)                            |
-| Aspen                 | [Aspen](http://www.chipoglesby.com/coloradoRent/analysis/aspen.html)                                |
-| Buena Vista           | [Buena Vista](http://www.chipoglesby.com/coloradoRent/analysis/buenavista.html)                     |
-| Canon City            | [Canon City](http://www.chipoglesby.com/coloradoRent/analysis/canoncity.html)                       |
-| Central Mountains     | [Central Mountains](http://www.chipoglesby.com/coloradoRent/analysis/centralmountains.html)         |
-| Colorado Springs      | [Colorado Springs](http://www.chipoglesby.com/coloradoRent/analysis/coloradosprings.html)           |
-| Durango               | [Durango](http://www.chipoglesby.com/coloradoRent/analysis/durango.html)                            |
-| Eagle County          | [Eagle County](http://www.chipoglesby.com/coloradoRent/analysis/eaglecounty.html)                   |
-| Fort Collins/Loveland | [Fort Collins/Loveland](http://www.chipoglesby.com/coloradoRent/analysis/fortcollinsloveland.html)  |
-| Fort Morgan/Brush     | [Fort Morgan/Brush](http://www.chipoglesby.com/coloradoRent/analysis/fortmorganbrush.html)          |
-| Glenwood Springs      | [Glenwood Springs](http://www.chipoglesby.com/coloradoRent/analysis/glenwoodsprings.html)           |
-| Greeley               | [Greeley](http://www.chipoglesby.com/coloradoRent/analysis/greeley.html)                            |
-| Grand Junction        | [Grand Junction](http://www.chipoglesby.com/coloradoRent/analysis/grandjunction.html)               |
-| Gunnison              | [Gunnison](http://www.chipoglesby.com/coloradoRent/analysis/gunnison.html)                          |
-| Lake County           | [Lake County](http://www.chipoglesby.com/coloradoRent/analysis/lakecounty.html)                     |
-| Montrose              | [Montrose](http://www.chipoglesby.com/coloradoRent/analysis/montrose.html)                          |
-| Pueblo                | [Pueblo](http://www.chipoglesby.com/coloradoRent/analysis/pueblo.html)                              |
-| Salida                | [Salida](http://www.chipoglesby.com/coloradoRent/analysis/salida.html)                              |
-| Southeastern Colorado | [Southeastern Colorado](http://www.chipoglesby.com/coloradoRent/analysis/southeasterncolorado.html) |
-| Steamboat Springs     | [Steamboat Springs](http://www.chipoglesby.com/coloradoRent/analysis/steamboatsprings.html)         |
-| Sterling              | [Sterling](http://www.chipoglesby.com/coloradoRent/analysis/sterling.html)                          |
-| Summit County         | [Summit County](http://www.chipoglesby.com/coloradoRent/analysis/summitcounty.html)                 |
-| Adams                 | [Adams](http://www.chipoglesby.com/coloradoRent/analysis/adams.html)                                |
-| Arapahoe              | [Arapahoe](http://www.chipoglesby.com/coloradoRent/analysis/arapahoe.html)                          |
-| Boulder/Broomfield    | [Boulder/Broomfield](http://www.chipoglesby.com/coloradoRent/analysis/boulderbroomfield.html)       |
-| Denver                | [Denver](http://www.chipoglesby.com/coloradoRent/analysis/denver.html)                              |
-| Jefferson             | [Jefferson](http://www.chipoglesby.com/coloradoRent/analysis/jefferson.html)                        |
-| Metro Average         | [Metro Average](http://www.chipoglesby.com/coloradoRent/analysis/metroaverage.html)                 |
+| Sub Region            |
+|:----------------------|
+| [Alamosa](http://www.chipoglesby.com/coloradoRent/analysis/alamosa.html)                            |
+| [Aspen](http://www.chipoglesby.com/coloradoRent/analysis/aspen.html)                                |
+| [Buena Vista](http://www.chipoglesby.com/coloradoRent/analysis/buenavista.html)                     |
+| [Canon City](http://www.chipoglesby.com/coloradoRent/analysis/canoncity.html)                       |
+| [Central Mountains](http://www.chipoglesby.com/coloradoRent/analysis/centralmountains.html)         |
+| [Colorado Springs](http://www.chipoglesby.com/coloradoRent/analysis/coloradosprings.html)           |
+| [Durango](http://www.chipoglesby.com/coloradoRent/analysis/durango.html)                            |
+| [Eagle County](http://www.chipoglesby.com/coloradoRent/analysis/eaglecounty.html)                   |
+| [Fort Collins/Loveland](http://www.chipoglesby.com/coloradoRent/analysis/fortcollinsloveland.html)  |
+| [Fort Morgan/Brush](http://www.chipoglesby.com/coloradoRent/analysis/fortmorganbrush.html)          |
+| [Glenwood Springs](http://www.chipoglesby.com/coloradoRent/analysis/glenwoodsprings.html)           |
+| [Greeley](http://www.chipoglesby.com/coloradoRent/analysis/greeley.html)                            |
+| [Grand Junction](http://www.chipoglesby.com/coloradoRent/analysis/grandjunction.html)               |
+| [Gunnison](http://www.chipoglesby.com/coloradoRent/analysis/gunnison.html)                          |
+| [Lake County](http://www.chipoglesby.com/coloradoRent/analysis/lakecounty.html)                     |
+| [Montrose](http://www.chipoglesby.com/coloradoRent/analysis/montrose.html)                          |
+| [Pueblo](http://www.chipoglesby.com/coloradoRent/analysis/pueblo.html)                              |
+| [Salida](http://www.chipoglesby.com/coloradoRent/analysis/salida.html)                              |
+| [Southeastern Colorado](http://www.chipoglesby.com/coloradoRent/analysis/southeasterncolorado.html) |
+| [Steamboat Springs](http://www.chipoglesby.com/coloradoRent/analysis/steamboatsprings.html)         |
+| [Sterling](http://www.chipoglesby.com/coloradoRent/analysis/sterling.html)                          |
+| [Summit County](http://www.chipoglesby.com/coloradoRent/analysis/summitcounty.html)                 |
+| [Adams](http://www.chipoglesby.com/coloradoRent/analysis/adams.html)                                |
+| [Arapahoe](http://www.chipoglesby.com/coloradoRent/analysis/arapahoe.html)                          |
+| [Boulder/Broomfield](http://www.chipoglesby.com/coloradoRent/analysis/boulderbroomfield.html)       |
+| [Denver](http://www.chipoglesby.com/coloradoRent/analysis/denver.html)                              |
+| [Jefferson](http://www.chipoglesby.com/coloradoRent/analysis/jefferson.html)                        |
+| [Metro Average](http://www.chipoglesby.com/coloradoRent/analysis/metroaverage.html)                 |
