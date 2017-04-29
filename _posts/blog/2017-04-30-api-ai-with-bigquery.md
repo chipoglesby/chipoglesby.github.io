@@ -4,9 +4,10 @@ comments: true
 date: 2017-04-30 00:01:00+00:00
 layout: post
 slug: api-ai-with-bigquery
-title: Can an intelligent API analyze your information?
+title: "Can an intelligent API analyze your information?"
 excerpt: What if I could build a system to analyze information and allows
 me to do more important work?
+published: true
 categories:
 
 - Coding
