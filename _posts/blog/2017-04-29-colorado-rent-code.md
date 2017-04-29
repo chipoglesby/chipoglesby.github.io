@@ -1,5 +1,5 @@
 ---
-title: "The Code Behind My Colorado Rent Analysis"
+title: "The code behind my colorado rent analysis"
 author: "chipoglesby"
 date: '2017-04-29'
 excerpt: Examining ways you might automate reporting for analysis.
