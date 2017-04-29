@@ -9,6 +9,7 @@ title: How I became enamored with automation
 wordpress_id: 28303
 categories:
 - Coding
+- Automation
 tags:
 - data
 ---
