@@ -9,6 +9,7 @@ slug:
 categories:
 
 - Coding
+- Automation
 
 tags:
 
