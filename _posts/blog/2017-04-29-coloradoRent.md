@@ -37,8 +37,8 @@ $239.26 to $781.18.
 
 ### How have rents decreased between 1996 and 1996?
 
-3 Bed apartments in Aspen saw the largest decrease in rent between 1996 and 
-1996. During this 19 year period, rent fell -40.31% from $1600 to $751.89.
+3 Bed apartments in Aspen saw the largest decrease in rent between 1996 and 2015. 
+During this 19 year period, rent fell -40.31% from $1600 to $751.89.
 
 ![](https://raw.githubusercontent.com/chipoglesby/coloradoRent/master/images/smallRentDelta/aspen.png)
 
