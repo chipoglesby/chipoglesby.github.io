@@ -8,6 +8,7 @@ slug: woocommerce-bigquery
 title: 'Upload Your Woocommerce data to Google BigQuery with a Shell Script'
 categories:
 - Coding
+- Automation
 tags:
 - BigQuery
 ---
