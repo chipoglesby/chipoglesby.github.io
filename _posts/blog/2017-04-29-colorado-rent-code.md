@@ -1,7 +1,7 @@
 ---
 title: "The Code Behind My Colorado Rent Analysis"
 author: "chipoglesby"
-date: '2017-03-08'
+date: '2017-04-29'
 excerpt: Examining ways you might automate reporting for analysis.
 layout: post
 published: true
