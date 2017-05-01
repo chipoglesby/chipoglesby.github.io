@@ -1,5 +1,5 @@
 ---
-title: "Can an intelligent API analyze your information?"
+title: "Ideas on uaing API.AI to report information from BigQuery"
 author: chipoglesby
 comments: true
 date: "2017-04-30"
