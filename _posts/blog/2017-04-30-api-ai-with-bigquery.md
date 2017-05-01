@@ -60,7 +60,7 @@ SELECT
 FROM
   [dataset.table]
 WHERE
-  year(orderDate) == YEAR(DATE_ADD(CURRENT_DATE, -1, "YEAR"))
+  year(orderDate) == YEAR(DATE_ADD(CURRENT_DATE(), -1, "YEAR"))
 ```
 
 In this toy example, we didn't infer if the person asking the question meant
