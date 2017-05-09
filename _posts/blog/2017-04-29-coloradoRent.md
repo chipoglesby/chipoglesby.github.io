@@ -2,7 +2,7 @@
 title: "It's HOW expensive to rent in Colorado?"
 author: "chipoglesby"
 date: '2017-04-29'
-excerpt: An eximanation of information from data.colorado.gov.
+excerpt: An examination of information from data.colorado.gov.
 layout: post
 published: true
 slug:
