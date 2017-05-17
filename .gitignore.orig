@@ -1,10 +1,16 @@
 _site
+<<<<<<< HEAD
 .DS_Store
 *.sublime-project
 *.sublime-workspace
 codekit-config.json
 node_modules
 .sass-cache
+.jekyll-metadata
+vendor/
+=======
+.sass-cache
 Gemfile.lock
 _drafts
 .jsbeautifyrc
+>>>>>>> afbc14563c97c78ea05969d98f28bb49281620d7

@@ -1,46 +1,57 @@
-// TYPOGRAPHY ================================================
-$base-font                : 'source-sans-pro', sans-serif;
-$heading-font             : $base-font;
-$caption-font             : $base-font;
-$code-font                : 'source-code-pro', monospace;
-$alt-font                 : 'volkhov', serif;
+/* SCSS Variables */
 
-$doc-font-size            : 16;
-$doc-line-height          : 24;
+/*--------------
+  Font
+  -------------- */
+$base-font: 'Spoqa Han Sans', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
+$code-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
+$code-gist-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
 
-$border-radius            : 3px;
+$base-font-size: 18px;
+$base-font-size-sm: 14px;
 
-
-// set-up the body font-size / line-height
-body {
-  margin-top: 0px + $doc-line-height;
-  font-size: 0px + $doc-font-size;
-}
+$mobile-font-size: 16px;
 
 
-// COLORS =====================================================
-$body-color               : #fff;
-$text-color               : #222;
-$base-color               : #343434;
-$comp-color               : adjust-hue($base-color, 180);
-$border-color             : #ddd;
-$white                    : #fff;
-$black                    : #000;
-$accent-color             : $black;
-$link-color               : #222;
+/*--------------
+  Color
+  -------------- */
+$base-color: $oc-gray-8;
+$base-lighten-color: $oc-gray-6;
 
-$table-border-color       : $border-color;
-$table-border             : 1px solid $table-border-color;
-$table-background         : $body-color;
-$table-header-color       : lighten($table-background, 10);
-$table-hover-color        : darken($table-background, 2);
-$table-stripe-color       : darken($table-background, 4);
-$table-stripe-color-hover : darken($table-stripe-color, 5);
+$background-color: $oc-white;
+$background-over-color: $oc-gray-1;
+
+$text-color: $oc-gray-8;
+$link-color: $oc-blue-8;
+$code-color: $oc-indigo-9;
+$code-background-color: $oc-gray-1;
+$table-border-color: $oc-gray-2;
+$table-background-color: $oc-gray-1;
+
+$divider-color: $oc-gray-1;
 
 
-// MEDIA QUERIES ==============================================
-$micro                    : "only screen and (min-width: 30em)";
-$small                    : "only screen and (min-width: 37.5em)";
-$medium                   : "only screen and (min-width: 48em)";
-$large                    : "only screen and (min-width: 62em)";
-$x-large                  : "only screen and (min-width: 86.375em)";
+/*--------------
+  List
+  -------------- */
+
+$li-bottom-space: 0.8em;
+$li-bullets-width: 1.7em;
+$li-line-height: 1.55;
+
+$ul-bullets-font: inherit;
+$ul-bullets-font-size: 1.2em;
+$ul-bullets-font-line-height: 1.2;
+$ul-bullets-right-space: 0.65em;
+
+$ol-bullets-font: inherit;
+$ol-bullets-font-size: 1em;
+$ol-bullets-font-line-height: inherit;
+$ol-bullets-right-space: 0.65em;
+
+$li-child-size-ratio: 0.95;
+
+$dt-width: 180px;
+$dt-dd-space: 20px;
+$dd-position: $dt-width+$dt-dd-space
