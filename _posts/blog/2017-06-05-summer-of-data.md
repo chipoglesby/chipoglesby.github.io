@@ -1,5 +1,5 @@
 ---
-title: "My Summer of Data Science: Mathematical Modeling #sods17"
+title: "My Summer of Data Science Part One: Mathematical Modeling #sods17"
 author: chipoglesby
 comments: true
 date: "2017-06-05"
