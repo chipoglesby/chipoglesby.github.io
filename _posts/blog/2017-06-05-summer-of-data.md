@@ -17,7 +17,7 @@ tags:
 First, did you know that the Clay Mathematics Institute has a million dollar 
 prize for anyone who can solve any of their problems?
 
-I'm thinking about solving the famous 
+I'm thinking about trying to solving the famous 
 [P vs NP Problem.](http://www.claymath.org/millennium-problems/p-vs-np-problem)
 
 But before I figure that one out, I want to start with someone more simple that
