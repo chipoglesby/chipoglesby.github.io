@@ -1,5 +1,5 @@
 ---
-title: "White House Salary Analysis"
+title: "White House salary analysis"
 author: chipoglesby
 comments: true
 date: "2017-07-15"
