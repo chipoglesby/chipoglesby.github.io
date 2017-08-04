@@ -30,6 +30,8 @@ Summary: An analysis of Trump's tweeting habits pre-election and post-election.
 Summary: Looking to answer: Does Trump tweet more or less now that he's president?
 ### [Colorado Oil Well Complaint Analysis](https://github.com/chipoglesby/coloradoOilWellComplaints)
 Summary: A text analysis of complaints made against oil wells in Colorado, where they're made and who makes them.
+### [Data Science on Google Cloue](https://github.com/chipoglesby/dataScienceOnGoogleCloud)
+Summary: An easy to run setup to get anyone up and running with Rstudio on Google Compute Engine.
 
 ## Planned
 ### [Kaggle: One Million Headlines](https://github.com/chipoglesby/kaggleOneMillionHeadlines)
