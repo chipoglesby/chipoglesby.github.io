@@ -6,7 +6,6 @@ layout: page
 slug: projects
 title: Projects
 excerpt: "Current Data Science Projects"
-
 ---
 # Current Data Science Projects:
 
