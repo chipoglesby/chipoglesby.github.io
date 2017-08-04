@@ -11,9 +11,9 @@ Overview: Different analysis that I've been working on lately. I usually try to 
 before I start another one, but there's just so much data to analyze!
 
 ## Finished
-### [Fort Collins Employee Earnings](https://github.com/chipoglesby/fortCollinsEmployeeEarnings)
+### [Fort Collins Employee Earnings](http://www.chipoglesby.com/fortCollinsEmployeeEarnings/)
 Summary: An analysis of what city employees in Fort Collins are currently earning.
-### [Colorado Rent](https://github.com/chipoglesby/coloradoRent)
+### [Colorado Rent](http://www.chipoglesby.com/coloradoRent/analysis/)
 Summary: An analysis of rent in colorado as provided by data.colorado.gov. Also automates reporting across multiple counties.
 ### [Encrypted Dashboards](https://github.com/chipoglesby/encryptedDashboard)
 Summary: A test to see if I can integrate Shiny, Rstudio Server, Let's Encrypt on Google Compute Engine.
@@ -21,7 +21,7 @@ Summary: A test to see if I can integrate Shiny, Rstudio Server, Let's Encrypt o
 Summary: An example of my data analysis workflow used in `R`.
 
 ## In Progress
-### [White House Salaries](https://github.com/chipoglesby/whiteHouseSalaries)
+### [White House Salaries](http://www.chipoglesby.com/whiteHouseSalaries/)
 Summary: An analysis of changes in White House staff salaries over time, including a wage gap analysis.
 ### [Colorado Business Analysis](https://github.com/chipoglesby/coloradoBusinesses)
 Summary: Looking at data from data.colorado.gov to find trends in businesses over time.
