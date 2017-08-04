@@ -4,11 +4,9 @@ comments: true
 date: 2017-08-04
 layout: page
 slug: projects
-title: Projects
+title: Current Data Science Projects
 excerpt: "Current Data Science Projects"
 ---
-# Current Data Science Projects:
-
 Overview: Different analysis that I've been working on lately. I usually try to finish one project
 before I start another one, but there's just so much data to analyze!
 
