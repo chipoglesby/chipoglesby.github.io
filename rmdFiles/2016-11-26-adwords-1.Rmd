@@ -1,7 +1,6 @@
 ---
 title: "Analyzing Google AdWords With R"
 author: "chipoglesby"
-date: '`r Sys.Date()`'
 excerpt: Step One Getting Setup With Authentication
 layout: post
 published: yes
