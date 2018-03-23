@@ -12,7 +12,8 @@ categories:
 - R
 tags:
 - Google
-- GPS
+- R
+- analysis
 ---
 
 I've been using Google's Timeline feature to track my locations since 2011
