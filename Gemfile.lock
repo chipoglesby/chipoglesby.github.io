@@ -77,16 +77,6 @@ GEM
       typhoeus (~> 0.7)
     html-pipeline (2.7.1)
       activesupport (>= 2)
-<<<<<<< HEAD
-      nokogiri (>= 1.4)
-    i18n (0.9.5)
-      concurrent-ruby (~> 1.0)
-    jekyll (3.6.2)
-=======
-      nokogiri (>= 1.8.1)
-    i18n (0.8.1)
-    jekyll (3.4.3)
->>>>>>> 9ffc369e3e58acf4309509fda258aaaecb30ac37
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
