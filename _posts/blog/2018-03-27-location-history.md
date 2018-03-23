@@ -33,7 +33,7 @@ Writing `SQL` is similar to the `dplyr` package in `R`. I also get the added ben
 all of the processing power to Google BigQuery which I can run for free since I have
 [free tier of GCP](https://cloud.google.com/free/).
 
-Today I'll sharing the `bash` scrip that I've written to automate extracting, uploading and storing the information.
+Today I will share the `bash` scripr that I've written to automate extracting, uploading and storing the information.
 
 Let's take a look at the script:
 
