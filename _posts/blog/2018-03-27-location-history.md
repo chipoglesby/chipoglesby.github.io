@@ -42,7 +42,7 @@ Let's take a look at the script:
 
 The script above is going to do a few things for us. It will
 
-1. Unzip the CSV file that we exported from google
+1. Unzip the file that we exported from Google. [Read More about the process here.](https://productforums.google.com/forum/#!topic/maps/v8iaQF_Y0fw)
 2. The script will use `JQ` to parse the JSON file and save it as a newline delimited file, which is BigQuery's format for using `JSON`.
 3. It will upload the file to Google Cloud Storage for long-term storage.
 4. Finally the script upload the file from cloud storage into BigQuery for analyzing.
