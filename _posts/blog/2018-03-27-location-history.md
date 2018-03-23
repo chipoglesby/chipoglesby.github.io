@@ -30,7 +30,7 @@ Cloud Storage and then load the data into Google BigQuery's data warehouse to
 analyze with R.
 
 Writing `SQL` is similar to the `dplyr` package in `R`. I also get the added benefit of offloading
-all of the processing power to Google BigQuery which I can run for free since I have
+all of the processing power to Google BigQuery which I can run for free since I have the 
 [free tier of GCP](https://cloud.google.com/free/).
 
 Today I will share the `bash` scripr that I've written to automate extracting, uploading and storing the information.
