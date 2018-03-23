@@ -37,7 +37,8 @@ Today in the first part of the post, I'm sharing the `bash` scrip that I've writ
 to automate extracting, uploading and storing the information.
 
 Let's take a look at the script:
-<script src="http://gist-it.appspot.com/https://raw.githubusercontent.com/chipoglesby/locationHistory/master/uploadToBigQuery.sh"></script>
+
+<script src="http://gist-it.appspot.com/github/chipoglesby/locationHistory/blob/master/uploadToBigQuery.sh"></script>
 
 The script above is going to do a few things for us. It will
 
