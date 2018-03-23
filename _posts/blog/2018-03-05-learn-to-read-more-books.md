@@ -1,51 +1,54 @@
 ---
-title: "Invest In Yourself By Reading More Books"
+title: "Analyze Your Google Location History: Getting and Loading Data"
 author: chipoglesby
 comments: true
-date: "2018-03-05"
+date: "2018-03-23"
 layout: post
-slug: 2018-learn-to-read-more-books
-excerpt: Want to get ahead in your personal life or career? You should start here.
+slug: 2018-analyzing-google-location-historyI
+excerpt: Let's take a look at the Google's Timeline History to see what we can learn
 published: true
 categories:
-- sidenote
-
+- analysis
+- R
 tags:
-- learning
-- books
+- Google
+- GPS
 ---
 
-2017 was a big year for me and my family both personally and professionally. 
-I accepted a new role for work that took us from Colorado to Tennessee that would not
-have been possible without my own personal development. The most helpful thing? Reading
-as many books as possible.
+I've been using Google's Timeline feature to track my locations since 2011
+when it was called Google Latitude. When I first signed up, I thought it was an
+interesting way to share your location with family and friends, but I pretty much
+forgot about it until recently. I decided that it might be a good time to take
+the information that Google has been gathering for the past seven years and
+start a new project to see what I could learn about myself.
 
-I'm not Warren Buffett, 
-[so I can't spend 80% of my work day reading](https://www.fs.blog/2013/05/the-buffett-formula-how-to-get-smarter/)
-but I will share with you my tips for reading as much as possible:
+The first issue that I ran into is the size of the `geoJSON` file that google
+let's you export. Mine was around 400 MB once it was unzipped, and I don't really
+want to load the entire file into `R`  to work with, so I thought this would be
+a great use case for Google's Cloud Platform. I could easily store the file in
+Cloud Storage and then load the data into Google BigQuery's data warehouse to
+analyze with R.
 
-1. **Use technology as an aide**: It can be a Nook, a Kindle or some other brand, but you have to have an e-reader. 
-I know books 'smell' better and their much more 'tactile' than an e-reader, but you cannot compete with their convenience.
-With a Kindle, I download a book anytime, any place. I would suggest not using audiobooks or phones to read books because
-audiobooks allow for passive listening and phones have way to many distractions when reading. Also lights from phone screens?
-*yuck!*
+Writing `SQL` is similar to the `dplyr`. I also get the added benefit of offloading
+all of the processing power to Google BigQuery which I can run for free since I have
+free trial version.
 
-2. **Read with intention and purpose**: For me, I know exactly where I want to be in my professional career
-and I know exactly what skills I need to get there. That means that I know which books I need to read and what I can avoid.
-I give each book a fair chance. I avoid reading fiction books for pleasure at all.
+Today in the first part of the post, I'm sharing the `bash` scrip that I've written
+to automate extracting, uploading and storing the information.
 
-3. **Unbiased about what I sample, biased about what I read**: 
-Anytime I hear someone mention a book that sounds interesting, I immediately go and download
-a free sample. If I'm hooked by the end of the sample and I know that it will make me a better person or enhance my career,
-I'll buy it. If it's a good book, but I'm on the fence, I store that sample in a "Maybes" folder that I'll revisit when I've
-ran out of things to read. If I'm not hooked at all, I delete it and move on, no hard feelings.
+Let's take a look at the script:
+<script src="http://gist-it.appspot.com/https://raw.githubusercontent.com/chipoglesby/locationHistory/master/uploadToBigQuery.sh"></script>
 
-4. **Read any chance you get**: I almost always have my e-reader on me. I have a Kindle paperwhite at home, that I use to
-read in the mornings and evenings. The paperwhite has a backlit screen that makes reading in the dark before bed really easy.
-I have another older Kindle that still works with a keyboard, which is fun to take notes with, but I keep that with me everywhere
-else I go. Once you start paying attenion, you'll realize that you have plenty of time when you're waiting in line for things,
-or when you have a few free minutes between meetings or at home while you're doing chores like laundry. After work and sleep, we
-all have 72 hours per week of free time.
+The script above is going to do a few things for us. It will
 
-5. **Read to increase knowledge**: I love nonfiction books and it's 99% of what I read. If your goal is to invest
-in yourself personally or professionally you need to find books that are going to make the most sense for you.
+1. Unzip the CSV file that we exported from google
+2. The script will use `JQ` to parse the JSON file and save it as a newline delimited file, which is BigQuery's format for using `JSON`.
+3. It will upload the file to Google Cloud Storage for long-term storage.
+4. Finally the script upload the file from cloud storage into BigQuery for analyzing.
+
+This script is written for an Mac, but could easily be rewritten for other
+machines. It also uses the Google Cloud SDK, so I'm going to assume you already
+have that set up on your machine locally.
+
+In the next post, we'll dive into the data and take an initial look at things through
+an exploratory data analysis using `R`.
