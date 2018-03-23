@@ -22,12 +22,12 @@ forgot about it until recently. I decided that it might be a good time to take
 the information that Google has been gathering for the past seven years and
 start a new project to see what I could learn about myself.
 
-The first issue that I ran into is the size of the `GeoJSON` file that google
+The first issue that I ran into is the size of the `GeoJSON` file that Google
 let's you export. My exported file was around 400 MB once it was unzipped, and I don't really
 want to load the entire file into `R` to work with, so I thought this would be
 a great use case for Google's Cloud Platform. I could easily store the file in
 Cloud Storage and then load the data into Google BigQuery's data warehouse to
-analyze with R.
+analyze with `R`.
 
 Writing `SQL` is similar to the `dplyr` package in `R`. I also get the added benefit of offloading
 all of the processing power to Google BigQuery which I can run for free since I have the 
