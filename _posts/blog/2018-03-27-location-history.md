@@ -22,25 +22,24 @@ forgot about it until recently. I decided that it might be a good time to take
 the information that Google has been gathering for the past seven years and
 start a new project to see what I could learn about myself.
 
-The first issue that I ran into is the size of the `geoJSON` file that google
-let's you export. Mine was around 400 MB once it was unzipped, and I don't really
-want to load the entire file into `R`  to work with, so I thought this would be
+The first issue that I ran into is the size of the `GeoJSON` file that google
+let's you export. My exported file was around 400 MB once it was unzipped, and I don't really
+want to load the entire file into `R` to work with, so I thought this would be
 a great use case for Google's Cloud Platform. I could easily store the file in
 Cloud Storage and then load the data into Google BigQuery's data warehouse to
 analyze with R.
 
-Writing `SQL` is similar to the `dplyr`. I also get the added benefit of offloading
+Writing `SQL` is similar to the `dplyr` package in `R`. I also get the added benefit of offloading
 all of the processing power to Google BigQuery which I can run for free since I have
-free trial version.
+[free tier of GCP](https://cloud.google.com/free/).
 
-Today in the first part of the post, I'm sharing the `bash` scrip that I've written
-to automate extracting, uploading and storing the information.
+Today I'll sharing the `bash` scrip that I've written to automate extracting, uploading and storing the information.
 
 Let's take a look at the script:
 
 <script src="https://gist-it.appspot.com/github/chipoglesby/locationHistory/blob/master/uploadToBigQuery.sh"></script>
 
-The script above is going to do a few things for us. It will
+The script above is going to do a few things for us. It will:
 
 1. Unzip the file that we exported from Google. [Read More about the process here.](https://productforums.google.com/forum/#!topic/maps/v8iaQF_Y0fw)
 2. The script will use `JQ` to parse the JSON file and save it as a newline delimited file, which is BigQuery's format for using `JSON`.
