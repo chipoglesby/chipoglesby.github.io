@@ -95,7 +95,8 @@ Let's begin our analysis by looking at some simple questions:
 1. How many observations do we have? We have 1,770,882 recorded observations.
 1. What is the minimum recorded time? `2011-07-24 03:59:37 UTC`
 1. What is the maximum recorded time? `2018-03-21 11:46:00 UTC`
-1. What is the mean difference between observations? `1 minute`
+1. What is the median time difference between observations? `60 seconds`
 
 Wow, so ~1.7mil observations between 2011 and 2018. That's a lot considering
-that observations are sent every 60 seconds!
+that observations are sent every 60 seconds! There are 10,081 observations
+recorded 26 seconds apart. That might be worth investigating more.
