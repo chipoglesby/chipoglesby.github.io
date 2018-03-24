@@ -38,12 +38,12 @@ we can use.
 | activity.type | Here, activity could refer to multiple values. My guess is that Google is using some machine learning magic to infer what the user is potentially doing. There are many possible values. |
 | activity.confidence | Here, Google is assigning a confidence interval to your activity type. The values go from low to high, 0 - 100. |
 | activity.timestampMs | This is the timestamp in milliseconds for the recorded activity. |
-| verticalAccuracy| This could refer to the accuracy of the verical location of the device. |
-| velocity | This could refer to the speed of the device at capture time. It's probably infered based on other data points. |
+| verticalAccuracy| This could refer to the accuracy of the vertical location of the device. |
+| velocity | This could refer to the speed of the device at capture time. It's probably inferred based on other data points. |
 | accuracy | Accuracy is Google's estimate of how accurate the data is. An accuracy of less than 800 is high and more than 5000 is low. |
 | longitudeE7 | This is the longitudinal value of the observation. |
 | latitudeE7 | This is the latitudinal value of the observation. |
-| altitude | This could refer to the altitude of the device. I'm assuming it's measured from sealevel. |
+| altitude | This could refer to the altitude of the device. I'm assuming it's measured from sea level. |
 | timestampMs | This is the timestamp in milliseconds that the observation was recorded. |
 
 For the main values that we'll be working with: `timestampMs`, `longitudeE7` and
@@ -57,3 +57,27 @@ easily convert `latitudeE7` and `longitudeE7` by dividing by `1e7`. So
 the coordinates `48.1265044, 11.6593258` which is `48°07'35.4"N 11°39'33.6"E`.
 
 If you want to read more about latitude and longitude, check out [Understanding Latitude and Longitude](http://www.learner.org/jnorth/tm/LongitudeIntro.html).
+
+Also in the example data above, looking at the activity, for this observation,
+Google thinks it's 75% confident that I'm in a vehicle, going somewhere.
+
+## Exploratory Data Analysis
+
+Now that we have looked at the data available in the `JSON` file, let's write
+some `SQL` and pull all of the information into `R` and take a look at what's
+going on.
+
+For this analysis, I'll be analyzing the following:
+
+| values | type | definition |
+| :--- | :--- |
+|latitude | FLOAT|	The latitude of the observation |
+|longitude | FLOAT|	The longitude of the observation |
+|date | TIMESTAMP|	 The date, converted from `timestampMs` |
+|accuracy | INTEGER|	The accuracy of the observation |
+|accuracyLevel | STRING|	The inferred accuracy level of the observation |
+|minuteDifference | FLOAT|	The difference in minutes between current and previous observation |
+|activityType | STRING|	The type of activity of the observation |
+|activityConfidence | INTEGER|	The confidence level of the activity |
+|latLong | STRING|	The concatenated values of Latitude and Longitude |
+|cityLatLong | STRING| Values of the lat/lon used to guess the current city |
