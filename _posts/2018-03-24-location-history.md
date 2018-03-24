@@ -58,8 +58,8 @@ the coordinates `48.1265044, 11.6593258` which is `48°07'35.4"N 11°39'33.6"E`.
 
 If you want to read more about latitude and longitude, check out [Understanding Latitude and Longitude](http://www.learner.org/jnorth/tm/LongitudeIntro.html).
 
-Also in the example data above, looking at the activity, for this observation,
-Google thinks it's 75% confident that I'm in a vehicle, going somewhere.
+Also in the example data above looking at the activity for this observation,
+Google thinks it's 75% confident that I'm in a vehicle going somewhere.
 
 ## Exploratory Data Analysis
 
@@ -70,7 +70,7 @@ going on.
 For this analysis, I'll be analyzing the following:
 
 | values | type | definition |
-| :--- | :--- |
+| :--- | :--- | :---|
 |latitude | FLOAT|	The latitude of the observation |
 |longitude | FLOAT|	The longitude of the observation |
 |date | TIMESTAMP|	 The date, converted from `timestampMs` |
