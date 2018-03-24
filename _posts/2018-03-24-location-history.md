@@ -51,7 +51,7 @@ For the main values that we'll be working with: `timestampMs`, `longitudeE7` and
 BigQuery can help us fix that!
 
 In BigQuery, we can convert this `timestampMs` `1486800415000` to
-`2017-02-11 08:06:55.000 UTC` using `MSEC_TO_TIMESTAMP(<value>)`. We can also
+`2017-02-11 08:06:55.000 UTC` using `MSEC_TO_TIMESTAMP()`. We can also
 easily convert `latitudeE7` and `longitudeE7` by dividing by `1e7`. So
 `481265044/1e7` becomes 48.1265044 and `116593258/1e7` is 11.6593258 giving us
 the coordinates `48.1265044, 11.6593258` which is `48°07'35.4"N 11°39'33.6"E`.
