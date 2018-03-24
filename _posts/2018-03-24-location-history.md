@@ -89,3 +89,13 @@ There are a few ways you can handle this. In my `R` code, I've written the query
 to pull the results directly into a local data frame. You can also run the query
 and save the results to a temp table, to help reduce calls and save yourself a
 little bit of money. It's personal preference.
+
+Let's begin our analysis by looking at some simple questions:
+
+1. How many observations do we have? We have 1,770,882 recorded observations.
+1. What is the minimum recorded time? `2011-07-24 03:59:37 UTC`
+1. What is the maximum recorded time? `2018-03-21 11:46:00 UTC`
+1. What is the mean difference between observations? `1 minute`
+
+Wow, so ~1.7mil observations between 2011 and 2018. That's a lot considering
+that observations are sent every 60 seconds!
