@@ -53,3 +53,5 @@ have that set up on your machine locally.
 
 In the next post, we'll dive into the data and take an initial look at things through
 an exploratory data analysis using `R`.
+
+Check out part II of [How to analyze your Google location history here.](http://www.chipoglesby.com/2018/03/2018-analyzing-google-location-historyII/)
