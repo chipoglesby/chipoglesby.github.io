@@ -96,7 +96,15 @@ Let's begin our analysis by looking at some simple questions:
 1. What is the minimum recorded time? `2011-07-24 03:59:37 UTC`
 1. What is the maximum recorded time? `2018-03-21 11:46:00 UTC`
 1. What is the median time difference between observations? `60 seconds`
+1. How many different coordinates were recorded? `418,890`
 
 Wow, so ~1.7mil observations between 2011 and 2018. That's a lot considering
 that observations are sent every 60 seconds! There are 10,081 observations
 recorded 26 seconds apart. That might be worth investigating more.
+
+Another thing that I've observed is that since observations depend on cell towers,
+satellites and WIFI they can sometimes be inaccurate even when you're standing
+still. Take for example these two locations: `40.555653, -105.098351` and
+`40.555608, -105.098397`. Even though my phone may be sitting quietly in a locker
+sometimes the distance recorded between observations may be 20 feet apart. It's
+hard to tell it's visualizing it, so I'm not going to worry about that for now.
