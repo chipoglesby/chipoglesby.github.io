@@ -122,7 +122,26 @@ with less than `0.01%` with an accuray of `LOW`.
 |medium        |   73637|
 |low           |     319|
 
-Lets visualize the distribution by activity type. All of the observations are left
-skewed so we are going to visualize this using `log`.
+### Activities
+
+|activityType    |  count| medianConfidence|
+|:---------------|------:|----------------:|
+|still           | 549051|              100|
+|tilting         |  65220|              100|
+|unknown         |  35531|               75|
+|in vehicle      |  33277|               85|
+|on foot         |  15554|               80|
+|exiting vehicle |    964|              100|
+|on bicycle      |    866|               75|
+
+As you can see, we seven different types of activity, excluding `NA`'s. It
+would be interesting to try to figure out what's going on with the `unknown` and
+`NA`.
+
+Lets visualize the distribution by activity type. All of the observations are
+left skewed so we are going to visualize this using `log`.
 
 ![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2018/03/24/activities.png)
+
+Here's a copy of the `R` code if you would like to follow along:
+<script src="http://gist-it.appspot.com/github/chipoglesby/locationHistory/blob/master/code/data.R"></script>
