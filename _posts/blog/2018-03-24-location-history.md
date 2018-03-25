@@ -34,7 +34,7 @@ we can use.
 
 | Value | Meaning |
 | :---| :--- |
-| Heading | [The direction the device is traveling. ](https://transitiva.com/heading-in-gps-explained/) |
+| heading | [The direction the device is traveling. ](https://transitiva.com/heading-in-gps-explained/) |
 | activity.type | Here, activity could refer to multiple values. My guess is that Google is using some machine learning magic to infer what the user is potentially doing. There are many possible values. |
 | activity.confidence | Here, Google is assigning a confidence interval to your activity type. The values go from low to high, 0 - 100. |
 | activity.timestampMs | This is the timestamp in milliseconds for the recorded activity. |
