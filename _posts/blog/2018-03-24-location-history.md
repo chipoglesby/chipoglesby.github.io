@@ -109,7 +109,7 @@ satellites and WIFI they can sometimes be inaccurate even when you're standing
 still. Take for example these two locations: `40.555653, -105.098351` and
 `40.555608, -105.098397`. Even though my phone may be sitting quietly in a locker
 sometimes the distance recorded between observations may be 20 feet apart. It's
-hard to tell it's visualizing it, so I'm not going to worry about that for now.
+hard to tell without visualizing it, so I'm not going to worry about that for now.
 
 ### Accuracy
 
@@ -117,7 +117,7 @@ How accurate are the observations? `95%` of all observations are rated as `HIGH`
 with less than `0.01%` with an accuray of `LOW`.
 
 |accuracyLevel |       n|
-|:-------------|-------:|
+|:-------------|:-------|
 |high          | 1696926|
 |medium        |   73637|
 |low           |     319|
@@ -125,7 +125,7 @@ with less than `0.01%` with an accuray of `LOW`.
 ### Activities
 
 |activityType    |  count| medianConfidence|
-|:---------------|------:|----------------:|
+|:---------------|:------|:----------------|
 |still           | 549051|              100|
 |tilting         |  65220|              100|
 |unknown         |  35531|               75|
@@ -143,5 +143,5 @@ left skewed so we are going to visualize this using `log`.
 
 ![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2018/03/24/activities.png)
 
-Here's a copy of the `R` code if you would like to follow along:
+Here's the `R` code if you would like to follow along:
 <script src="http://gist-it.appspot.com/github/chipoglesby/locationHistory/blob/master/code/data.R"></script>
