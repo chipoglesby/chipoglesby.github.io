@@ -90,6 +90,8 @@ to pull the results directly into a local data frame. You can also run the query
 and save the results to a temp table, to help reduce calls and save yourself a
 little bit of money. It's personal preference.
 
+### Overall
+
 Let's begin our analysis by looking at some simple questions:
 
 1. How many observations do we have? We have 1,770,882 recorded observations.
@@ -108,3 +110,19 @@ still. Take for example these two locations: `40.555653, -105.098351` and
 `40.555608, -105.098397`. Even though my phone may be sitting quietly in a locker
 sometimes the distance recorded between observations may be 20 feet apart. It's
 hard to tell it's visualizing it, so I'm not going to worry about that for now.
+
+### Accuracy
+
+How accurate are the observations? `95%` of all observations are rated as `HIGH`
+with less than `0.01%` with an accuray of `LOW`.
+
+|accuracyLevel |       n|
+|:-------------|-------:|
+|high          | 1696926|
+|medium        |   73637|
+|low           |     319|
+
+Lets visualize the distribution by activity type. All of the observations are left
+skewed so we are going to visualize this using `log`.
+
+![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2018/03/24/activities.png)
