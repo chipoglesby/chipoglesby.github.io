@@ -6,7 +6,7 @@ date: "2018-03-24"
 layout: post
 slug: 2018-analyzing-google-location-historyII
 excerpt: Let's analyze our Google Location History Data
-published: false
+published: true
 categories:
 - analysis
 - R
