@@ -18,7 +18,7 @@ tags:
 - coding
 ---
 
-In our [previous post](/2018/03/2018-analyzing-google-location-historyI/), we
+In the [previous post](/2018/03/2018-analyzing-google-location-historyI/), we
 took the data that we exported from Google Maps Timeline processed it and
 uploaded it to Google BigQuery for analysis.
 
@@ -49,13 +49,15 @@ we can use.
 | timestampMs | This is the timestamp in milliseconds that the observation was recorded. |
 
 For the main values that we'll be working with: `timestampMs`, `longitudeE7` and
-`latitudeE7`, these values are not in great "human readable" format, but
-BigQuery can help us fix that!
+`latitudeE7`.
+These values are not in great "human readable" format, but BigQuery can help us
+fix that!
 
 In BigQuery, we can convert this `timestampMs` `1486800415000` to
-`2017-02-11 08:06:55.000 UTC` using `MSEC_TO_TIMESTAMP()`. We can also
-easily convert `latitudeE7` and `longitudeE7` by dividing by `1e7`. So
-`481265044/1e7` becomes 48.1265044 and `116593258/1e7` is 11.6593258 giving us
+`2017-02-11 08:06:55.000 UTC` using `MSEC_TO_TIMESTAMP()`.
+
+We can also easily convert `latitudeE7` and `longitudeE7` by dividing by `1e7`.
+`481265044/1e7` becomes `48.1265044` and `116593258/1e7` is `11.6593258` giving us
 the coordinates `48.1265044, 11.6593258` which is `48°07'35.4"N 11°39'33.6"E`.
 
 If you want to read more about latitude and longitude, check out [Understanding Latitude and Longitude](http://www.learner.org/jnorth/tm/LongitudeIntro.html).
@@ -96,7 +98,7 @@ little bit of money. It's personal preference.
 
 Let's begin our analysis by looking at some simple questions:
 
-1. How many observations do we have? We have 1,770,882 recorded observations.
+1. How many observations do we have? We have `1,770,882` recorded observations.
 1. What is the minimum recorded time? `2011-07-24 03:59:37 UTC`
 1. What is the maximum recorded time? `2018-03-21 11:46:00 UTC`
 1. What is the median time difference between observations? `60 seconds`
@@ -108,8 +110,12 @@ recorded 26 seconds apart. That might be worth investigating more.
 
 Another thing that I've observed is that since observations depend on cell towers,
 satellites and WIFI they can sometimes be inaccurate even when you're standing
-still. Take for example these two locations: `40.555653, -105.098351` and
-`40.555608, -105.098397`. Even though my phone may be sitting quietly in a locker
+still.
+
+Take for example these two locations: `40.555653, -105.098351` and
+`40.555608, -105.098397`.
+
+Even though my phone may be sitting quietly in a locker
 sometimes the distance recorded between observations may be 20 feet apart. It's
 hard to tell without visualizing it, so I'm not going to worry about that for now.
 

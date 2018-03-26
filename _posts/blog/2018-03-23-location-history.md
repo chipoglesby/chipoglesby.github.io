@@ -60,7 +60,7 @@ for the project and download your takeout file here.***
 
 The script above is going to do a few things for us. It will:
 
-1. Unzip the file that we exported from Google. [Read More about the process here.](https://productforums.google.com/forum/#!topic/maps/v8iaQF_Y0fw)
+1. Unzip the file that we exported from Google. [Read More about the process here.](https://googlesystem.blogspot.com/2014/12/google-takeout-lets-you-export-tasks.html#gsc.tab=0)
 2. The script will use `JQ` to parse the JSON file and save it as a newline delimited file, which is BigQuery's format for using `JSON`.
 3. It will upload the file to Google Cloud Storage for long-term storage. This part uses the `gsutil` feature of the Google Cloud SDK to load the data into a storage bucket. The flag `-mq` makes the process quiet and let's you upload multiple files in parallel.
 4. Finally the script upload the file from cloud storage into BigQuery for analyzing. For `BQ`, I'm using two flags: `--source_format=NEWLINE_DELIMITED_JSON` and `--autodetect`. The autodetect feature will attempt to get the schema from the JSON file and set the field names for you, which I find super helpful, especially when you have a lot of key value pairs. The other flag just identifies which type of file you're uploading. In this case it's a newline delimited file which we created in step two.
