@@ -17,7 +17,7 @@ tags:
 - analysis
 - coding
 ---
-Before we begin, I want to sure you're able to follow along. For you to be able
+Before we begin, I want to ensure you're able to follow along. For you to be able
 to run this successfully and copy my code, you'll need the following items:
 
 * A Google account that has the timeline feature set up in Google Maps
