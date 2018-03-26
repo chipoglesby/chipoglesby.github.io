@@ -74,11 +74,13 @@ Since there are `1,770,882` observations, I have no freaking clue how long it
 would take `R` to run through something like this, with BigQuery, the query
 is done in `13.3` seconds. That's blazing fast!
 
-Now that we have calcuated distances between observations, let's import it into
+Now that we have calculated distances between observations, let's import it into
 `R` and do some analysis.
 
-1. How many miles did I travel between 2011 and 2018? 654,572.32 miles. Is that even possible?
+1. How many miles did I travel between 2011 and 2018?
+  * 654,572.32 miles. *Is that even possible?*
 1. How many miles did I travel by type?
+
 |activityType    |  distance|       n|
 |:---------------|---------:|-------:|
 |NA              | 333929.56| 1065401|
@@ -108,6 +110,21 @@ during one hour:
 |on foot      |  2|     0.05|
 
 Other questions:
-1. When was the most popular activity by hour of day?
+1. What was the most popular activity by hour of day?
 2. How did my movements change over time?
 3. What days of the week were most popular for activities?
+
+## Time is of the essence
+I'm also intrigued by the idea of "time" with all of this information.
+I think that it's fascinating that Google is able to harness this information
+to do things like:
+
+* Tell you when to leave for work and arrive on time based on traffic patterns
+* Tell you the most popular visited times for restaurants.
+* Tell you your average commute times at any given time.
+* Suggest what you should listen to based on your current location.
+
+Additionally, I've used some simple `CASE` statements to augment the provided
+information to give us seasons based on dates and part of day based on hour.
+
+Let's look at some of that information:
