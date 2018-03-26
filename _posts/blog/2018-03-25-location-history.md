@@ -19,7 +19,7 @@ tags:
 ---
 
 This is part three in my series. You can find
-[part one here]((2018/03/2018-analyzing-google-location-historyII/) and
+[part one here](2018/03/2018-analyzing-google-location-historyII/) and
 [part two here](2018/03/2018-analyzing-google-location-historyII/).
 
 In my last post, I did an exploratory data analysis of my Google location

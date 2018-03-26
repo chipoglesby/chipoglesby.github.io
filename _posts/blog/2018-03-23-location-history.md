@@ -17,28 +17,44 @@ tags:
 - analysis
 - coding
 ---
+Before we begin, I want to sure you're able to follow along. For you to be able
+to run this successfully and copy my code, you'll need the following items:
+
+* A Google account that has the timeline feature set up in Google Maps
+* An export of your location history in `JSON` format available through [Google Takeout](https://takeout.google.com/settings/takeout).
+* A Mac or Linux machine with [Google Cloud SDK](https://cloud.google.com/sdk/) installed.
+* At least the free tier of [Google Cloud Platform](https://cloud.google.com/free/), set up and ready to go.
+
+Make sure all of this is ready before you begin.
 
 I've been using Google's Timeline feature to track my locations since 2011
 when it was called Google Latitude. When I first signed up, I thought it was an
 interesting way to share your location with family and friends, but I pretty much
-forgot about it until recently. I decided that it might be a good time to take
+forgot about it until recently.
+
+I decided that it might be a good time to take
 the information that Google has been gathering for the past seven years and
 start a new project to see what I could learn about myself.
 
 The first issue that I ran into is the size of the `GeoJSON` file that Google
-let's you export. My exported file was around 400 MB once it was unzipped, and I don't really
+lets you export.
+
+My exported file was around 400 MB once it was unzipped, and I don't really
 want to load the entire file into `R` to work with, so I thought this would be
-a great use case for Google's Cloud Platform. I could easily store the file in
-Cloud Storage and then load the data into Google BigQuery's data warehouse to
-analyze with `R`.
+a great use case for Google's Cloud Platform.
+
+I could easily store the file in Cloud Storage and then load the data into
+Google BigQuery's data warehouse to analyze with `R`.
 
 Writing `SQL` is similar to the `dplyr` package in `R`. I also get the added benefit of offloading
 all of the processing power to Google BigQuery which I can run for free since I have the
 [free tier of GCP](https://cloud.google.com/free/).
 
-Today I will share the `bash` scripr that I've written to automate extracting, uploading and storing the information.
+Today I will share the `bash` script that I've written to automate extracting,
+uploading and storing the information.
 
-Let's take a look at the script:
+Let's take a look at the script: ***Before you begin, be sure to create a folder
+for the project and download your takeout file here.***
 
 <script src="https://gist-it.appspot.com/github/chipoglesby/locationHistory/blob/master/uploadToBigQuery.sh"></script>
 
