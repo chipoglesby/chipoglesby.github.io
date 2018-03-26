@@ -10,13 +10,15 @@ published: true
 categories:
 - analysis
 - R
+- coding
 tags:
 - Google
 - R
 - analysis
+- coding
 ---
 
-In our [previous post](2018/03/2018-analyzing-google-location-historyI/), we
+In our [previous post](/2018/03/2018-analyzing-google-location-historyI/), we
 took the data that we exported from Google Maps Timeline processed it and
 uploaded it to Google BigQuery for analysis.
 

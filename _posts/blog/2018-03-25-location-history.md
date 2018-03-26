@@ -10,10 +10,12 @@ published: false
 categories:
 - analysis
 - R
+- coding
 tags:
 - Google
 - R
 - analysis
+- coding
 ---
 
 This is part three in my series. You can find

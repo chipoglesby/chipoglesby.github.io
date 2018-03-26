@@ -10,10 +10,12 @@ published: true
 categories:
 - analysis
 - R
+- coding
 tags:
 - Google
 - R
 - analysis
+- coding
 ---
 
 I've been using Google's Timeline feature to track my locations since 2011
