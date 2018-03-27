@@ -129,4 +129,7 @@ to do things like:
 Additionally, I've used some simple `CASE` statements to augment the provided
 information to give us seasons based on dates and part of day based on hour.
 
-Let's look at some of that information:
+Since BigQuery only gives us time in `UTC` format, I'll need to do some 
+additional work to clean up timestamps so they're in the proper timezone.
+I'm working on a way of doing this in `R` with [`googleway`](https://github.com/SymbolixAU/googleway)
+which uses multiple Google maps API's.
