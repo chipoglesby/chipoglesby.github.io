@@ -6,7 +6,7 @@ date: "2018-03-25"
 layout: post
 slug: analyzing-google-location-historyIII
 excerpt: Let's analyze our time and distance data from our Google Location History
-published: false
+published: true
 categories:
 - analysis
 - R
