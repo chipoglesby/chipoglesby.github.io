@@ -16,7 +16,7 @@ tags:
 ---
 
 In my [previous post](http://www.chipoglesby.com/2018/04/getting-and-cleaning-data/)
-We took a look at a couple of different ways to parse unstructured text from
+ we took a look at a couple of different ways to parse unstructured text from
 the internet and prepare it for analysis in R using `tidytext`.
 
 Yesterday evening I took a look at the `subtools` package in `R`. It looked like
