@@ -1,5 +1,5 @@
 ---
-title: "Text Analysis: Part II More Adventures in cleaning data"
+title: "Text Analysis: Part II More Adventures in Cleaning Data"
 author: chipoglesby
 comments: true
 date: "2018-04-12"
