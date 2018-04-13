@@ -51,6 +51,20 @@ calls, you open her mail.  The minute you started doing these things, the
 relationship was over! Thank you for your call. Roz, I think we have time for
 one more?
 ```
+`subtools` does a great job of parsing data into a data frame with a result like:
+|ID |Timecode.in  |Timecode.out |Text                                                                  | season| episode_num| speakingTime|
+|:--|:------------|:------------|:---------------------------------------------------------------------|------:|-----------:|------------:|
+|1  |00:00:08.842 |00:00:11.220 |listen to yourself, bob                                               |      1|           1|     2.75e-05|
+|2  |00:00:11.221 |00:00:15.284 |you follow her to work, you eavesdrop on her calls, you open her mail |      1|           1|     4.70e-05|
+|3  |00:00:15.285 |00:00:18.994 |the minute you started doing these things, the relationship was over  |      1|           1|     4.29e-05|
+|4  |00:00:19.574 |00:00:20.720 |thank you for your call                                               |      1|           1|     1.33e-05|
+|5  |00:00:23.487 |00:00:25.282 |roz, i think we have time for one more                                |      1|           1|     2.08e-05|
+|6  |00:00:25.283 |00:00:26.571 |yes, dr crane                                                         |      1|           1|     1.49e-05|
+
+I manually added the `speakingTime` column and I've reached out to the author
+of the package to see if this might be usable in some format, but currently I don't think
+I'll be able to use it.
+
 If I just wanted to do a sentiment and text analysis on the words alone and not
 include any character information, then the subtitle information would be all I
 need.
