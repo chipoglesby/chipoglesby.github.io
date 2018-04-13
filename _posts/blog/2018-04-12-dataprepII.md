@@ -83,7 +83,7 @@ making it:
 
 `hellorussellthisisdrfrasiercraneimlistening`.
 
-This worked for Some of the data, but not all. Once the episode and subtitle
+This worked for some of the data, but not all. Once the episode and subtitle
 datasets were combined, I was left with a dataframe of ~315,000 observations.
 This was mainly created from cartesian products since I was only joining on
 the "key" I created. Most of those cartesian products were from single word
@@ -136,7 +136,7 @@ tweaking that needs to be done. Once the text has been cleaned, we should
 see a minimal number of `NA's`.
 
 | Gender | Unique Character Count |
-|:------|------:|
+|:---|:---|
 | Female | 247 |
 | Male   | 285 |
 
