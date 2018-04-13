@@ -13,6 +13,7 @@ categories:
 tags:
 - R
 - coding
+- Frasier
 ---
 
 In my [previous post](http://www.chipoglesby.com/2018/04/getting-and-cleaning-data/)
@@ -144,3 +145,7 @@ The counts are pretty close, so there's not an imbalance of male to female
 characters. There is a rise in women's dialogue towards the end of the show,
 which *could* be attributed to Fraiser's love interest with Julia Wilcox in
 seasons 10 and 11 or his desire to settle down.
+
+Analyzing Frasier:
+[Part One](/2018/04/getting-and-cleaning-data/)
+[Part Two](/2018/04/getting-and-cleaning-dataII/
