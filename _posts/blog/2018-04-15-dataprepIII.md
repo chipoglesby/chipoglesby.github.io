@@ -40,7 +40,7 @@ data.
 
 Let's take a look at the data I'll use for this portion of the analysis:
 
-|ID |Time Code Out |Text | Season | Episode|Title |Directed By |Written By |Original Air Date | Viewership In Millions| IMDB Votes| IMDB Ratings|
+|id |timeCodeOut |text | season | episode|title |directedBy |writtenBy |originalAirDate | viewershipInMillions| imdbVotes| imdbRatings|
 |:--|:------------|:-----------------------------------------------------------------------|------:|-------:|:---------------------|:-------------|:--------------------------|:---------------|--------------------:|---------:|-----------:|
 |90 |00:06:03.729 |for once you'll face the consequences of hanging up on callers | 1| 7|Call Me Irresponsible |James Burrows |Anne Flett & Chuck Ranberg |1993-10-28 | 27| 439| 7.9|
 |91 |00:06:06.091 |what consequences | 1| 7|Call Me Irresponsible |James Burrows |Anne Flett & Chuck Ranberg |1993-10-28 | 27| 439| 7.9|
