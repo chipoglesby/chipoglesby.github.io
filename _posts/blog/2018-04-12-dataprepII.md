@@ -148,4 +148,5 @@ seasons 10 and 11 or his desire to settle down.
 
 Analyzing Frasier:
 [Part One](/2018/04/getting-and-cleaning-data/)
-[Part Two](/2018/04/getting-and-cleaning-dataII/
+[Part Two](/2018/04/getting-and-cleaning-dataII/)
+[Part Three](/2018/04/getting-and-cleaning-dataIII/)
