@@ -122,6 +122,7 @@ There's more that you can do with this data, but we'll take a look at that later
 In the next post we'll dive in the transcript data and take a deeper look there.
 
 Analyzing Frasier:
-[Part One](/2018/04/getting-and-cleaning-data/)
-[Part Two](/2018/04/getting-and-cleaning-dataII/)
-[Part Three](/2018/04/getting-and-cleaning-dataIII/)
+
+1. [Part One](/2018/04/getting-and-cleaning-data/)
+2. [Part Two](/2018/04/getting-and-cleaning-dataII/)
+3. [Part Three](/2018/04/getting-and-cleaning-dataIII/)

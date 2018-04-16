@@ -147,6 +147,7 @@ which *could* be attributed to Fraiser's love interest with Julia Wilcox in
 seasons 10 and 11 or his desire to settle down.
 
 Analyzing Frasier:
-[Part One](/2018/04/getting-and-cleaning-data/)
-[Part Two](/2018/04/getting-and-cleaning-dataII/)
-[Part Three](/2018/04/getting-and-cleaning-dataIII/)
+
+1. [Part One](/2018/04/getting-and-cleaning-data/)
+2. [Part Two](/2018/04/getting-and-cleaning-dataII/)
+3. [Part Three](/2018/04/getting-and-cleaning-dataIII/)
