@@ -71,7 +71,9 @@ for each minute of the show and take the mean polarity of the entire minute.
 
 Here's the `R` code for reference:
 ```
-tidyFrasier %>%
+tidyFrasier %>% 
+  filter(season == 1,
+         episode == 7) %>% 
   inner_join(bing) %>%
   arrange(season, episode, id) %>%
   mutate(minute = as.numeric(minute(dateTimeOut)),
@@ -83,36 +85,34 @@ tidyFrasier %>%
   count(sentiment) %>%
   spread(sentiment,
          n,
-         fill = 100) %>%
-  mutate(polarity = positive - negative) %>%
-  group_by(episode, minute) %>%
-  summarize(polarity = mean(polarity))
+         fill = 0) %>%
+  mutate(polarity = positive - negative)
 ```
 
 | season|episode | minute| negative| positive| polarity|
 |------:|:-------|------:|--------:|--------:|--------:|
-|      1|7       |      0|        4|      100|       96|
+|      1|7       |      0|        4|        0|       -4|
 |      1|7       |      1|        2|        1|       -1|
 |      1|7       |      2|        4|        1|       -3|
 |      1|7       |      3|        4|        1|       -3|
 |      1|7       |      4|        4|        1|       -3|
 |      1|7       |      5|        3|        3|        0|
-|      1|7       |      6|        4|      100|       96|
+|      1|7       |      6|        4|        0|       -4|
 |      1|7       |      7|        2|        2|        0|
 |      1|7       |      8|        3|        8|        5|
 |      1|7       |      9|        5|        1|       -4|
-|      1|7       |     10|      100|        4|      -96|
+|      1|7       |     10|        0|        4|        4|
 |      1|7       |     12|        2|        2|        0|
 |      1|7       |     13|        1|        2|        1|
 |      1|7       |     14|        4|        1|       -3|
 |      1|7       |     15|        1|        1|        0|
 |      1|7       |     16|        3|        4|        1|
 |      1|7       |     17|        1|        2|        1|
-|      1|7       |     18|      100|        3|      -97|
+|      1|7       |     18|        0|        3|        3|
 |      1|7       |     19|        5|        3|       -2|
 |      1|7       |     20|        3|        4|        1|
 |      1|7       |     21|        2|        1|       -1|
-|      1|7       |     22|      100|        3|      -97|
+|      1|7       |     22|        0|        3|        3|
 
 Now we can plot the data giving us this chart for this particular episode:
 ![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2018/04/polarityEpisodeSeven.png)
