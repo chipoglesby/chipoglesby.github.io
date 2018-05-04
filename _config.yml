@@ -19,7 +19,8 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-
+plugins:
+  - jekyll-feed
 kramdown:
   input: GFM
   auto_ids: true
