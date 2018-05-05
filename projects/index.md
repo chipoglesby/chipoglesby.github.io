@@ -20,7 +20,7 @@ Summary: A test to see if I can integrate Shiny, Rstudio Server, Let's Encrypt o
 ### [Reproducible Research Template](https://github.com/chipoglesby/reproducibleResearchTemplate)
 Summary: An example of my data analysis workflow used in `R`.
 ### [Analyzing Frasier Crane](https://www.chipoglesby.com/frasier/)
-Summary: A tidytext analysis of the television show Frasier. [Checkout the background here](http://www.chipoglesby.com/2018/04/getting-and-cleaning-data/)
+Summary: A tidytext analysis of the television show Frasier. [Check out the background here](http://www.chipoglesby.com/2018/04/getting-and-cleaning-data/)
 ### [White House Salaries](http://www.chipoglesby.com/whiteHouseSalaries/)
 Summary: An analysis of changes in White House staff salaries over time, including a wage gap analysis.
 
