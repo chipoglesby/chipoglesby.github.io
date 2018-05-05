@@ -19,10 +19,12 @@ Summary: An analysis of rent in colorado as provided by data.colorado.gov. Also 
 Summary: A test to see if I can integrate Shiny, Rstudio Server, Let's Encrypt on Google Compute Engine.
 ### [Reproducible Research Template](https://github.com/chipoglesby/reproducibleResearchTemplate)
 Summary: An example of my data analysis workflow used in `R`.
-
-## In Progress
+### [Analyzing Frasier Crane](https://www.chipoglesby.com/frasier/)
+Summary: A tidytext analysis of the television show Frasier. [Checkout the background here](http://www.chipoglesby.com/2018/04/getting-and-cleaning-data/)
 ### [White House Salaries](http://www.chipoglesby.com/whiteHouseSalaries/)
 Summary: An analysis of changes in White House staff salaries over time, including a wage gap analysis.
+
+## In Progress
 ### [Colorado Business Analysis](https://github.com/chipoglesby/coloradoBusinesses)
 Summary: Looking at data from data.colorado.gov to find trends in businesses over time.
 ### [Trump Time](https://github.com/chipoglesby/trumpTime)
@@ -30,8 +32,6 @@ Summary: An analysis of Trump's tweeting habits pre-election and post-election.
 Summary: Looking to answer: Does Trump tweet more or less now that he's president?
 ### [Colorado Oil Well Complaint Analysis](https://github.com/chipoglesby/coloradoOilWellComplaints)
 Summary: A text analysis of complaints made against oil wells in Colorado, where they're made and who makes them.
-### [Data Science on Google Cloue](https://github.com/chipoglesby/dataScienceOnGoogleCloud)
-Summary: An easy to run setup to get anyone up and running with Rstudio on Google Compute Engine.
 
 ## Planned
 ### [Kaggle: One Million Headlines](https://github.com/chipoglesby/kaggleOneMillionHeadlines)
