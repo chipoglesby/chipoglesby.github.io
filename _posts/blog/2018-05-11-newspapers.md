@@ -40,19 +40,20 @@ Then I started thinking about it. Github has:
 
 Reporters would be able to create branches for their stories, Editors could use
 [review requests](https://blog.github.com/2016-12-07-introducing-review-requests/)
-to request changes. Since you can version control almost anything.  You could
-also host data, spreadsheets, visualizations code for analysis.
+to request changes. Since you can version control almost anything you could host 
+data, visualizations, code for analysis and images here as well.
 
-Special projects and expose would could be stored in an individual private repo
-and then pushed upstream when being published.
+Special projects and exposés could be stored in an individual private repo
+and then pushed upstream when being published to ensure others won't get the
+scoop that you're working on.
 
 If the size of repo became an issue, you could also house images on Google Cloud
 or Amazon buckets, or you could create an organization on
 [data.world](https://data.world/) and version control you data files there,
 giving the public access to everything you publish.
 
-By using an open-source model like [`Git`](https://git-scm.com/) it cut down on
-the perceived bias in news, because it would give insight to how newspapers
+By using an open-source model like [`Git`](https://git-scm.com/) it may cut down on
+the perceived bias in news because it would give people insight to how newspapers
 operate. For analyses, it would give experts the chance to weigh in on
 visualizations and analyses.
 
