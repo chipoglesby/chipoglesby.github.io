@@ -57,5 +57,8 @@ the perceived bias in news because it would give people insight to how newspaper
 operate. For analyses, it would give experts the chance to weigh in on
 visualizations and analyses.
 
+By using Git, you would be able to see the entire change history of an article
+from beginning to end.
+
 I have seen some newsrooms do this. [Fivethirtyeight for example publishes
 their data and and code behind their graphics on github](https://github.com/fivethirtyeight).
