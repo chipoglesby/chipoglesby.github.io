@@ -6,7 +6,7 @@ date: "2018-05-20"
 layout: post
 slug: what-if-newspapers-use-git
 excerpt: What if newspapers used a version control system to author, collaborate and publish all of their work? Would that be possible?
-published: true
+published: false
 categories:
 - Journalism
 - coding
