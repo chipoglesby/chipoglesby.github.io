@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-excerpt: "Data Scientist in Franklin, TN | Taking it one day at a time"
+excerpt: "{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"
 search_omit: true
 ---
 
