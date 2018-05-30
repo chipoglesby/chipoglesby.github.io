@@ -1,12 +1,12 @@
 ---
-title: "What if newspapers and reporters used Git & Github?"
+title: "What if newspapers and reporters used Git & GitHub?"
 author: chipoglesby
 comments: true
-date: "2018-05-20"
+date: "2018-05-30"
 layout: post
 slug: what-if-newspapers-use-git
 excerpt: What if newspapers used a version control system to author, collaborate and publish all of their work? Would that be possible?
-published: false
+published: true
 categories:
 - Journalism
 - coding
@@ -27,7 +27,7 @@ the xml to indesign to be published in print.
 
 That got me thinking. Would it be possible for a newspaper website to work
 exclusively using the open collaborative nature of `git` and host it on a site
-like [Github](https://github.com)?
+like [GitHub](https://github.com)?
 
 Then I started thinking about it. Github has:
 
@@ -35,7 +35,7 @@ Then I started thinking about it. Github has:
  * **Issues:** Which the public could use to request coverage of a particular
  topic.
  * **Pull Requests:** Which could be used for building the daily site/issue
- * **Github Pages:** Which can be used for special projects and even hosting a
+ * **GitHub Pages:** Which can be used for special projects and even hosting a
  static version of the site.
 
 Reporters would be able to create branches for their stories, Editors could use
