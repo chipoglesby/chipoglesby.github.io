@@ -1,5 +1,5 @@
 ---
-title: "What if newspapers and reporters used Git & Github?"
+title: "What if newspapers and reporters used Git & GitHub?"
 author: chipoglesby
 comments: true
 date: "2018-05-30"
