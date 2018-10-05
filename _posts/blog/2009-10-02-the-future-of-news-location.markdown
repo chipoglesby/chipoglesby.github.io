@@ -31,9 +31,9 @@ tags:
 When was the last time you noticed a [dateline](http://en.wikipedia.org/wiki/Dateline) in the newspaper? Do your readers even know the purpose of a [dateline?](http://en.wikipedia.org/wiki/Dateline)
 
 In the 1800 and 1900's before the internet, mobile computing and GPS, using a dateline was fine, the relationship to the location was understood and in present day it still is, but in the age of the links, having a standard dateline doesn't work. If the Internet is built on semantic information, why not relate the physical location in a digital environment?
-![Dateline](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2009/09/dateline.jpg)
+![Dateline](https://storage.googleapis.com/www.chipoglesby.com/dateline.jpg)
 
-There's a lot of talk about the future of hyperlocal journalism, but have you noticed how the same old standards for datelines still apply to the online world? ![web dateline](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2009/09/onlinedateline.jpg)
+There's a lot of talk about the future of hyperlocal journalism, but have you noticed how the same old standards for datelines still apply to the online world? ![web dateline](https://storage.googleapis.com/www.chipoglesby.com/onlinedateline.jpg)
 
 
 ## Understand this, it just doesn't work the same way!

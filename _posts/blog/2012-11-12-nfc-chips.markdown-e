@@ -1,0 +1,71 @@
+---
+author: chipoglesby
+comments: true
+date: 2012-11-12 18:37:18+00:00
+excerpt: How to use NFC chips to automate tasks with your android phone.
+layout: post
+slug: nfc-chips
+title: 'How to: Automate repetitive tasks with NFC chips'
+wordpress_id: 27665
+categories:
+- Sidenote
+tags:
+- android
+- NFC
+---
+
+Every morning when I leave for work, I always preform the same tasks on my phone:
+
+
+
+	
+  1. Turn off mobile data
+
+	
+  2. Turn on wifi
+
+	
+  3. Turn off auto-sync
+
+	
+  4. Put the phone on silence
+
+
+When I come home at night, I turn the ringer back on, and turn auto-sync back on. I do all of this for a few reasons. When I recently purchased a new phone, I lost my unlimited data plan and was stuck with the 2 gigabyte per month data plan. That's not a lot of data for someone who relies on their phone a lot. Instead of getting freaked out, I started looking for ways to squeeze out every ounce of data as possible.
+
+[![NFC Tags](http://farm9.staticflickr.com/8060/8170768587_db1739145b.jpg)
+
+After reading about [Near Field Communications (NFC) chips](http://en.wikipedia.org/wiki/Near_field_communication), I learned that you can buy them for about $1 a pop and program them to perform any action you want.
+
+Just a warning, if you're an iPhone user, this won't work for you, because you don't have NFC on your phone. I downloaded the [NFC Task Launcher app](https://play.google.com/store/apps/details?id=com.jwsoft.nfcactionlauncher&hl=en) from the Google Play app store. Once downloaded you can choose from any of the preprogrammed tasks or build your own tasks.
+
+Here's an example for an NFC tag for your car:
+
+
+
+	
+  * Turn on bluetooth
+
+	
+  * Turn off auto-sync
+
+	
+  * Turn on ringer
+
+	
+  * Open Navigation to preprogrammed destination
+
+
+You can then set up a 'switch' on the same tag. The first time you scan the NFC chip, it will perform the actions listed above. When you scan it a second time, it would close the navigation app, turn off bluetooth, turn on auto-sync, turn off the ringer.
+
+In theory, you could have these at home, work, school, church, on your bike, in your car, on the greyhound bus. A note of caution, they don't work very well when attached to metal, so look for a plastic or other surface to stick it to.
+
+I purchased the NFC chips from [Tags for Droid](http://tagsfordroid.com/) through [their Amazon store](http://www.amazon.com/s/ref=bl_sr_electronics?_encoding=UTF8&field-brandtextbin=tagsfordroid&node=172282). The come in packs of 2, 5, 10, and 25. You also get a cool sheet of stickers and a free keychain.
+
+
+## Other uses
+
+
+Their are plenty of other uses for these NFC chips. A local bike store might have an NFC chip on a price tag that will automatically play a youtube video on a customers phone. A vendor at a local farmers market might have a business card with an NFC chip that has a v-card attached or could have a link to their online store.
+
+Another interesting note is these chips can also be rewritten, over and over. This could lend itself to some interesting collaborations among individuals both positive and negative. NFC can also be locked so they cannot be overwritten.

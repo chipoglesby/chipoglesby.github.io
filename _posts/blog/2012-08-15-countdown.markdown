@@ -12,7 +12,7 @@ categories:
 - weightloss
 ---
 
-[caption id="attachment_167" align="alignright" width="300"][![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/578893_371716036235149_501534535_n.jpeg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/08/578893_371716036235149_501534535_n.jpeg) Chip Oglesby. Photo by Jeff Blake.[/caption]
+[caption id="attachment_167" align="alignright" width="300"][![](https://storage.googleapis.com/www.chipoglesby.com/578893_371716036235149_501534535_n.jpeg)](https://storage.googleapis.com/www.chipoglesby.com/578893_371716036235149_501534535_n.jpeg) Chip Oglesby. Photo by Jeff Blake.[/caption]
 
 There are nine days until I'll know if everything that I've been working for will pay off. All of the time on the streets running and biking. All of the time at the pool swimming and in the weight room. In ten days, I'll put it all on the line. I won't be the fastest, but I'll be able to say that I've poured my heart and soul into it to get to this point.
 

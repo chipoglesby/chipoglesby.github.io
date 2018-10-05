@@ -17,7 +17,7 @@ tags:
 
 _In an effort to blog more, I'm trying to add more things to my site that I think are interesting. Thanks for sticking with me!_
 
-![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2016/07/13668790_765625204847_8471746732959662453_o-1024x626.jpg)
+![](https://storage.googleapis.com/www.chipoglesby.com/13668790_765625204847_8471746732959662453_o-1024x626.jpg)
 
 It's Sunday morning and you're getting ready for church or life and need to make breakfast for you and your spouse. With some simple bolillo rolls, (bolillo is Spanish for french bread) you can have this simple and quick lunch ready in about 15 minutes.
 

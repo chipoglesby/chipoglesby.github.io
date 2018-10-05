@@ -1,0 +1,39 @@
+---
+title: "#chiptip: Launch RStudio from the command line"
+author: chipoglesby
+comments: true
+date: "2018-05-07"
+layout: post
+slug: rstudio-terminal
+excerpt: A quick tip on how to launch RStudio from the command line by adding an alias to your bash_profile.
+published: true
+categories:
+- R
+- coding
+tags:
+- R
+---
+
+Preface: Sorry Windows users, you're out of luck on this one!
+
+I figured out a quick tip over the weekend to help me launch `RStudio`
+directly from the command line for Mac and Linux.
+
+Simply add this line of code to your `.bash_profile` and restart it and you'll
+be all set:
+
+`alias rstudio='open -a Rstudio *.Rproj'`
+
+You can edit your `bash_profile` in your editor of choice, the most simple being
+nano. The command to do that is: `nano ~/.bash_profile`.
+
+If the folder you're in has a `.Rproj` file, simply type `rstudio` into
+the terminal and it will open the project in RStudio. I find myself doing this
+a lot when I clone other people's analysis to my local drive and want to take a
+look at what they're doing.
+
+If you work in terminal or with the command line a lot, you  can set up all
+types of helpful aliases to be more efficient. I'm not an expert, but I have a
+few good aliases that I think are helpful.
+
+Happy analyzing!

@@ -15,7 +15,7 @@ tags:
 - rickcaffeinated
 ---
 
-[caption id="attachment_27775" align="alignright" width="720"]![Socal Crush, 2011.](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2013/01/299443_10150292844299817_1877259_n.jpeg) Socal Crush, 2011.[/caption]
+[caption id="attachment_27775" align="alignright" width="720"]![Socal Crush, 2011.](https://storage.googleapis.com/www.chipoglesby.com/299443_10150292844299817_1877259_n.jpeg) Socal Crush, 2011.[/caption]
 
 Today is the first day that I've been home since December 23, 2012. My house is a wreck, there are presents, clothes, suitcases and STUFF everywhere. I should be getting ready for church, but instead I want to memorialize [Rick Stilwell](http://www.rickcaffeinated.com) before I do anything else.
 

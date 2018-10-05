@@ -15,7 +15,7 @@ tags:
 
 On March 22nd, Michelle and I participated in the [Asheville Tri Club's](https://www.facebook.com/AshevilleTriathlonClub) triathlon at the local YMCA.
 
-[caption id="attachment_27946" align="alignright" width="224"][![Courtesy of Asheville Triathlon Club](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2014/03/1979567_619502664794887_940441700_n-224x300.jpg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2014/03/1979567_619502664794887_940441700_n.jpg) Courtesy of Asheville Triathlon Club[/caption]
+[caption id="attachment_27946" align="alignright" width="224"][![Courtesy of Asheville Triathlon Club](https://storage.googleapis.com/www.chipoglesby.com/1979567_619502664794887_940441700_n-224x300.jpg)](https://storage.googleapis.com/www.chipoglesby.com/1979567_619502664794887_940441700_n.jpg) Courtesy of Asheville Triathlon Club[/caption]
 
 There was a 15 minute swim followed by a 40 minute spin class and then a three mile run (5k) a the end.
 

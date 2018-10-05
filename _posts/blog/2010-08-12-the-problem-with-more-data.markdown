@@ -31,7 +31,7 @@ Before we rally the troops, we have to realize that getting more data, data that
 ## Data is only part of the Transparency Cycle
 
 
-[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2010/08/transparency.gif)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2010/08/transparency.gif)In a blog post by the Sunlight Foundation, they posted a very interesting graphic that shows how the 'Transparency Cycle' works. It has no beginning or end because it's part of an ongoing process. Government Agencies (State Ethics Board) for example, are responsible for organizing data and giving web developers API's who work with Graphic Designers who Give data context by visualizing it. Designers work with Journalists who help build public awareness through context and raising public awareness by reporting anomalies. Engaged Citizens work with Advocacy Groups who Organize and take action to hold the public and lawmakers accountable for what's going on in government.
+[![](https://storage.googleapis.com/www.chipoglesby.com/transparency.gif)](https://storage.googleapis.com/www.chipoglesby.com/transparency.gif)In a blog post by the Sunlight Foundation, they posted a very interesting graphic that shows how the 'Transparency Cycle' works. It has no beginning or end because it's part of an ongoing process. Government Agencies (State Ethics Board) for example, are responsible for organizing data and giving web developers API's who work with Graphic Designers who Give data context by visualizing it. Designers work with Journalists who help build public awareness through context and raising public awareness by reporting anomalies. Engaged Citizens work with Advocacy Groups who Organize and take action to hold the public and lawmakers accountable for what's going on in government.
 
 Tim Berners-Lee, the founder of the internet has envisioned a new type of web, one of linked data, where the dots are able to be connected. [Berners-Lee gives five points of open linked data](http://inkdroid.org/journal/2010/06/04/the-5-stars-of-open-linked-data/).
 
@@ -56,7 +56,7 @@ Tim Berners-Lee, the founder of the internet has envisioned a new type of web, o
 State Comptroller Richard Eckstrom's state government spending transparency site accomplishes 4 of the 5 goals, a great accomplishment in my opinion. Our school websites on the other hand, meet only one of the 5 requirements. PDF's with no structure, give engaged citizens no way to ingest and analyze more than one month worth of data.
 
 I was able to go in and scrap a [PDF off of Berkley County's transparency website](http://www.berkeley.k12.sc.us/departments.cfm?subpage=33187) and run the information through Many Eyes to get this chart that's featured below. Ideally, there should be a simpler way for a developer or designer to visualize this information through API's.
-[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2010/08/berkley.png)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2010/08/berkley.png)
+[![](https://storage.googleapis.com/www.chipoglesby.com/berkley.png)](https://storage.googleapis.com/www.chipoglesby.com/berkley.png)
 
 Eckstrom's website is faced with the same type of problem. It focuses on the month to month expenditures, and if I want to build a database, I would have to download 12 separate .csv files to enter into another database to visualize.
  

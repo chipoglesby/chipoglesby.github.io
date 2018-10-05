@@ -149,7 +149,7 @@ would be interesting to try to figure out what's going on with the `unknown` and
 Lets visualize the distribution by activity type. All of the observations are
 left skewed so we are going to visualize this using `log`.
 
-![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2018/03/24/activities.png)
+![](https://storage.googleapis.com/www.chipoglesby.com/24/activities.png)
 
 Here's the `R` code if you would like to follow along:
 <script src="http://gist-it.appspot.com/github/chipoglesby/locationHistory/blob/master/code/data.R"></script>

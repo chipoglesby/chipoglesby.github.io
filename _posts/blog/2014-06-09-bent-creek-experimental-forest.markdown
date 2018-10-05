@@ -15,7 +15,7 @@ tags:
 - Bent Creek
 ---
 
-"_**Show, Don't tell!**_" Back when I was working full time as a photojournalist this was a quote that was often thrown around in our A.P.A.D (A Photo A Day) group. [![Bent Creek Experimental Forest](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2014/06/IMG_20140607_121401-300x181.jpg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2014/06/IMG_20140607_121401.jpg)
+"_**Show, Don't tell!**_" Back when I was working full time as a photojournalist this was a quote that was often thrown around in our A.P.A.D (A Photo A Day) group. [![Bent Creek Experimental Forest](https://storage.googleapis.com/www.chipoglesby.com/IMG_20140607_121401-300x181.jpg)](https://storage.googleapis.com/www.chipoglesby.com/IMG_20140607_121401.jpg)
 
 Lately though, I've been traveling less and less with my camera. Instead of always capturing photos, I've been training myself to enjoy things without the incessant need to document things with cameras or social media.
 

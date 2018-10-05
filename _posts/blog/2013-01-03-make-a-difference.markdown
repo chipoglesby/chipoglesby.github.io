@@ -35,7 +35,7 @@ I won't lie and b.s. it's been tough, one of the toughest things I've done. I've
 ## In life
 
 
-![Mary Mueller](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2013/01/526360_3275740947471_1445156523_n.jpeg)It's not just me, there are other people who are taking a leap of faith and doing what they're really passionate about. My friend Mary struggled for a long time trying to find something that she could be passionate about. And she finally did. She spends every weekend and every free moment immersing herself in the sport of kayaking. I couldn't be more proud of her. She tackled life head on and now has more passion and zeal than I've seen in a really long time.
+![Mary Mueller](https://storage.googleapis.com/www.chipoglesby.com/526360_3275740947471_1445156523_n.jpeg)It's not just me, there are other people who are taking a leap of faith and doing what they're really passionate about. My friend Mary struggled for a long time trying to find something that she could be passionate about. And she finally did. She spends every weekend and every free moment immersing herself in the sport of kayaking. I couldn't be more proud of her. She tackled life head on and now has more passion and zeal than I've seen in a really long time.
 
 
 <blockquote>Life is too short to be living someone else's dream. - Steve Jobs</blockquote>
@@ -50,7 +50,7 @@ My friend Joe Bland also decided to make a change. With the help of a tribe of f
 
 How amazing would it feel if you could take something that your passionate about and do it every day?
 
-![Columbia Wedding Photos](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2013/01/Screen-Shot-2013-01-03-at-12.52.33-PM.png)Joe isn't alone though, people from all different areas are doing the same. My friend Jeff started his own business [Columbia Wedding Photos](http://www.columbiaweddingphotos.com) after an untimely round of layoffs from The State Newspaper. Ask him and he'll tell you, its one of the best things that could have happened to him. More than three years later he has a very successful business where he wakes up and chases his dream every single day.
+![Columbia Wedding Photos](https://storage.googleapis.com/www.chipoglesby.com/Screen-Shot-2013-01-03-at-12.52.33-PM.png)Joe isn't alone though, people from all different areas are doing the same. My friend Jeff started his own business [Columbia Wedding Photos](http://www.columbiaweddingphotos.com) after an untimely round of layoffs from The State Newspaper. Ask him and he'll tell you, its one of the best things that could have happened to him. More than three years later he has a very successful business where he wakes up and chases his dream every single day.
 
 Austin Lee and his wife Courtney have also started their own business this past year. They started Front Porch Sweets and sell Gluten Free Goods.
 
