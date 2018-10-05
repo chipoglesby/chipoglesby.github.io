@@ -10,3 +10,8 @@ for file in *; do
 done
 
 
+# To fix the sed error
+# for file in *-e ; do mv "$file" "`echo $file | sed 's/-e//'`" ; done
+
+# To change .markdown to .md
+# for file in *.markdown ; do mv "$file" "`echo $file | sed 's/.markdown/.md/'`" ; done
