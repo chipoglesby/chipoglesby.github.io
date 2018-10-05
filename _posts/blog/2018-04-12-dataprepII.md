@@ -129,7 +129,7 @@ of the data.
 Here's an example of spoken lines between men and women (all characters) in the
 show throughout the seasons.
 
-![](https://storage.googleapis.com/www.chipoglesby.com/sexes.png)
+![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2018/04/sexes.png)
 
 If you're interested, here's the counts of characters that were not `NA`. I used
 the `gender` package to create this information. There was also some manual

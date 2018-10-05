@@ -115,7 +115,7 @@ tidyFrasier %>%
 |      1|7       |     22|        0|        3|        3|
 
 Now we can plot the data giving us this chart for this particular episode:
-![](https://storage.googleapis.com/www.chipoglesby.com/polarityEpisodeSeven.png)
+![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2018/04/polarityEpisodeSeven.png)
 
 There's more that you can do with this data, but we'll take a look at that later.
 
