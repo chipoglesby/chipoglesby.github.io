@@ -56,6 +56,10 @@ with a base image of the rocker image for R. Let's take a look at our Dockerfile
 
 <script src="https://gist-it.appspot.com/github/chipoglesby/rbaseplus/blob/master/Dockerfile"></script>
 
+If you want to run this image locally on your machine, it's available here:
+[hub.docker.com/r/chipogelsby/rbaseplus](https://hub.docker.com/r/chipoglesby/rbaseplus/)
+or use `docker pull chipoglesby/rbaseplus`.
+
 We're going to use
 [Google Cloud's Source Repo](https://source.cloud.google.com/repo/new) to store
 our Dockerfile so it can be built using
