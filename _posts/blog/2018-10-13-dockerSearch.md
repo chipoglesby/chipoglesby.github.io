@@ -18,6 +18,11 @@ great [free tier](https://cloud.google.com/free/) that you can check out if
 you'd like to learn more about how you can use Google Cloud for your data
 science projects.
 
+The code for this project are here:
+
+1. [rbaseplus](https://github.com/chipoglesby/rbaseplus)
+2. [searchconsole](https://github.com/chipoglesby/searchconsole)
+
 This post will cover the following tools:
 
 1. Google Cloud Build
@@ -95,7 +100,7 @@ Compute Engine from the Google Container Registry. Google also launched
 advantage of. You can also deploy your image from within the
 [Google Container Registry](https://cloud.google.com/container-registry/).
 
-If you run a `f1-micro (1 vCPU, 0.6 GB memory)`VM, you can run this for free
+If you run a `f1-micro (1 vCPU, 0.6 GB memory)` VM, you can run this for free
 every month on Google Cloud. This will be enough to get you started.
 
 Once your VM is up and running, you can SSH into it using
