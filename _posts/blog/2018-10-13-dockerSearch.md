@@ -9,8 +9,11 @@ excerpt: Running a Docker image on Google Compute Engine that pulls Google Webma
 published: true
 categories:
 - coding
+- R
 tags:
 - coding
+- Google Webmaster Tools
+- R
 ---
 
 If you've read my blog before, then you know I'm a Google fan. Google has a
