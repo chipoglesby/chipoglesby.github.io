@@ -9,6 +9,7 @@ excerpt: If you have Google Analytics data in BigQuery, sometimes its fun just t
 published: true
 categories:
 - coding
+- R
 tags:
 - Google Analytics
 - BigQuery
