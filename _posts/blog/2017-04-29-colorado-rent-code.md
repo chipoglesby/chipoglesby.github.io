@@ -31,7 +31,7 @@ of your information. One huge pet peeve that I have is doing things manually so
 I thought this would be a good opportunity to explore how I might begin visualizing
 rent changes over time with some simple `R` code.
 
-<script src="http://gist-it.appspot.com/https://github.com/chipoglesby/coloradoRent/blob/master/code/plots/plots.R"></script>
+<script src="https://gist-it.appspot.com/https://github.com/chipoglesby/coloradoRent/blob/master/code/plots/plots.R"></script>
 
 This piece of code is pretty straight forward. Here I'm using a very simple
 `for` loop to get each unique Colorado subregion, Fort Collins/Loveland for
@@ -62,10 +62,10 @@ After finding these metrics, I was able to come up with an algorithm to describe
 the changes in rent prices across all sub regions of Colorado. Using a basic
 `R markdown` template, I was able to create a very simple, repeatable report.
 
-<script src="http://gist-it.appspot.com/https://github.com/chipoglesby/coloradoRent/blob/master/rmd/subregionAnalysis.Rmd"></script>
+<script src="https://gist-it.appspot.com/https://github.com/chipoglesby/coloradoRent/blob/master/rmd/subregionAnalysis.Rmd"></script>
 
 This code is another `for` loop that will create all of the analyses for me.
-<script src="http://gist-it.appspot.com/https://github.com/chipoglesby/coloradoRent/blob/master/code/subregionAnalysis.R"></script>
+<script src="https://gist-it.appspot.com/https://github.com/chipoglesby/coloradoRent/blob/master/code/subregionAnalysis.R"></script>
 
 If you wanted to extend the logic on a project like this further, you could.
 

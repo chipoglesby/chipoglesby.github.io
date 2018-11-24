@@ -17,7 +17,7 @@ tags:
 
 
 
-![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2013/06/Engram-300x193.jpg)
+![](https://storage.googleapis.com/www.chipoglesby.com/Engram-300x193.jpg)
 
 That's how Columbia's #famouslyhot [Mandi Engram](http://www.twitter.com/mandiengram) described herself in her twitter profile. We first met in 2008 while creating the first South Carolina chapter of Social Media Club. We always talked about social media strategy and how to move Columbia forward.
 

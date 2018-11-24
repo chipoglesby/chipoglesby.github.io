@@ -14,7 +14,7 @@ tags:
 - Colorado
 ---
 
-[![Near Coalmont, CO](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2015/10/12032649_723866255117_813998632279074498_o-1024x683.jpg)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2015/10/12032649_723866255117_813998632279074498_o.jpg) Near Coalmont, CO
+[![Near Coalmont, CO](https://storage.googleapis.com/www.chipoglesby.com/12032649_723866255117_813998632279074498_o-1024x683.jpg)](https://storage.googleapis.com/www.chipoglesby.com/12032649_723866255117_813998632279074498_o.jpg) Near Coalmont, CO
 
 Poor neglected blog, I haven't forgotten about you! I have plenty ideas that I want to write about; we've just been so busy enjoying our new lives in Colorado!
 

@@ -13,7 +13,7 @@ tags:
 - analytics
 ---
 
-![analytics](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2015/06/analytics.png)I was finally excited to start blogging again after a long hiatus.
+![analytics](https://storage.googleapis.com/www.chipoglesby.com/analytics.png)I was finally excited to start blogging again after a long hiatus.
 After publishing a few recent articles, I decided to check my Google Analytics account. To my surprise more than 43% of my traffic is what I would consider to be 'fake traffic'.
 
 Jeff Sauer originally brought this to my attention in his article: [Is Google Analytics Newest Data Quality Issue the Most Challenging?](http://www.jeffalytics.com/google-analytics-data-quality-issue/)
@@ -28,7 +28,7 @@ I work mainly in verticals for nonprofits, automotive, publishing and e-commerce
 
 Below is a screenshot of what this fake traffic might look like.
 
-![analytics2](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2015/06/analytics2-1024x408.png)
+![analytics2](https://storage.googleapis.com/www.chipoglesby.com/analytics2-1024x408.png)
 
 
 ## How to fix this problem in Google Analytics

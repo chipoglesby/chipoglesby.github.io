@@ -59,8 +59,8 @@ If you don't know a lot about zip codes, you can read this short piece by
 [Smarty Streets](https://smartystreets.com/articles/zip-codes-101). Since
 zip codes have a "pattern", we can really just use the first two digits to pair
 down hundreds or thousands of zip codes into just an array of less than a dozen.
-![zip codes](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2016/12/zipCode1.png)
-![zip code map](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2016/12/zipCode2.png)
+![zip codes](https://storage.googleapis.com/www.chipoglesby.com/zipCode1.png)
+![zip code map](https://storage.googleapis.com/www.chipoglesby.com/zipCode2.png)
 
 Next, I found a tool called [Zip Codes API](https://www.zipcodeapi.com/) that I
 can use to programmatically pull in zip codes with a radius. We're almost there!
@@ -74,7 +74,7 @@ code would be:
 
 Let's dive into the code!
 
-<script src="http://gist-it.appspot.com/github/chipoglesby/rSnippets/blob/master/zipCodesAPI.R"></script>
+<script src="https://gist-it.appspot.com/github/chipoglesby/rSnippets/blob/master/zipCodesAPI.R"></script>
 
 Let's walk through what the code does:
 

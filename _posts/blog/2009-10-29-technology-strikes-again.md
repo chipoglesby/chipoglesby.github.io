@@ -18,7 +18,7 @@ tags:
 ---
 
 If you're a fan of [The State's](http://www.thestate.com) [Adam Beam](http://www.twitter.com/adambeam), you may have noticed something different in yesterday's paper.
-![Adam Beam's Google Voice number](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2009/10/beamnew.jpg)
+![Adam Beam's Google Voice number](https://storage.googleapis.com/www.chipoglesby.com/beamnew.jpg)
 
 
 

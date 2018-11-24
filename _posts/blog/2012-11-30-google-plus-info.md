@@ -16,11 +16,11 @@ One easter egg of sorts that I’ve found on Google+ is what happens with your c
 
 In your [Google+ profile](https://plus.google.com/106361830708080785163/about) you can list your contact information (pictured below). As you can see you can enter your phone number, email, fax, pager (who still uses these?), chat and address
 
-.[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/11/work-300x113.png)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/11/work.png)
+.[![](https://storage.googleapis.com/www.chipoglesby.com/work-300x113.png)](https://storage.googleapis.com/www.chipoglesby.com/work.png)
 
 Also of note is the fact that you can choose who you want to share this information with. By default I have chosen to share my phone number and email address with my circles and not the public. When I add someone to my circles, they will have that information to me.
 
-[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/11/circles-300x90.png)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/11/circles.png)
+[![](https://storage.googleapis.com/www.chipoglesby.com/circles-300x90.png)](https://storage.googleapis.com/www.chipoglesby.com/circles.png)
 
 
 ## The VCF killer
@@ -32,7 +32,7 @@ When you look at your Contacts Manager in Gmail, you’ll see a section called �
 
 As you can see from the screenshot below, Google will mix your contact information with theirs if you already have them in your contacts.
 
-[![](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/11/contactinfo-1024x414.png)](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2012/11/contactinfo.png)
+[![](https://storage.googleapis.com/www.chipoglesby.com/contactinfo-1024x414.png)](https://storage.googleapis.com/www.chipoglesby.com/contactinfo.png)
 
 Now as long as the user keeps their information up to date and shares it with their circles you’ll always have the most up-to-date info.
 

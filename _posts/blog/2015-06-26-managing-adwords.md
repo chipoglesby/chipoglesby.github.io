@@ -16,7 +16,7 @@ tags:
 
 As a small business agency, one of the hardest things you'll have to do is to manage your clients AdWords budgets. Hopefully this tool will help your job easier. Start by creating a new spreadsheet in Google Drive, this will be where we store all of our work.
 
-![Google Sheets](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2015/06/sheets-1024x159.png)To start, add five columns: Account name, External Client ID, Budget, Spend, Days in Current Month. Here we can enter all of necessary information to get started. The Account Nickname that you gave it, their AdWords Client ID, The amount of money to spend this month and the amount of money they've spent so far this month.
+![Google Sheets](https://storage.googleapis.com/www.chipoglesby.com/sheets-1024x159.png)To start, add five columns: Account name, External Client ID, Budget, Spend, Days in Current Month. Here we can enter all of necessary information to get started. The Account Nickname that you gave it, their AdWords Client ID, The amount of money to spend this month and the amount of money they've spent so far this month.
 
 First, let's set up the number of days in the current month. You can use this formula: =DAY(DATE(YEAR(today()),MONTH(today())+1,0)). For June, this will return the value 30. It uses the today function in spreadsheets, so it's automatically updated every month.
 

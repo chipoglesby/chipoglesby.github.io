@@ -70,7 +70,7 @@ properly calculate the distance (I think). I also changed `111.045` to `69.0` to
 convert kilometers to miles.
 
 Here's my example:
-<script src="http://gist-it.appspot.com/github/chipoglesby/locationHistory/blob/master/code/haversineExample.sql"></script>
+<script src="https://gist-it.appspot.com/github/chipoglesby/locationHistory/blob/master/code/haversineExample.sql"></script>
 
 Since there are `1,770,882` observations, I have no freaking clue how long it
 would take `R` to run through something like this, with BigQuery, the query

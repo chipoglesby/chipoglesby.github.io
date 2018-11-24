@@ -45,7 +45,7 @@ written with the current iso8601 timestamp such as `2016-11-11T09:30:00Z.json`.
   copy to Google Cloud Storage and then uploads the results to Google BigQuery.
    If the file size is equal to zero, then the script will stop.
 
-<script src="http://gist-it.appspot.com/https://github.com/chipoglesby/shopifyToBigQuery/blob/master/shopify.sh"></script>
+<script src="https://gist-it.appspot.com/https://github.com/chipoglesby/shopifyToBigQuery/blob/master/shopify.sh"></script>
 
 If you want to use the code, you can find the code here for
 [importing shopify data into Google BigQuery](https://github.com/chipoglesby/shopifyToBigQuery).

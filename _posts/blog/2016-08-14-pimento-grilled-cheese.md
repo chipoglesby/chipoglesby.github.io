@@ -15,7 +15,7 @@ tags:
 - grilled cheese
 ---
 
-![Pimento Grilled Cheese](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2016/08/grillecheese-1024x576.jpg)
+![Pimento Grilled Cheese](https://storage.googleapis.com/www.chipoglesby.com/grillecheese-1024x576.jpg)
 
 This is straight up comfort food, y'all! Moving from South Carolina to Colorado was tough enough, but there are some things that Coloradans don't get the pleasure of enjoying, two of them being Cheerwine soda and Duke's Mayonnaise.
 

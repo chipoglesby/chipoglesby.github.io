@@ -14,6 +14,6 @@ tags:
 - Michelle
 ---
 
-Valentine's day is right around the corner! This year instead of the boring roses and![michelle](https://storage.googleapis.com/www.chipoglesby.com/wp-content/uploads/2015/02/michelle-300x300.jpg)candies, show your loved one exactly how much you love them with a [Fine Art print by Michelle](https://www.etsy.com/shop/FineArtbyMichelleO?ref=l2-shopheader-name)!
+Valentine's day is right around the corner! This year instead of the boring roses and![michelle](https://storage.googleapis.com/www.chipoglesby.com/michelle-300x300.jpg)candies, show your loved one exactly how much you love them with a [Fine Art print by Michelle](https://www.etsy.com/shop/FineArtbyMichelleO?ref=l2-shopheader-name)!
 
 These one of a kind prints are handmade and perfect for the home or office. Order yours by February 10th, and get a special surprise with your purchase!
