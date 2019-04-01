@@ -1,7 +1,7 @@
 ---
 author: chipoglesby
 comments: true
-date: 2009-08-18 22:18:13+00:00
+date: 2019-04-01 22:18:13+00:00
 layout: page
 slug: about
 title: About
@@ -18,11 +18,8 @@ I attended Mars Hill College and after college, I worked as a
 photojournalist and photo editor at two different newspapers. I've also worked
 with for profit and non-profit businesses as well.
 
-Currently I am the manager of online advertising and analytics where I head up
-Data Science at Group Publishing in Loveland, Colorado.
-
-I also run a small business
-called [Creative Spark Columbia.](http://www.creativesparkcolumbia.com/)
+I run a small business called 
+[Creative Spark Columbia.](http://www.creativesparkcolumbia.com/)
 
 ## Full Disclosure:
 
