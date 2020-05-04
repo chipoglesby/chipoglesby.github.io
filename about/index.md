@@ -12,7 +12,7 @@ excerpt: "A little something about myself"
 # Personal:
 
 I'm Chip Oglesby originally from Van Wyck, SC and I currently live in
-Nunn, Colorado with my amazing wife Michelle.
+Asheville, North Carolina with my amazing wife Michelle.
 
 I attended Mars Hill College and after college, I worked as a
 photojournalist and photo editor at two different newspapers. I've also worked
