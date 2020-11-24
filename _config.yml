@@ -44,8 +44,8 @@ owner:
   linkedin: chipoglesby
   google:
     plus: chipoglesby
-    analytics: UA-10870918-1
-    verify:
+    # analytics: UA-10870918-1
+    # verify:
     ad-client:
     ad-slot:
   bing-verify:
