@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Brooks
+title: Books
 excerpt: "Books I recommend to people"
 search_omit: true
 ---
