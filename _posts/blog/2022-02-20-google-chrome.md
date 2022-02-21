@@ -84,13 +84,13 @@ I do like that the Pixelbook Go supports running Linux now. My experience with
 Linux has always been Apple based, so I'm figuring out how to run `apt` instead
 of `brew` for a lot of my missing packages, but that's okay.
  
-With the addition of Linux, I can run Terminal. This always me to run `ssh`
+With the addition of Linux, I can run Terminal. This alows me to run `ssh`
 and `git` so that I can update this blog
 (which I can also do on github.com, so why run it locally?). I'm also running
 VS Code on Linux for my IDE, which I have come to love using more than Atom.
  
-The biggest question that I've had so far is if I can use the the Pixelbook Go
-as my main machine? The answer is Yes and No. Let me explain.
+The main question I've had so far: "Can the Pixelbook Go replace my current machine?"
+The answer is maybe. Let me explain.
  
 ## When I can use the Pixelbook Go as my main machine:
  
@@ -102,9 +102,9 @@ any Javascript in the browser.
 3. If I need to do any Data Science or Analysis work, I have Google Cloud
 Platform for all of my needs there. I can run Rstudio on Compute Engine and
 with their flexible billing, I can spin up very powerful instances to run and
-tear them down as soon as I'm done, save me a lot of money.
+tear them down as soon as I'm done, saving me a lot of money.
 4. GCP also has Google Cloud Shell, Cloud Shell Editor and Cloud Source Repos
-so if I really wanted, I could do all of my work there, if I chose.
+so I can do all of my work there, if I want.
 5. GCP also supports running Docker images, so that's one more thing I can
 check off of my list.
 6. If I want to run Python locally I can do that, I can also do that on GCP.
