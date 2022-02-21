@@ -1,5 +1,5 @@
 ---
-title: "Inital thoughts on switching from a Mac to a Pixelbook Go."
+title: "Initial thoughts on switching from a Mac to a Pixelbook Go."
 author: chipoglesby
 comments: true
 date: "2022-02-20"
