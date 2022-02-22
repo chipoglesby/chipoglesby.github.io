@@ -5,7 +5,7 @@ comments: true
 date: "2022-02-20"
 layout: post
 slug: google-pixelbook-go-first-thoughts
-excerpt: After almost twenty years, I've decided to switch from Apple Computers a Google Pixelbook Go. Is it going to work for all of my needs?
+excerpt: After almost twenty years, I've decided to switch from macs to a Pixelbook Go. Is it going to work for all of my needs?
 published: true
 categories:
 - sidenote
@@ -117,16 +117,18 @@ So I'm also covered there if I need to test code online.
 1. The Pixelbook Go isn't going to be used to train neural nets, let's be honest.
 It's limited to the processor, RAM and SSD of these machines, so I doubt that will
 happen.
-3. If my only option for some reason is to run RStudio locally, it can be done,
+2. If my only option for some reason is to run RStudio locally, it can be done,
 but it's not my first choice. Again, you're limited by the specs of the machine.
-4. If you want to edit videos. I don't do any video editing but if I did, I'm
+3. If you want to edit videos. I don't do any video editing but if I did, I'm
 not sure it can be done on a Chromebook. I'm guessing you could use Youtube Studio
 or WeVideo.
-5. No Photoshop on Linux. First, I should mention that I'm aware of Adobe Creative
+4. No Photoshop on Linux. First, I should mention that I'm aware of Adobe Creative
 Cloud, but I haven't used it yet. If it works, I probably would just use that and
 take this one off the list.
-6. Gaming. I don't play games and don't know squat about what makes a good gaming machine.
- 
+5. Gaming. I don't play games and don't know squat about what makes a good gaming machine.
+6. I also can't do any app development in XCode on my Pixelbook, but working in Android Studio
+may be possible.
+
 ## Final thoughts
 Computers and web-based apps are quickly moving us back to
 the [thin client](https://en.wikipedia.org/wiki/Thin_client) model of computing
