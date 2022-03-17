@@ -1,5 +1,3 @@
-Travis:
-
 # The home of chipoglesby.com
 
 I'm teaching myself markdown, Jekyll and other goodies as I moved from Wordpress
