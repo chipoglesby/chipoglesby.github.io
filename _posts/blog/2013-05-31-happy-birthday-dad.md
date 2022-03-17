@@ -12,7 +12,7 @@ slug: happy-birthday-dad
 title: Happy birthday, dad
 wordpress_id: 27844
 categories:
-- Sidenote
+- sidenote
 tags:
 - family
 ---

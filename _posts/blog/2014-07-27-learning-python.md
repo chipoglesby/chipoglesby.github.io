@@ -8,7 +8,7 @@ title: I hate snakes, but I'm learning to like Python
 wordpress_id: 27995
 categories:
 - Journalism
-- Sidenote
+- sidenote
 tags:
 - programming
 - python

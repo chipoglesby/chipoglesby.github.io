@@ -8,7 +8,7 @@ slug: november-11-books
 title: 'November Reads: 10 books'
 wordpress_id: 28265
 categories:
-- Sidenote
+- sidenote
 tags:
 - books
 ---

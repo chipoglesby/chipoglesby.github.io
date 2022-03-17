@@ -9,7 +9,7 @@ slug: make-a-difference
 title: 'Your only resolution: Make a difference'
 wordpress_id: 27758
 categories:
-- Sidenote
+- sidenote
 tags:
 - dreams
 - passion

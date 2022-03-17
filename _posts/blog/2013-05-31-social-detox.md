@@ -11,7 +11,7 @@ slug: social-detox
 title: June is my social media detox month
 wordpress_id: 27841
 categories:
-- Sidenote
+- sidenote
 tags:
 - facebook
 - social media

@@ -12,7 +12,7 @@ slug: fighting-battles
 title: Fighting the biggest battle(s) of my life
 wordpress_id: 27487
 categories:
-- Sidenote
+- sidenote
 tags:
 - biking
 - debt

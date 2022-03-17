@@ -11,7 +11,7 @@ slug: achieving-greatness
 title: Achieving Greatness
 wordpress_id: 27512
 categories:
-- Sidenote
+- sidenote
 tags:
 - inspiration
 ---

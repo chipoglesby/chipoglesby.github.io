@@ -8,7 +8,7 @@ slug: cheers-mandi
 title: 'We''ll miss you Mandi! #cheersmandi'
 wordpress_id: 27866
 categories:
-- Sidenote
+- sidenote
 tags:
 - Mandi Engram
 ---

@@ -8,7 +8,7 @@ slug: secure-browsing
 title: 'How to: Secure your online browsing on public networks'
 wordpress_id: 27662
 categories:
-- Sidenote
+- sidenote
 tags:
 - security
 - VPN

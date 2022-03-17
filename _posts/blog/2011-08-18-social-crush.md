@@ -9,7 +9,7 @@ slug: social-crush
 title: Reflections on @thesocialcrush in Columbia SC
 wordpress_id: 27439
 categories:
-- Sidenote
+- sidenote
 tags:
 - social crush
 - social media

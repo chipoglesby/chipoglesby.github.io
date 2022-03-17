@@ -12,7 +12,7 @@ slug: antique-valentines-cards
 title: 'Photo set: Antique Valentines Cards'
 wordpress_id: 27577
 categories:
-- Sidenote
+- sidenote
 tags:
 - family
 - Valentines cards

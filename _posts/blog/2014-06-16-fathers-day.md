@@ -9,7 +9,7 @@ slug: fathers-day
 title: You're a dad to someone
 wordpress_id: 27969
 categories:
-- Sidenote
+- sidenote
 tags:
 - Father's Day
 ---

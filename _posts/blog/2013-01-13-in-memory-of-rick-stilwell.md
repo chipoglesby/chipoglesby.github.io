@@ -9,7 +9,7 @@ slug: in-memory-of-rick-stilwell
 title: Thank you Rick (@rickcaffeinated) for everything
 wordpress_id: 27774
 categories:
-- Sidenote
+- sidenote
 tags:
 - Rick Stilwell
 - rickcaffeinated

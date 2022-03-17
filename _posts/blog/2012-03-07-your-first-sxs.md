@@ -7,7 +7,7 @@ slug: your-first-sxs
 title: Tips for your first SXSW trip
 wordpress_id: 27579
 categories:
-- Sidenote
+- sidenote
 tags:
 - SXSW
 ---

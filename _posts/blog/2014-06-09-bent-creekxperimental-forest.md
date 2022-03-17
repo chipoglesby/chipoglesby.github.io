@@ -9,7 +9,7 @@ title: Bent Creek Experimental Forest
 wordpress_id: 27962
 categories:
 - Photojournalism
-- Sidenote
+- sidenote
 tags:
 - Asheville
 - Bent Creek

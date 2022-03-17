@@ -10,7 +10,7 @@ title: Customized facebook updates for pages
 wordpress_id: 27327
 categories:
 - Online tools for small news
-- Sidenote
+- sidenote
 tags:
 - facebook
 - ogf

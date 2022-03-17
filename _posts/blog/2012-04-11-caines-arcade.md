@@ -9,7 +9,7 @@ slug: caines-arcade
 title: 'Caine''s Arcade: This is what great story telling is all about'
 wordpress_id: 27596
 categories:
-- Sidenote
+- sidenote
 tags:
 - storytelling
 ---

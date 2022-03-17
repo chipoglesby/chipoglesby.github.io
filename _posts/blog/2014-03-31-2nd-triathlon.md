@@ -8,7 +8,7 @@ slug: 2nd-triathlon
 title: I've finished another triathlon
 wordpress_id: 27944
 categories:
-- Sidenote
+- sidenote
 tags:
 - Michelle
 ---

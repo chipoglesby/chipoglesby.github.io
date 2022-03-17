@@ -8,7 +8,7 @@ slug: google-analytics-fake-traffic
 title: 'Google Analytics & ''Fake Traffic'': Garbage In, Garbage Out?'
 wordpress_id: 28218
 categories:
-- Sidenote
+- sidenote
 tags:
 - analytics
 ---

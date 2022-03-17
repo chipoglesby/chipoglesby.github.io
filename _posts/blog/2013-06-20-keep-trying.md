@@ -9,7 +9,7 @@ slug: keep-trying
 title: 'What to do when no one cares: keep trying'
 wordpress_id: 27858
 categories:
-- Sidenote
+- sidenote
 tags:
 - inspiration
 ---

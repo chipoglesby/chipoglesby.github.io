@@ -13,7 +13,7 @@ slug: google-location-data
 title: What will Google do with all of its location data?
 wordpress_id: 27383
 categories:
-- Sidenote
+- sidenote
 tags:
 - geolocation
 - Google

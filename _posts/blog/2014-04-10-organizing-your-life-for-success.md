@@ -7,7 +7,7 @@ slug: organizing-your-life-for-success
 title: Organizing your life for success
 wordpress_id: 27949
 categories:
-- Sidenote
+- sidenote
 tags:
 - organization
 ---

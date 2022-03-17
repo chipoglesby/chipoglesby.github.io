@@ -9,7 +9,7 @@ slug: employees-on-foursquare
 title: Should employees be mayors on foursquare?
 wordpress_id: 27558
 categories:
-- Sidenote
+- sidenote
 tags:
 - foursquare
 - geolocation

@@ -7,7 +7,7 @@ slug: then-there-came-time-for-a-change
 title: Then there came time for a change
 wordpress_id: 27526
 categories:
-- Sidenote
+- sidenote
 tags:
 - inspiration
 ---

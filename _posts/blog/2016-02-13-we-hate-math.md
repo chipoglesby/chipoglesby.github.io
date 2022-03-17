@@ -8,7 +8,7 @@ slug: we-hate-math
 title: 'We hate math: Is it tools or the way we teach?'
 wordpress_id: 28279
 categories:
-- Sidenote
+- sidenote
 tags:
 - mathematics
 - programming

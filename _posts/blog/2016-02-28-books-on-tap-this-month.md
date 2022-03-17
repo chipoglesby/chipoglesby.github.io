@@ -7,7 +7,7 @@ slug: books-on-tap-this-month
 title: Books on tap For February & March 2016
 wordpress_id: 28285
 categories:
-- Sidenote
+- sidenote
 tags:
 - books
 ---

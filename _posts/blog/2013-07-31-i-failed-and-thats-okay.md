@@ -10,7 +10,7 @@ title: I’m a failed entrepreneur and that’s okay
 wordpress_id: 27883
 categories:
 - Journalism
-- Sidenote
+- sidenote
 tags:
 - Creative Spark
 - New York City

@@ -9,7 +9,7 @@ slug: i-finally-git-it
 title: I finally 'git' it!
 wordpress_id: 27978
 categories:
-- Sidenote
+- sidenote
 tags:
 - github
 ---

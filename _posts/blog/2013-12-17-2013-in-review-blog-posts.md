@@ -8,7 +8,7 @@ slug: 2013-in-review-blog-posts
 title: '2013 in Review: Blog posts'
 wordpress_id: 27925
 categories:
-- Sidenote
+- sidenote
 tags:
 - 2013 in Review
 ---

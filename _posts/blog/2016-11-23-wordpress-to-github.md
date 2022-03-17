@@ -8,7 +8,7 @@ slug: wordpress-to-github
 title: I've moved from Wordpress To Github Pages
 categories:
 
-- Sidenote
+- sidenote
 
 ---
 

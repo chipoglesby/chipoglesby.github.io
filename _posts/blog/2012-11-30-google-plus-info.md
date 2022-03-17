@@ -7,7 +7,7 @@ slug: google-plus-info
 title: Fill out your Google+ Info. It's actually helpful
 wordpress_id: 27735
 categories:
-- Sidenote
+- sidenote
 tags:
 - Google
 ---

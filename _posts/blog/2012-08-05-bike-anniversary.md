@@ -9,7 +9,7 @@ slug: bike-anniversary
 title: 'Keyless Entry: Unlocking the power of a year with no car'
 wordpress_id: 27616
 categories:
-- Sidenote
+- sidenote
 tags:
 - biking
 ---

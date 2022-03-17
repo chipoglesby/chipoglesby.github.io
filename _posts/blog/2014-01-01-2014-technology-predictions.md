@@ -9,7 +9,7 @@ title: '2014 technology predictions: 3D printers, drones, space travel, smart ho
   and more!'
 wordpress_id: 27935
 categories:
-- Sidenote
+- sidenote
 tags:
 - technology
 ---

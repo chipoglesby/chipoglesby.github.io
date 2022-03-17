@@ -8,7 +8,7 @@ slug: intersection
 title: At the intersection of old and new ideas
 wordpress_id: 27912
 categories:
-- Sidenote
+- sidenote
 tags:
 - data
 - data mining

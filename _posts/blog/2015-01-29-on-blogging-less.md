@@ -9,7 +9,7 @@ slug: on-blogging-less
 title: This one simple reason why I haven't blogged lately may surprise you!
 wordpress_id: 28159
 categories:
-- Sidenote
+- sidenote
 tags:
 - Greenville SC
 - statistics

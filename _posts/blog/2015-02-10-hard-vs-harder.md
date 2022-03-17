@@ -8,7 +8,7 @@ slug: hard-vs-harder
 title: Doing things the hard way vs the harder way
 wordpress_id: 28170
 categories:
-- Sidenote
+- sidenote
 tags:
 - semantics
 ---

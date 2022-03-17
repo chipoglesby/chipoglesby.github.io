@@ -9,7 +9,7 @@ slug: celebrating-two-months-car-free
 title: Celebrating two months car free!
 wordpress_id: 27447
 categories:
-- Sidenote
+- sidenote
 tags:
 - biking
 ---

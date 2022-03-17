@@ -9,7 +9,7 @@ slug: lets-go-camping
 title: Let's go camping
 wordpress_id: 27847
 categories:
-- Sidenote
+- sidenote
 tags:
 - Asheville
 - camping

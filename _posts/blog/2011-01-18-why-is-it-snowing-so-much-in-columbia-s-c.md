@@ -10,7 +10,7 @@ slug: why-is-it-snowing-so-much-in-columbia-s-c
 title: Why is it snowing so much in Columbia S.C.?
 wordpress_id: 27156
 categories:
-- Sidenote
+- sidenote
 tags:
 - Columbia
 - snow

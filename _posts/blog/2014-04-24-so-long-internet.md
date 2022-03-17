@@ -7,7 +7,7 @@ slug: so-long-internet
 title: So long unregulated Internet access
 wordpress_id: 27953
 categories:
-- Sidenote
+- sidenote
 tags:
 - technology
 ---

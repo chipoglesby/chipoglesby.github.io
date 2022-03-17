@@ -9,7 +9,7 @@ slug: product-vs-market
 title: 'Which matters more: The product or market?'
 wordpress_id: 27919
 categories:
-- Sidenote
+- sidenote
 tags:
 - business
 ---

@@ -9,7 +9,7 @@ slug: buyer-beware
 title: 'When ordering online: It''s buyer beware'
 wordpress_id: 27681
 categories:
-- Sidenote
+- sidenote
 tags:
 - online shopping
 ---

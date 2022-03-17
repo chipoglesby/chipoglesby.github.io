@@ -10,7 +10,7 @@ slug: customized-facebook-status
 title: Customized facebook.com status updates
 wordpress_id: 27315
 categories:
-- Sidenote
+- sidenote
 tags:
 - facebook
 - ogf

@@ -9,7 +9,7 @@ slug: asheville-bound
 title: We have moved to Asheville!
 wordpress_id: 27784
 categories:
-- Sidenote
+- sidenote
 tags:
 - Asheville
 - Columbia

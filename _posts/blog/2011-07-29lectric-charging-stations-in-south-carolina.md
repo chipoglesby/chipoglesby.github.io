@@ -9,7 +9,7 @@ slug: electric-charging-stations-in-south-carolina
 title: Electric charging stations in South Carolina
 wordpress_id: 27420
 categories:
-- Sidenote
+- sidenote
 tags:
 - data
 - electric charging stations

@@ -15,7 +15,7 @@ title: Beef up your Google account using Google's two-step verification
 wordpress_id: 27339
 categories:
 - Online tools for small news
-- Sidenote
+- sidenote
 tags:
 - Gmail
 - Google
