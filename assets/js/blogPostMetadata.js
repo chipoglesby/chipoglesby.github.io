@@ -1,4 +1,3 @@
-<script type="application/javascript">
 	pageType = document.getElementsByTagName("body")[0].id.toLowerCase().trim()
 	if (pageType === 'post') {
 			function wordCount(words) {
@@ -20,4 +19,3 @@
 
 			dataLayer.push(blogDetails)
 	}
-	</script>
