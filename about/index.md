@@ -18,8 +18,7 @@ I attended Mars Hill College and after college, I worked as a
 photojournalist and photo editor at two different newspapers. I've also worked
 with for profit and non-profit businesses as well.
 
-I run a small business called 
-[Creative Spark Columbia.](http://www.creativesparkcolumbia.com/)
+I formally ran a small business called Creative Spark Columbia.
 
 ## Full Disclosure:
 
